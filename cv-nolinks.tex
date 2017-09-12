@@ -1,0 +1,423 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+%\usepackage{url}
+\newcommand{\CPP}
+{C\nolinebreak[4]\hspace{-.05em}\raisebox{.35ex}{\scriptsize\bfseries +\hspace{-.05em}+}}
+
+\newcommand{\CSH}
+{C\hspace{-.05em}{\raisebox{0.3ex}{\scriptsize\#}}}
+%\usepackage{hyperref}
+%\hypersetup{colorlinks=false,urlbordercolor=cyan,linkbordercolor=red}
+%\usepackage[T2A]{fontenc}
+%\usepackage{cmap}
+
+%\hypersetup{urlcolor=blue}
+\newcommand{\myhref}[2]{\textcolor{blue}{\href{#1}{#2}}}
+
+% moderncv themes\footnotesize
+\moderncvtheme[grey]{classic}
+%\moderncvstyle{oldstyle}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+%\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+%\setlength{\maketitlenamewidth}{10cm}        % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\firstname{Artem}
+\familyname{Pelenitsyn}
+\title{Curriculum Vitæ}               % optional, remove the line if not wanted
+\address{Volkova st., 5/3, r.57}{344092 Rostov-na-Donu, Russia}    % optional, remove the line if not wanted
+\mobile{+7~(961)~290~2878}                     % optional, remove the line if not wanted
+%\phone{+7~(863)~237~7831}                      % optional, remove the line if not wanted
+%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
+%\email{ulysses4ever@gmail.com}                          % optional, remove the line if not wanted
+\email{apel@sfedu.ru}
+\homepage{mmcs.sfedu.ru/~ulysses}                    % optional, remove the line if not wanted
+%\extrainfo{Current place of living: Rostov-na-Donu, Russia}            % optional, remove the line if not wanted
+\photo{Brazil-2014.jpg}%[64pt][0.4pt]                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % to typeset your resume in Chinese using CJK
+\maketitle
+
+\section{Education}
+\cventry%
+    {2003--2007}%
+    {B.Sc. in Applied Mathematics and Computer Science}%
+    {Southern Federal University}%
+    {Rostov-na-Donu, Russia}%
+    {}  % arguments 3 to 6 can be left empty
+    {Major: Foundations and Software Engineering for Computer Science}
+\cventry%
+    {2007--2009}%
+    {M.Sc. in Applied Mathematics and Computer Science}%
+    {Southern Federal University}%
+    {Rostov-na-Donu, Russia}%
+    {}%
+    {Major: Foundations and Software Engineering for Computer Science}
+
+\section{Master thesis}
+\cvitem{title}{\emph{BMS-algorithm and its application to decoding}}
+\cvitem{supervisor}{Assoc. prof. V.M.~Deundyak}
+%\cvitem{description}{Short thesis abstract}
+
+\section{Research interests}
+
+    \cvlistitem {Programming languages,}
+    \cvlistitem {Type systems and type theory,}
+    \cvlistitem {Functional programming,}
+    \cvlistitem {Mathematics of programming.}
+
+\section{Experience}
+
+\subsection{Occupation}
+\cventry{2010--2011, 2012--2017}{Assistant professor, lecturer}{Southern Federal University
+}{Rostov-na-Donu, Russia}{}{%\newline{}
+%Courses:
+}
+\cventry{Spring 2017}{Research assistant at Programming Research Laboratory}{Northeastern University}{Boston, MA, USA}{}{%\newline{}
+%Courses:
+}
+\cventry{Fall 2017}{Research assistant at Programming Research Laboratory}{Czech Technical University}{Prague, Czech Republic}{}{%\newline{}
+%Courses:
+}
+
+\subsection{Teaching (at Southern Federal University)}
+
+    \cvlistitem {Quantum Computations (lectures) --- 2016 (fall).}
+    \cvlistitem {Computer Architecture (lectures \& labs) --- 2013–2016 (spring).}
+    \cvlistitem {Automata and Ciphers (lectures) --- 2013–2016 (fall).}
+    \cvlistitem {Programming Basics labs --- 2008, 2010–2012, 2014--2016.}
+    \cvlistitem {Programming Languages labs --- 2008, 2010, 2012--2015 (fall).}
+    \cvlistitem {Functional Programming labs --- 2011 (spring).}
+    \cvlistitem {Automata and Languages --- 2010 (spring).}
+    \cvlistitem {Microprogramming/Assembler Programming labs --- 2009 (fall).}
+    \cvlistitem {Geometry and Algebra --- 2009 (fall).}
+
+\subsection{Supervising student projects}
+
+    \cvlistitem {\textit{Structuring Effectful Computations} --- MSc~G.~Lukyanov,~2017}
+    \cvlistitem {\textit{Generic Programming and Zippers} --- A.~Bolotina,~2017}
+    \cvlistitem {\textit{Generation of algebraic data types descriptions based on JSON data via Template Haskell} --- BSc~O.~Maroseev,~2016}
+    \cvlistitem {\textit{Generation of type class instances based on instances of superclasses via GHC API} --- BSc~O.~Filippskaya,~2016}
+    \cvlistitem {\textit{Functional parser for Markdown using monad combination and monoidal representation of input} --- BSc~G.~Lukianov,~2015}
+    \cvlistitem {\textit{Deduction system for linear logic in Haskell} --- BSc V. Pankov, 2015}
+
+\subsection{Summer schools and other extra trainings}
+\cventry{2017}{Oregon Programming Languages Summer School}%
+    {Univeristy of Oregon}{Eugene, USA, June 26th to July 8th 2017}%
+    {}%
+    {}
+
+\cventry{2015}{Summer School on Generic and Effectful Programming}%
+    {Department of Computer Science, Univeristy of Oxford}{St Anne's College, Oxford, 6th to 10th July 2015}%
+    {}%
+    {}
+
+\cventry{2011}{Summer School “Algebra and Geometry”}%
+    {Laboratory of Algebraic Geometry in the National Research University Higher School of Economics, Teachers' Training University of Yaroslavl'}{Yaroslavl', Russia}%
+    {}%
+    {}
+
+\cventry{2010}%
+    {Microsoft Algorithms and Data Structures Summer School}%
+    {Microsoft Research in Silicon Valey}{Saint-Petersburg, Russia}{}%
+    {}
+
+\cventry{2010}%
+    {Winter School on Applied Mathematics and Computer Science}%
+    {National Research University Higher School of Economics}%
+    {Moscow province, Russia}{}%
+    {}
+
+\cventry{2009}%
+    {Marktoberdorf Summer School “Logics and Languages for Reliability and Security”}%
+    {}{Marktoberdorf, Germany}{}%
+    {}
+
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
+
+\subsection{Participation in MOOC}
+\cventry{Coursera, 2013}
+	{The Hardware/Software Interface}
+	{Prof. J.D.~Noe}{}{}
+	{}
+
+\cventry{Coursera, 2012}
+	{Quantum Mechanics andQuantum Computation}
+	{Prof. U.~Vazirani}{}{}
+	{}
+
+\cventry{Coursera, 2012}
+	{Functional Programming Principles
+in Scala}
+	{Prof. M.~Odersky}{}{}
+	{}
+
+\cventry{Coursera, 2012}
+	{Introduction to Logic}
+	{Assoc.~Prof. M.~Genesereth}{}{}
+	{}
+
+\cventry{Coursera, 2012}
+	{Compilers}
+	{Prof. A.~Aiken}
+	{}{}{}
+
+\cventry{Coursera, 2012}
+	{Automata}
+	{Prof. J.~Ullman}{}{}
+	{}
+
+\cventry{Coursera, 2012}
+	{Cryptography I}
+	{Prof. D.~Boneh}{}{}
+	{}
+
+\cventry{Coursera, 2012}
+	{Algorithms I}
+	{Assoc.~Prof. T.~Roughgarden}{}{}
+	{}
+
+\section{Personal awards, scholarships, etc.}
+\cventry{2012}{Participation in all-russian final of international student olympiad “IT-planet”}{}{}{competition: “Oracle Java Olympic”}{}.
+
+\cventry{2012}{Diploma for taking second place in regional stage of international student olympiad “IT-planet”}{}{}{competition: “Oracle Java Olympic”}{}
+
+\cventry{2012}{Participation in the final stage of VI Open Programming Contest of Southern Federal University}{}{}{individual event}{}.
+
+\cventry{2011}{Scholarship from foundation "Education and Science on the South of Russia"}{}{}{}{}
+
+\cventry{2011}{Rector's commendation for participating in international accreditation of unversity teaching programmes}{Southern Federal University}{}{}{}
+
+\cventry{2008}{Diploma for the best talk}{student session during annual “Week of Science”, Southern Federal University}{}{}
+{}
+
+\section{Conference Talks: Science}
+
+\cventry{2015}%
+    {Scientific Conference “Modern Information Technologies and IT-Education”}%
+    {talk “\protect\CPP{}17 Concepts in their relation to \protect\CPP{}0x ones”}
+    {Lomonosov Moscov State University, Faculty of Computational Mathematics and Cybernetics}{}%
+    {}
+
+\cventry{2012}%
+    {Research and Pratice Conference: Free Open Source Software “FOSS Lviv 2012”}%
+    {talk “Software Implementation of Decoder For a Class Of Error-Correcting Codes on Algebraic Curves: Designing on a Basis of Generic Metaprogramming Templates”}%
+    {Ivan Franko National University of Lviv, Lviv, Ukraine}{}%
+    {}
+
+\cventry{2008}%
+    {Conference “Week of Science” in Southern Federal University}%
+    {talk “On Implementation of Decoder for a Class of Algebraic-Geometry Codes on Projectve Curves using Sakata algorithm”}%
+    {Rostov-na-Donu, Russia}{}%
+    {}
+
+\section{Conference Talks: Education, Technology, Popular Science}
+
+\cventry{2015}%
+    {Scientific Conference “Modern Information Technologies in Education”}%
+    {talk “Store and publication assignment infrastructure for Moodle LMS”}
+    {Institute for Mathematics, Mechanics and Computer Science in honour of I.\,I.~Vorovich, Rostov-na-Donu, Russia}{}%
+    {}
+
+\cventry{2014}%
+    {Joint International Program For Scientific and Technology Cooperation}%
+    {talk “Computer Science Projects Developed inside (in connection with) Department of Mathematics, Mechanics and Computer Sciences / SFedU”}
+    {Sao Paulo, Rio de Janeiro, Fortaleza, Brasil}{}%
+    {}
+
+\cventry{2010}%
+    {Scientific-Methodic Conference “Modern Information Technologies in Education”}%
+    {talk “Methodic Supply and IT-infrastructure for Teaching Low-Level Programming”}%
+    {Computing Center of Southern Federal University, Rostov-na-Donu, Russia}{}%
+    {}
+
+\cventry{2008}%
+    {International Conference on Information Security and Safety}%
+    {talk “Building Web-portal for Information and Education purposes on Computing Department”}{Taganrog, Russia}{}%
+    {}
+
+
+\section{Seminar Talks}
+
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
+
+\cventry{2016}{Functional Visitors}{Programming Languages and Compilers seminar}{}{}{}
+
+\cventry{2016}{Seminar on Galois Theory}{}{Institute for Mathematics, Mechanics and Computer Science, Southern Federal University, Rostov-na-Donu}{}{}
+
+\cventry{2011}{Minicourse on Galois Theory}{Algebra seminar}{Faculty for Mathematics, Mechanics and Computer Science, Southern Federal University, Rostov-na-Donu}{}{}
+
+\cventry{2011}%
+    {Talks “Foundations for programming Languages”, “Automata and Formal Languages”}%
+    {seminar for undergraduates “Introduction to Theoretical Computer Science”}{Faculty for Mathematics, Mechanics and Computer Science, Southern Federal University, Rostov-na-Donu}{}%
+    {}
+
+\cventry{2009}{Talk “Higher-Order Computations and Model Checking”}{Interchair seminar on Computer Science}{Faculty for Mathematics, Mechanics and Computer Science, Southern Federal University, Rostov-na-Donu}{}%
+    {}
+
+\cventry{2009}%
+    {Talk “On multi-dimensional version of Berlekamp-Massey algorithm”}%
+    {Seminar on Mathematical Methods in Information Safety and Security}%
+    {Faculty for Mathematics, Mechanics and Computer Science, Southern Federal University, Rostov-na-Donu}%
+    {}%
+    {}
+
+\cventry{2009}%
+    {Talk “Inductive Data Types in Programming”}%
+    {Seminar on Category Theory}%
+    {Faculty for Mathematics, Mechanics and Computer Science, Southern Federal University, Rostov-na-Donu}%
+    {}%
+    {}
+
+
+\cventry{2008}%
+    {Talk “Spring Framework”}%
+    {Rostov Java User Group}%
+    {Computing Center of Southern Federal University, Rostov-na-Donu}%
+    {}%
+    {}
+
+\section{Publications}
+
+\cvlistitem{%
+Lujyanov G., Pelenitsyn A. Buliding parsers with algebraic effects // Proceedings of the First Russian Conference on Programming Languages and Compilers (PLC'17), 2017, pp. 185–190.}
+
+\cvlistitem{%
+Pelenitsyn A. Associated Types and Constraint Propagation for Generic Programming in Scala // “Programming and Computer Software” (english trans. of “Programmirovanie”), 2015, No 4, pp. 224–230. \texttt{DOI: 10.1134/S0361768815040064} }
+
+\cvlistitem{%
+Pelenitsyn A. Generic and meta- programming approach to design of software implementation of decoder for a class of algebraic geometry codes // “Prikladnaya informatika” (Applied computer science), 2012, No 2(38), pp. 60–70. %
+}
+
+\cvlistitem{%
+Pelenitsyn A. On exploiting one metaprogramming technique. Journal of the Ivanovo Mathematical Society, 2011, No. 1(8), pp.79–84. %
+}
+
+\cvlistitem{%
+Deundyak V., Pelenitsyn A. Operator-theoretic approach to Berlekamp--Massey Algorithm, // Izvestia vuzov (Universities' Bulletin), Sev.-Kav. Region (Caucasus Region), Estestvennie Nauki (Sciences), 2011, No. 3. Pp. 11–13.}
+
+\cvlistitem{%
+Mayevskiy A., Pelenitsyn A. Software Implementation of Algebraic-Geometry Codec using Sakata algorithm, // Izvestia Yufu (Southern Federal University Bulletin), Technology Sciences, 2008, No. 8, pp. 196–198.}
+
+\subsection{Papers In Conference Transactions}
+\cvlistitem{%
+Pelenitsyn A. On Implementation of n-Dimensional BMS-algorithm Using Generic Programming // Transactions of Scientific School of I.B. Simonenko, 2010, pp. 197–203.}
+
+\cvlistitem{%
+Mayevskiy A., Pelenitsyn A. Methodic Supply and IT-infrastructure for Teaching Low-Level Programming // Transactions of Scientific-Methodic Conference “Modern Information Technologies in Education”, 2010, pp. 210–212.}
+
+\cvlistitem{%
+Mayevskiy A., Pelenitsyn A. On Software Implementation of Algebraic-Geometry Codec using Sakata algorithm, // Transactions of X International Conference on Information Security and Safety, 2008, pp. 55–57.}
+
+\cvlistitem{%
+Pelenitsyn A. On Implementation of Decoder for a Class of Algebraic-Geometry Codes on Projectve Curves using Sakata algorithm, // Transactions of the Conference "Week of Science" in Southern Federal University, 2008, vol. 1, pp. 55–57.}
+
+\cvlistitem{%
+Bragilevsky V., Mihalkovich S., Pelenitsyn A. Building Web-portal for Information and Education purposes on Computing Department // Transactions of Scientific-Methodic Conference “Modern Information Technologies in Education”, 2008, pp. 48–49.}
+
+\section{Book Translations}
+
+\cvlistitem{%
+Dowek, Gilles, Levy, Jean-Jacques. Introduction to the Theory of Programming Languages. / Springer. 2011. Russian translation together with V.~Bragilevskiy. Published by DMK Press in 2013. %
+}
+
+\cvlistitem{%
+Bird, Richard. Pearls of Functional Algorithm Design. / Cambridge University Press. 2010. Russian translation together with V.~Bragilevskiy. Published by DMK Press in 2013. %
+}
+
+\section{Computer skills}
+\cvitem{Programming languages}{C, \textbf{\CPP(14)}, \textbf{Haskell}, \textbf{Java}, Scala, Pascal, \CSH}%{category 4}{XXX, YYY, ZZZ}
+\cvitem{Markup, Scripting}{\textbf{\LaTeX}, {\color{gray}HTML, CSS, JavaScript, PHP}, bash, Regular expressions}%{category 5}{XXX, YYY, ZZZ}
+\cvitem{Environment}{Git, Make, Wiki/Markdown}
+\cvitem{Operating systems}{\textbf{GNU/Linux family}, Windows family}%{category 6}{XXX, YYY, ZZZ}
+
+\section{(Not So) Toy Programming Projects}
+
+\cvitem{chek-test}{Remove groove from checking students' submissions / Haskell}
+
+\cvitem{cpp-mv-poly}{\CPP-implementation of multivariate polynomials and the BMS-algrithm massively using \CPP{} templates}
+
+\cvitem{mmcs-entrance}{Generation of entrance diagrams (in PNG) in MMCS/SFedU from oficial data (XLS) / Java, 2010}
+
+\cvitem{lj-comments-notifier}{A tool for notifying about new comments in some livejournal.com-based blog / Haskell}
+
+\cvitem{Project Euler}{Link to the participant record / Haskell (mostly), \CPP}
+
+\cvitem{GitHub}{ulysses4ever}
+
+%\cvitem{\myhref{}{}}{}
+
+\section{Languages}
+\cvitemwithcomment{Russian}{Native}{}
+\cvitemwithcomment{English}{Advanced (IELTS exam band score 7.5 taken in 2012)}{}
+%\cvitemwithcomment{Language 3}{Skill level}{Comment}
+
+\section{Interests}
+\cvitem{Classical literature}{Homer, Goethe, Joyce, Kafka, Camus, Sartr, Brodsky}
+\cvitem{Art cinema}{Bergman, Fellini, Truffaut, Tarkovsky, Wenders, Kitano, von Trier}
+%\cvitem{hobby 3}{Description}
+
+\section{Extra info}
+\cvitem{Gender}{Male}
+\cvitem{Marital status}{Single}
+\cvitem{Current place of living}{Prague, Czech Republic}
+\cvitem{Citizenship, Homeland}{Russia}
+%\cvitem{Name spelling in Russian}{Артём Михайлович Пеленицын}
+
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem{Item 3}
+
+%\renewcommand{\listitemsymbol}{-~}            % change the symbol for lists
+
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+%\cvlistdoubleitem{Item 3}{}
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}                   % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}              % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}              % 'publications' is the name of a BibTeX file
+\end{document}
+
