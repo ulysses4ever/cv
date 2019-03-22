@@ -42,15 +42,16 @@
 \firstname{Artem}
 \familyname{Pelenitsyn}
 \title{Curriculum Vitæ}               % optional, remove the line if not wanted
-\address{Volkova st., 5/3, r.57}{344092 Rostov-na-Donu, Russia}    % optional, remove the line if not wanted
-\mobile{+7~(961)~290~2878}                     % optional, remove the line if not wanted
+\address{50 South Huntington, apt. 22}{02130 Boston, MA, USA}    % optional, remove the line if not wanted
+\mobile{+1~(857)~204~4460}
+%\mobile{+7~(961)~290~2878}                     % optional, remove the line if not wanted
 %\phone{+7~(863)~237~7831}                      % optional, remove the line if not wanted
 %\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
 %\email{ulysses4ever@gmail.com}                          % optional, remove the line if not wanted
-\email{apel@sfedu.ru}
+\email{artem@ccs.neu.edu}
 \homepage{mmcs.sfedu.ru/~ulysses}                    % optional, remove the line if not wanted
 %\extrainfo{Current place of living: Rostov-na-Donu, Russia}            % optional, remove the line if not wanted
-\photo{Brazil-2014.jpg}%[64pt][0.4pt]                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\photo{neu-2018.jpg}%[64pt][0.4pt]                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
 %\quote{Some quote (optional)}                 % optional, remove the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
@@ -88,33 +89,106 @@
 
 \section{Master thesis}
 \cvitem{title}{\emph{BMS-algorithm and its application to decoding}}
-\cvitem{supervisor}{Assoc. prof. V.M.~Deundyak}
+\cvitem{supervisor}{Prof. V.M.~Deundyak}
 %\cvitem{description}{Short thesis abstract}
 
 \section{Research interests}
 
-    \cvlistitem {Programming languages,}
-    \cvlistitem {Type systems and type theory,}
-    \cvlistitem {Functional programming,}
-    \cvlistitem {Mathematics of programming.}
+Functional programming, Mathematics of programming, Type systems and type theory, Programming languages
 
-\section{Experience}
+\section{Experience (summary)}
 
 \subsection{Occupation}
-\cventry{2010--2011, 2012--2017}{Assistant professor, lecturer}{Southern Federal University
-}{Rostov-na-Donu, Russia}{}{%\newline{}
-%Courses:
-}
-\cventry{Spring 2017}{Research assistant at \myhref{http://prl.ccs.neu.edu/}{Programming Research Laboratory}}{Northeastern University}{Boston, MA, USA}{}{%\newline{}
+
+\cventry{2018--present}{PhD student}{Northeastern U.
+}{Boston, USA}{}{%\newline{}
 %Courses:
 }
 \cventry{Fall 2017}{Research assistant at \myhref{https://prl-prg.github.io}{Programming Research Laboratory}}{Czech Technical University}{Prague, Czech Republic}{}{%\newline{}
 %Courses:
 }
+\cventry{Spring 2017}{Research assistant at \myhref{http://prl.ccs.neu.edu/}{Programming Research Laboratory}}{Northeastern University}{Boston, USA}{}{%\newline{}
+%Courses:
+}
+\cventry{2010--2011, 2012--2017}{Assistant professor, lecturer}{Southern Federal University
+}{Rostov-na-Donu, Russia}{}{%\newline{}
+%Courses:
+}
+
+\subsection{PL-related trainings}
+
+PLMW @ ICFP 2018, OPLSS 2017, \myhref{https://www.cs.ox.ac.uk/projects/utgp/school/}{SSGEP} @ Oxford U. 2015 
+
+\subsection{GHC Contributions}
+
+\cvitem{%
+\myhref{https://gitlab.haskell.org/ghc/ghc/merge_requests/538/}{!538}
+}{%
+(Ongoing) Make \texttt{-threaded} the default
+}
+
+\cvitem{%
+\myhref{https://gitlab.haskell.org/ghc/ghc/commit/bb3fa2d18686d0c08b57c66a90a9ea1b4e4482ee}{bb3fa2d1}
+}{%
+Remove some dependencies of the typechecker from the simplifier.
+}
+
+\cvitem{%
+\myhref{https://gitlab.haskell.org/ghc/ghc/commit/c6f4eb4f8bc5e00024c74198ab9126bf1750db40}{c6f4eb4f}
+}{%
+Fix precision of asinh/acosh/atanh by making them primops
+}
+
+\cvitem{%
+\myhref{https://gitlab.haskell.org/ghc/ghc/commit/8546afc502306de16b62c6386fe419753393cb12}{8546afc5}
+}{%
+Documentation: ``state transformer'' $\to$ ``state monad'' / ``ST'' (whichever is meant)
+}
+
+\cvitem{%
+\myhref{https://gitlab.haskell.org/ghc/ghc/commit/14d88380ecb909e7032598aaad4efebb72561784}{14d88380}
+}{%
+Update Unicode tables to v. 12 of the standard
+}
+
+\clearpage
+\subsection{Pet Projects}
+
+\cvitem{\myhref{https://github.com/PRL-PRG/subtype-fuzzer}{subtype-fuzzer}}{A fuzzer to test a tricky subtype relation as found in the Julia programming language / Haskel, 2018}
+
+\cvitem{\myhref{https://github.com/ulysses4ever/check-test}{chek-test}}{Remove groove from checking students' submissions / Haskell, 2016}
+
+\cvitem{\myhref{http://code.google.com/p/cpp-mv-poly/}{cpp-mv-poly}}{\CPP-implementation of multivariate polynomials and the BMS-algrithm massively using \CPP{} templates}
+
+\cvitem{\myhref{http://code.google.com/p/mmcs-entrance-2010/}{mmcs-entrance}}{Generation of entrance diagrams (in PNG) in MMCS/SFedU from oficial data (XLS) / Java, 2010}
+
+\cvitem{\myhref{http://code.google.com/p/lj-comments-notifier/}{lj-comments-notifier}}{Notifications about new comments in some livejournal.com-based blog / Haskell, 2011}
+
+\cvitem{\myhref{http://projecteuler.net/profile/ulysses4ever.png}{Project Euler}}{Link to the participant record / Haskell (mostly), \CPP}
+
+\cvitem{\myhref{https://github.com/ulysses4ever}{Me @ GitHub}}{}
+
+\section{Personal awards, scholarships, etc.}
+\cventry{2012}{Participation in all-russian final of international student olympiad “IT-planet”}{}{}{competition: “Oracle Java Olympic”}{\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/Trainings/2012-ITPlanet-final.pdf}{Link to Diploma for Participation} (in Russian)}.
+
+\cventry{2012}{Diploma for taking second place in regional stage of international student olympiad “IT-planet”}{}{}{competition: “Oracle Java Olympic”}{\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/Trainings/2012-ITPlanet.jpg}{Link to Diploma scan} (in Russian)}
+
+\cventry{2012}{Participation in the final stage of VI Open Programming Contest of Southern Federal University}{}{}{individual event}{\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/Trainings/2012-TTI-olymp-participation.jpg}{Link to Diploma for Participation} (in Russian)}.
+
+\cventry{2011}{Scholarship from foundation "Education and Science on the South of Russia"}{}{}{}{\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/Trainings/2011-CI-cert.jpg}{Link to the scholarship statement scan} (in Russian)}
+
+\cventry{2011}{Rector's commendation for participating in international accreditation of unversity teaching programmes}{Southern Federal University}{}{}{\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/Trainings/2011-rector-commendation.pdf}{Link to scan of the commendation text} (in Russian)}
+
+\cventry{2008}{Diploma for the best talk}{student session during annual “Week of Science”, Southern Federal University}{}{}
+{\myhref%
+{http://mmcs.sfedu.ru/~ulysses/Papers/Talks/2008-SFedU-SciWeek-diploma.jpg}
+{Link to Diploma scan} (in Russian)}
+
+\section{Experience (detailed)}
 
 \subsection{Teaching (at \myhref{http://sfedu.ru/international/}{Southern Federal University})}
 
-    \cvlistitem {Quantum Computations (lectures) --- 2016 (fall).}
+    \cvlistitem {Quantum Computations (lectures in English) --- 2016 (fall).}
     \cvlistitem {Computer Architecture (lectures \& labs) --- 2013–2016 (spring).}
     \cvlistitem {Automata and Ciphers (lectures) --- 2013–2016 (fall).}
     \cvlistitem {Programming Basics labs --- 2008, 2010–2012, 2014--2016.}
@@ -134,6 +208,11 @@
     \cvlistitem {\textit{Deduction system for linear logic in Haskell} --- BSc V. Pankov, 2015}
 
 \subsection{Summer schools and other extra trainings}
+\cventry{2018}{Programming Languages Mentoring Workshop @ ICFP}%
+    {}{St. Louis, USA, September 23rd 2018}%
+    {}%
+    {\myhref{https://icfp18.sigplan.org/track/PLMW-ICFP-2018}{Link to the program}.}
+
 \cventry{2017}{Oregon Programming Languages Summer School}%
     {Univeristy of Oregon}{Eugene, USA, June 26th to July 8th 2017}%
     {}%
@@ -168,6 +247,8 @@
 %\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
 
 \subsection{Participation in MOOC}
+
+{\footnotesize
 \cventry{Coursera, 2013}
 	{The Hardware/Software Interface}
 	{Prof. J.D.~Noe}{}{}
@@ -216,24 +297,29 @@ in Scala}
 	{Assoc.~Prof. T.~Roughgarden}{}{}
 	{\myhref{http://mmcs.sfedu.ru/~ulysses/Edu/coursera/algo-I.pdf}
 	{Link to Certificate}}
+}
 
-\section{Personal awards, scholarships, etc.}
-\cventry{2012}{Participation in all-russian final of international student olympiad “IT-planet”}{}{}{competition: “Oracle Java Olympic”}{\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/Trainings/2012-ITPlanet-final.pdf}{Link to Diploma for Participation} (in Russian)}.
+\section{Conference Talks: Research}
 
-\cventry{2012}{Diploma for taking second place in regional stage of international student olympiad “IT-planet”}{}{}{competition: “Oracle Java Olympic”}{\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/Trainings/2012-ITPlanet.jpg}{Link to Diploma scan} (in Russian)}
+\subsection{International}
 
-\cventry{2012}{Participation in the final stage of VI Open Programming Contest of Southern Federal University}{}{}{individual event}{\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/Trainings/2012-TTI-olymp-participation.jpg}{Link to Diploma for Participation} (in Russian)}.
+\cventry{2018}%
+    {ACM SIGPLAN Symposium on Scala, 2018}%
+    {Student Talk ``Julia Subtyping Lessons Scala Could Learn''}
+    {St. Louis, USA, 2018 (co-located with ICFP)}{}%
+    {\myhref{%
+https://conf.researchr.org/event/scala-2018/scala-2018-papers-julia-subtyping-lessons-scala-could-learn-student-talk-}{Link to the abstract}}
 
-\cventry{2011}{Scholarship from foundation "Education and Science on the South of Russia"}{}{}{}{\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/Trainings/2011-CI-cert.jpg}{Link to the scholarship statement scan} (in Russian)}
 
-\cventry{2011}{Rector's commendation for participating in international accreditation of unversity teaching programmes}{Southern Federal University}{}{}{\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/Trainings/2011-rector-commendation.pdf}{Link to scan of the commendation text} (in Russian)}
+\cventry{2018}%
+    {2nd Workshop on Machine Learning Techniques for Programming Languages}%
+    {Talk ``Can We Learn Some PL Theory? How To Make Use of a Corpus of Subtype Checks''}
+    {Amsterdam, The Netherlands, 2018 (co-located with ECOOP/ISSTA)}{}%
+    {\myhref{%
+https://conf.researchr.org/event/ecoop-issta-2018/ml4pl-2018-papers-can-we-learn-some-pl-theory-how-to-make-use-of-a-corpus-of-subtype-checks}{Link to the abstract}}
 
-\cventry{2008}{Diploma for the best talk}{student session during annual “Week of Science”, Southern Federal University}{}{}
-{\myhref%
-{http://mmcs.sfedu.ru/~ulysses/Papers/Talks/2008-SFedU-SciWeek-diploma.jpg}
-{Link to Diploma scan} (in Russian)}
-
-\section{Conference Talks: Science}
+{\footnotesize
+\subsection{Russian}
 
 \cventry{2015}%
     {Scientific Conference “Modern Information Technologies and IT-Education”}%
@@ -254,38 +340,14 @@ in Scala}
     {talk “On Implementation of Decoder for a Class of Algebraic-Geometry Codes on Projectve Curves using Sakata algorithm”}%
     {Rostov-na-Donu, Russia}{}%
     {\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/Talks/2008-SFedU-SciWeek-slides.pdf}{Link to the slides (in Russian)}.}
-
-\section{Conference Talks: Education, Technology, Popular Science}
-
-\cventry{2015}%
-    {Scientific Conference “Modern Information Technologies in Education”}%
-    {talk “Store and publication assignment infrastructure for Moodle LMS”}
-    {Institute for Mathematics, Mechanics and Computer Science in honour of I.\,I.~Vorovich, Rostov-na-Donu, Russia}{}%
-    {\myhref{http://inftech.uginfo.sfedu.ru/}{Link to the web-site} (in Russian),
-\myhref{http://staff.mmcs.sfedu.ru/~ulysses/Papers/Talks/2015-SITO-Moodle-publication.pdf}{link to the slides (in Russian)}.}
-
-\cventry{2014}%
-    {Joint International Program For Scientific and Technology Cooperation}%
-    {talk “Computer Science Projects Developed inside (in connection with) Department of Mathematics, Mechanics and Computer Sciences / SFedU”}
-    {Sao Paulo, Rio de Janeiro, Fortaleza, Brasil}{}%
-    {\myhref{http://sfedu.ru/www/sfedu$news$.show_full?p_nws_id=46741}{Info on university web-site} (in Russian),
-\myhref{http://staff.mmcs.sfedu.ru/~ulysses/Papers/Talks/2014-BRICS-University-Forum.pdf}{link to the slides}.}
-
-\cventry{2010}%
-    {Scientific-Methodic Conference “Modern Information Technologies in Education”}%
-    {talk “Methodic Supply and IT-infrastructure for Teaching Low-Level Programming”}%
-    {Computing Center of Southern Federal University, Rostov-na-Donu, Russia}{}%
-    {\myhref{http://conf.sfedu.ru/inftech2010/}{Link to the web-site} (in Russian),
-\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/Talks/2010-SITO-Assembly-programming.pdf}{link to the slides (in Russian)}.}
-
-\cventry{2008}%
-    {International Conference on Information Security and Safety}%
-    {talk “Building Web-portal for Information and Education purposes on Computing Department”}{Taganrog, Russia}{}%
-    {\myhref{http://bit.tti.sfedu.ru/?q=en/node/15}{Link to the web-site}, or \myhref{http://bit.tti.sfedu.ru/?q=ru/node/6}{link to the expanded version in Russian}.}
-
+}
 
 \section{Seminar Talks}
+{\footnotesize
+%\subsection{In English}
 
+
+\subsection{In Russian}
 %\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
 
 \cventry{2016}{Functional Visitors}{Programming Languages and Compilers seminar}{}{}{Link to the slides (in Russian): \myhref{http://forum.mmcs.sfedu.ru/uploads/default/original/1X/87bd89c2abeef38c7ff835cecd2485c24b1e78c8.pdf}{Part I}, \myhref{http://forum.mmcs.sfedu.ru/uploads/default/original/1X/5fee3e64f4528aaf68fc4665b21ed3173a97497d.pdf}{Part II}}
@@ -323,35 +385,63 @@ in Scala}
     {Computing Center of Southern Federal University, Rostov-na-Donu}%
     {}%
     {\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/Talks/2008-RostovJUG-SpringFramework.zip}{Link to the slides (xul format -- to be run in Mozilla Firefox browser; in Russian)}}
+}
 
 \section{Publications}
 
+\subsection{Peer-reviewed International}
+
 \cvlistitem{%
-Functional Parser of Markdown Language Based on Monad Combining and Monoidal Source Stream Representation (with G.Lukyanov) // In: Itsykson V., Scedrov A., Zakharov V. (eds) Tools and Methods of Program Analysis. TMPA 2017. CCIS, vol 779, pp. 90--101. Springer, Cham. \texttt{DOI: 10.1007/978-3-319-71734-0\_8} \myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2018-TMPA-effects-vs-transformers-in-parsing.pdf}{[PDF]} With G. Lukyanov.}
+Julia Subtyping: a Rational Reconstruction (with F. Zappa Nardelli, J. Belyakova, B. Chung, J. Bezanson, J. Vitek) // 
+In: Proc. ACM Program. Lang., Vol. 2, Issue OOPSLA, 2018.
+\texttt{DOI: 10.1145/3276483} 
+\myhref{https://www.di.ens.fr/~zappa/projects/lambdajulia/paper.pdf}{[PDF]}}
+
+\cvlistitem{%
+Functional Parser of Markdown Language Based on Monad Combining and Monoidal Source Stream Representation (with G.Lukyanov) // In: Itsykson V., Scedrov A., Zakharov V. (eds) Tools and Methods of Program Analysis. TMPA 2017. CCIS, vol 779, pp. 90--101. Springer, Cham. \texttt{DOI: 10.1007/978-3-319-71734-0\_8} \myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2018-TMPA-effects-vs-transformers-in-parsing.pdf}{[PDF]}}
+
+\cvlistitem{%
+Associated Types and Constraint Propagation for Generic Programming in Scala // “Programming and Computer Software” (english trans. of “Programmirovanie”), 2015, No 4, pp. 224–230. \texttt{DOI: 10.1134/S0361768815040064} \myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2015-PCS-Scala-generics.pdf}{[PDF]}.}
+
+\subsection{Drafts}
+
+\cvlistitem{%
+Fuzzy-Testing A Subtyping Relation // 2018
+\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2018-unpb-subtype-fuzzer.pdf}{[PDF]}}
+
+\cvlistitem{%
+Handling Recursion in Generic Programming Using Closed Type Families
+(with A. Bolotina) // 2018
+\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2018-unpb-dgp-recursion.pdf}{[PDF]}}
+
+
+{\footnotesize
+\subsection{Russian}
 
 \cvlistitem{%
 Buliding parsers with algebraic effects // Proceedings of the First Russian Conference on Programming Languages and Compilers (PLC'17), 2017, pp. 185–190. With G. Lukyanov.}
 
 \cvlistitem{%
-Pelenitsyn A. Associated Types and Constraint Propagation for Generic Programming in Scala // “Programming and Computer Software” (english trans. of “Programmirovanie”), 2015, No 4, pp. 224–230. \texttt{DOI: 10.1134/S0361768815040064} \myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2015-PCS-Scala-generics.pdf}{[PDF]}.}
-
-\cvlistitem{%
-Pelenitsyn A. Generic and meta- programming approach to design of software implementation of decoder for a class of algebraic geometry codes // “Prikladnaya informatika” (Applied computer science), 2012, No 2(38), pp. 60–70. \myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2012-PriklInf-metaprogramming-to-decoding.pdf}{[PDF] (in Russian)}, \myhref{http://staff.mmcs.sfedu.ru/~ulysses/Papers/2012-prepared-for-wgp.pdf}{link to the early draft in English}.%
+Pelenitsyn A. Generic and meta- programming approach to design of software implementation of decoder for a class of algebraic geometry codes // “Prikladnaya informatika” (Applied computer science), 2012, No 2(38), pp. 60–70. \myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2012-PriklInf-metaprogramming-to-decoding.pdf}{[PDF]}, \myhref{http://staff.mmcs.sfedu.ru/~ulysses/Papers/2012-prepared-for-wgp.pdf}{link to the draft in English}.%
 }
 
 \cvlistitem{%
-Pelenitsyn A. On exploiting one metaprogramming technique. Journal of the Ivanovo Mathematical Society, 2011, No. 1(8), pp.79–84. \myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2011-Ivanovo-metaprogramming.pdf}{[PDF] (in Russian)}.%
+Pelenitsyn A. On exploiting one metaprogramming technique. Journal of the Ivanovo Mathematical Society, 2011, No. 1(8), pp.79–84. \myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2011-Ivanovo-metaprogramming.pdf}{[PDF]}.%
 }
 
 \cvlistitem{%
 Deundyak V., Pelenitsyn A. Operator-theoretic approach to Berlekamp--Massey Algorithm, // Izvestia vuzov (Universities' Bulletin), Sev.-Kav. Region (Caucasus Region), Estestvennie Nauki (Sciences), 2011, No. 3. Pp. 11–13.
-\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2011-Izv-vuzov-BMSA-through-operator-theory.pdf}{[PDF] (in Russian)}.}
+\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2011-Izv-vuzov-BMSA-through-operator-theory.pdf}{[PDF]}.}
 
 \cvlistitem{%
 Mayevskiy A., Pelenitsyn A. Software Implementation of Algebraic-Geometry Codec using Sakata algorithm, // Izvestia Yufu (Southern Federal University Bulletin), Technology Sciences, 2008, No. 8, pp. 196–198.
-\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2008-2-Izvestia-AGCodec-Sakata.pdf}{[PDF] (in Russian).}}
+\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2008-2-Izvestia-AGCodec-Sakata.pdf}{[PDF].}}
 
-\subsection{Papers In Conference Transactions}
+}
+
+\subsection{In Conference Transactions (Russian)}
+
+{\footnotesize
 \cvlistitem{%
 Pelenitsyn A. On Implementation of n-Dimensional BMS-algorithm Using Generic Programming // Transactions of Scientific School of I.B. Simonenko, 2010, pp. 197–203.
 \myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2010-2-Sbor-Simonenko-BMSA-impl.pdf}{[PDF] (in Russian)}.}
@@ -371,7 +461,53 @@ Pelenitsyn A. On Implementation of Decoder for a Class of Algebraic-Geometry Cod
 Bragilevsky V., Mihalkovich S., Pelenitsyn A. Building Web-portal for Information and Education purposes on Computing Department // Transactions of Scientific-Methodic Conference “Modern Information Technologies in Education”, 2008, pp. 48–49.
 \myhref{http://mmcs.sfedu.ru/~ulysses/Papers/2008-3-SITO-IT-portal-preprint.pdf}{[PDF] (in Russian)}.}
 
-\section{Book Translations}
+}
+
+\section{Conference Talks: Education, Technology, Popular Science}
+
+\subsection{International}
+
+\cventry{2014}%
+    {Joint International Program For Scientific and Technology Cooperation}%
+    {talk “Computer Science Projects Developed inside (in connection with) Department of Mathematics, Mechanics and Computer Sciences / SFedU”}
+    {Sao Paulo, Rio de Janeiro, Fortaleza, Brasil}{}%
+    {\myhref{http://sfedu.ru/www/sfedu$news$.show_full?p_nws_id=46741}{Info on university web-site} (in Russian),
+\myhref{http://staff.mmcs.sfedu.ru/~ulysses/Papers/Talks/2014-BRICS-University-Forum.pdf}{link to the slides}.}
+
+{\footnotesize
+\subsection{Russian}
+
+\cventry{2015}%
+    {Scientific Conference “Modern Information Technologies in Education”}%
+    {talk “Store and publication assignment infrastructure for Moodle LMS”}
+    {Institute for Mathematics, Mechanics and Computer Science in honour of I.\,I.~Vorovich, Rostov-na-Donu, Russia}{}%
+    {\myhref{http://inftech.uginfo.sfedu.ru/}{Link to the web-site} (in Russian),
+\myhref{http://staff.mmcs.sfedu.ru/~ulysses/Papers/Talks/2015-SITO-Moodle-publication.pdf}{link to the slides (in Russian)}.}
+
+\cventry{2010}%
+    {Scientific-Methodic Conference “Modern Information Technologies in Education”}%
+    {talk “Methodic Supply and IT-infrastructure for Teaching Low-Level Programming”}%
+    {Computing Center of Southern Federal University, Rostov-na-Donu, Russia}{}%
+    {\myhref{http://conf.sfedu.ru/inftech2010/}{Link to the web-site} (in Russian),
+\myhref{http://mmcs.sfedu.ru/~ulysses/Papers/Talks/2010-SITO-Assembly-programming.pdf}{link to the slides (in Russian)}.}
+
+\cventry{2008}%
+    {International Conference on Information Security and Safety}%
+    {talk “Building Web-portal for Information and Education purposes on Computing Department”}{Taganrog, Russia}{}%
+    {\myhref{http://bit.tti.sfedu.ru/?q=en/node/15}{Link to the web-site}, or \myhref{http://bit.tti.sfedu.ru/?q=ru/node/6}{link to the expanded version in Russian}.}
+}
+
+\section{Community Service}
+
+\subsection{Conference Organization}
+
+\cvitem{\myhref{https://conf.researchr.org/committee/etaps-2019/etaps-2019-organizing-committee}{ETAPS '19}}{Web Co-Chair}
+
+\cvitem{\myhref{https://conf.researchr.org/committee/ecoop-issta-2018/ml4pl-2018-papers-organizing-committee}{ML4PL '18}}{Organizer}
+
+\cvitem{\myhref{http://plc.sfedu.ru/organizers.html}{PLC '17}}{Organizer}
+
+\subsection{Book Translations (English to Russian)}
 
 \cvlistitem{%
 Dowek, Gilles, Levy, Jean-Jacques. Introduction to the Theory of Programming Languages. / Springer. 2011. Russian translation together with V.~Bragilevskiy. Published by DMK Press in 2013. \myhref{http://www.xn--d1amf.xn--p1ai/catalog/computer/programming/978-5-94074-913-4/}{Link to web page},
@@ -384,24 +520,10 @@ Bird, Richard. Pearls of Functional Algorithm Design. / Cambridge University Pre
 }
 
 \section{Computer skills}
-\cvitem{Programming languages}{C, \textbf{\CPP(14)}, \textbf{Haskell}, \textbf{Java}, Scala, Julia, Pascal, \CSH}%{category 4}{XXX, YYY, ZZZ}
+\cvitem{Programming languages}{\textbf{Haskell}, C, \CPP(14), Java, Scala, Julia, Pascal, \CSH}%{category 4}{XXX, YYY, ZZZ}
 \cvitem{Markup, Scripting}{\textbf{\LaTeX}, {\color{gray}HTML, CSS, JavaScript, PHP}, bash, Regular expressions}%{category 5}{XXX, YYY, ZZZ}
-\cvitem{Environment}{Git, Make, Wiki/Markdown}
+\cvitem{Environment}{Git, Make, Emacs, Wiki/Markdown}
 \cvitem{Operating systems}{\textbf{GNU/Linux family}, Windows family}%{category 6}{XXX, YYY, ZZZ}
-
-\section{(Not So) Toy Programming Projects}
-
-\cvitem{\myhref{https://github.com/ulysses4ever/check-test}{chek-test}}{Remove groove from checking students' submissions / Haskell}
-
-\cvitem{\myhref{http://code.google.com/p/cpp-mv-poly/}{cpp-mv-poly}}{\CPP-implementation of multivariate polynomials and the BMS-algrithm massively using \CPP{} templates}
-
-\cvitem{\myhref{http://code.google.com/p/mmcs-entrance-2010/}{mmcs-entrance}}{Generation of entrance diagrams (in PNG) in MMCS/SFedU from oficial data (XLS) / Java, 2010}
-
-\cvitem{\myhref{http://code.google.com/p/lj-comments-notifier/}{lj-comments-notifier}}{A tool for notifying about new comments in some livejournal.com-based blog / Haskell}
-
-\cvitem{\myhref{http://projecteuler.net/profile/ulysses4ever.png}{Project Euler}}{Link to the participant record / Haskell (mostly), \CPP}
-
-\cvitem{\myhref{https://github.com/ulysses4ever}{Me @ GitHub}}{}
 
 %\cvitem{\myhref{}{}}{}
 
@@ -417,8 +539,9 @@ Bird, Richard. Pearls of Functional Algorithm Design. / Cambridge University Pre
 
 \section{Extra info}
 \cvitem{Gender}{Male}
+\cvitem{Pronouns}{His/him}
 \cvitem{Marital status}{Single}
-\cvitem{Current place of living}{Prague, Czech Republic}
+\cvitem{Current place of living}{Boston, USA}
 \cvitem{Citizenship, Homeland}{Russia}
 %\cvitem{Name spelling in Russian}{Артём Михайлович Пеленицын}
 
