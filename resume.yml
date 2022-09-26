@@ -1,0 +1,124 @@
+contact:
+  name: "Artem Pelenitsyn"
+  email: "a.pelenitsyn@gmail.com"
+  site: "a-pelenitsyn.github.io"
+  github: "github.com/ulysses4ever"
+
+research:
+  -
+    position: "Research Assistant"
+    institution: "Northeastern University"
+    location: "Boston MA"
+    start: "Sep 2018"
+    end: "present"
+
+  -
+    position: "Research Assistant"
+    institution: "Czech Technical University"
+    location: "Prague, Czechia"
+    start: "Sep 2017"
+    end: "Jul 2018"
+
+work:
+  -
+    title: "Teaching Assistant Professor"
+    employer: "Southern Federal University"
+    location: "Rostov-on-Don, Russia"
+    start: "Sep 2010"
+    end: "Jun 2017"
+      # description:
+      #   - "Worked on memory management for [Project Verona](https://github.com/microsoft/verona)"
+
+  -
+    title: "Software Development Intern"
+    employer: "Tweag"
+    location: "Boston MA"
+    start: "Jun"
+    end: "Aug 2019"
+    description:
+      - "Developed an integration layer between the Bazel build system and the GHC compiler"
+
+teaching:
+  -
+    title: "Teaching Assistant"
+    employer: "Northeastern University"
+    location: "Boston MA"
+    start: "Jan"
+    end: "Apr 2018"
+    description:
+      - "[CS 2510: Fundamentals II, Introduction to Class-based Program Design](https://course.ccs.neu.edu/cs2510sp18/)"
+  -
+    title: "Teaching Assistant"
+    employer: "University of Waterloo"
+    location: "Waterloo ON"
+    start: "May 2015"
+    end: "Aug 2016"
+    description:
+      - "[CS 444: Compiler Construction](https://www.student.cs.uwaterloo.ca/~cs444/) (Winter 2016)"
+      - "[CS 241E: Foundations of Sequential Programs, Enriched](https://www.student.cs.uwaterloo.ca/~cs241e/) (Fall 2015)"
+      - "[CS 241: Foundations of Sequential Programs](https://www.student.cs.uwaterloo.ca/~cs241/) (Spring 2015, Spring 2016)"
+
+publications:
+  -
+    authors: "A. Author, A. Pelenitsyn"
+    title: "[Some title](https://doi.org/xxx)"
+    in: "OOPSLA 2018"
+    date: "Nov 2018"
+
+service:
+  -
+    position: "Student Volunteer"
+    list:
+      -
+        name: "ECOOP 2019"
+        link: "https://2019.ecoop.org/"
+
+      -
+        name: "SPLASH 2018"
+        link: "https://2018.splashcon.org/"
+        note: "local organizer"
+
+      -
+        name: "ECOOP 2018"
+        link: "https://2018.ecoop.org/"
+        note: "co-chair"
+
+  -
+    position: "Artifact Evaluation Committee"
+    list:
+      -
+        name: "ICFP 2022"
+        link: "https://2018.ecoop.org/track/ecoop-2018-artifacts"
+
+skills:
+  - "Experienced with C, [CPP], Scala, Java, and Ruby"
+  - "Familiar with C[#], Perl, x86 and MIPS assembly, and JVM bytecode"
+  - "Some knowledge of Racket, OCaml, Haskell, ARM assembly, and LLVM IR"
+  - "Comfortable with Linux, macOS, and Windows environments"
+
+awards:
+  -
+    name: "NSERC Postgraduate Scholarship - Doctoral"
+    date: "2016 [--] 2019"
+
+education:
+  -
+    level: "Ph.D. Candidate"
+    institution: "Northeastern University"
+    location: "Boston MA"
+    date: "Sep 2016 [--] present"
+
+  -
+    level: "Master of Mathematics in Computer Science"
+    institution: "University of Waterloo"
+    location: "Waterloo ON"
+    date: "Jun 2017"
+    note: "Thesis: [Implementing a Functional Language for Flix](http://hdl.handle.net/10012/10856) (completed Sep 2016)"
+
+  -
+    level: "Bachelor of Software Engineering"
+    institution: "University of Waterloo"
+    location: "Waterloo ON"
+    date: "Jun 2014"
+    note: "With Distinction [---] Dean's Honours List"
+
