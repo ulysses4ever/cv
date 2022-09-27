@@ -24,10 +24,12 @@ work:
     title: "Teaching Assistant Professor"
     employer: "Southern Federal University"
     location: "Rostov-on-Don, Russia"
-    start: "Sep 2010"
-    end: "Jun 2017"
-      # description:
-      #   - "Worked on memory management for [Project Verona](https://github.com/microsoft/verona)"
+    start: "Jan 2013"
+    end: "Dec 2016"
+    description:
+      - "Computer Architecture"
+      - "Automata and Basic Cryptography"
+      - "Quantum Computing"
 
   -
     title: "Software Development Intern"
@@ -47,16 +49,20 @@ teaching:
     end: "Apr 2018"
     description:
       - "[CS 2510: Fundamentals II, Introduction to Class-based Program Design](https://course.ccs.neu.edu/cs2510sp18/)"
+
   -
     title: "Teaching Assistant"
-    employer: "University of Waterloo"
-    location: "Waterloo ON"
-    start: "May 2015"
-    end: "Aug 2016"
+    employer: "Southern Federal University"
+    location: "Rostov-on-Don, Russia"
+    start: "Sep 2008"
+    end: "Dec 2016"
     description:
-      - "[CS 444: Compiler Construction](https://www.student.cs.uwaterloo.ca/~cs444/) (Winter 2016)"
-      - "[CS 241E: Foundations of Sequential Programs, Enriched](https://www.student.cs.uwaterloo.ca/~cs241e/) (Fall 2015)"
-      - "[CS 241: Foundations of Sequential Programs](https://www.student.cs.uwaterloo.ca/~cs241/) (Spring 2015, Spring 2016)"
+      - "Programming Fundamentals"
+      - "Programming Languages"
+      - "Functional Programming"
+      - "Low-level Programming"
+      - "Automata and Languages"
+      - "Geometry and Linear Algebra"
 
 publications:
   -
@@ -70,31 +76,50 @@ service:
     position: "Student Volunteer"
     list:
       -
-        name: "ECOOP 2019"
-        link: "https://2019.ecoop.org/"
+        name: "ECOOP 2018"
+        link: "https://2018.ecoop.org/"
 
       -
         name: "SPLASH 2018"
         link: "https://2018.splashcon.org/"
-        note: "local organizer"
 
       -
-        name: "ECOOP 2018"
-        link: "https://2018.ecoop.org/"
-        note: "co-chair"
+        name: "ICFP 2020"
+        link: "https://icfp20.sigplan.org/"
+
+      -
+        name: "ICFP 2021"
+        link: "https://icfp21.sigplan.org/"
+
+  -
+    position: "Organizer"
+    list:
+      -
+        name: "ML4PL 2018"
+        link: "https://conf.researchr.org/committee/ecoop-issta-2018/ml4pl-2018-papers-organizing-committee"
+
+      -
+        name: "PLC 2017"
+        link: "http://plc.sfedu.ru/organizers.html"
+
+  -
+    position: "Web Chair"
+    list:
+      -
+        name: "ETAPS 2019"
+        link: "https://conf.researchr.org/committee/etaps-2019/etaps-2019-organizing-committee"
 
   -
     position: "Artifact Evaluation Committee"
     list:
       -
         name: "ICFP 2022"
-        link: "https://2018.ecoop.org/track/ecoop-2018-artifacts"
+        link: "https://icfp22.sigplan.org/track/icfp-2022-artifact-evaluation"
 
 skills:
-  - "Experienced with C, [CPP], Scala, Java, and Ruby"
-  - "Familiar with C[#], Perl, x86 and MIPS assembly, and JVM bytecode"
-  - "Some knowledge of Racket, OCaml, Haskell, ARM assembly, and LLVM IR"
-  - "Comfortable with Linux, macOS, and Windows environments"
+  - "Actively using Julia and Haskell"
+  - "Experienced with [CPP] and Java"
+  - "Familiar with Bash, Python, JavaScript, C, C[#], Scala, x86 assembly"
 
 awards:
   -
@@ -106,7 +131,7 @@ education:
     level: "Ph.D. Candidate"
     institution: "Northeastern University"
     location: "Boston MA"
-    date: "Sep 2016 [--] present"
+    date: "Sep 2018 [--] present"
 
   -
     level: "Master of Mathematics in Computer Science"
