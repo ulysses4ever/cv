@@ -26,10 +26,6 @@ work:
     location: "Rostov-on-Don, Russia"
     start: "Jan 2013"
     end: "Dec 2016"
-    description:
-      - "Computer Architecture"
-      - "Automata and Basic Cryptography"
-      - "Quantum Computing"
 
   -
     title: "Software Development Intern"
@@ -41,14 +37,28 @@ work:
       - "Developed an integration layer between the Bazel build system and the GHC compiler"
 
 teaching:
+
   -
-    title: "Teaching Assistant"
+    title: "Teaching Assistantship"
     employer: "Northeastern University"
     location: "Boston MA"
     start: "Jan"
     end: "Apr 2018"
     description:
-      - "[CS 2510: Fundamentals II, Introduction to Class-based Program Design](https://course.ccs.neu.edu/cs2510sp18/)"
+      - "[CS 4410/6410: Compilers](https://web.archive.org/web/20191126050611/https://course.ccs.neu.edu/csu4410/)"
+      - "[CS 4500: Software Development](http://janvitek.org/events/NEU/4500/s20/)"
+
+  -
+    title: "Instruction (including lecturing)"
+    employer: "Southern Federal University"
+    location: "Rostov-on-Don, Russia"
+    start: "Sep 2013"
+    end: "Dec 2016"
+    description:
+    description:
+      - "Computer Architecture"
+      - "Automata and Basic Cryptography"
+      - "Quantum Computing"
 
   -
     title: "Teaching Assistant"
@@ -92,21 +102,19 @@ service:
         link: "https://icfp21.sigplan.org/"
 
   -
-    position: "Organizer"
+    position: "Conference Organization"
     list:
-      -
-        name: "ML4PL 2018"
-        link: "https://conf.researchr.org/committee/ecoop-issta-2018/ml4pl-2018-papers-organizing-committee"
 
       -
         name: "PLC 2017"
         link: "http://plc.sfedu.ru/organizers.html"
 
-  -
-    position: "Web Chair"
-    list:
       -
-        name: "ETAPS 2019"
+        name: "ML4PL 2018"
+        link: "https://conf.researchr.org/committee/ecoop-issta-2018/ml4pl-2018-papers-organizing-committee"
+
+      -
+        name: "ETAPS 2019 (web chair)"
         link: "https://conf.researchr.org/committee/etaps-2019/etaps-2019-organizing-committee"
 
   -
@@ -115,6 +123,17 @@ service:
       -
         name: "ICFP 2022"
         link: "https://icfp22.sigplan.org/track/icfp-2022-artifact-evaluation"
+
+  -
+    position: "College Service"
+    list:
+
+      -
+        name: "PhD Admissions Committee (2019, 2020)"
+
+      -
+        name: "PhD Admissions Committee (2021): pre-application reviewing for applicants from
+        historically under-represented groups"
 
 skills:
   - "Actively using Julia and Haskell"
@@ -134,16 +153,14 @@ education:
     date: "Sep 2018 [--] present"
 
   -
-    level: "Master of Mathematics in Computer Science"
-    institution: "University of Waterloo"
-    location: "Waterloo ON"
-    date: "Jun 2017"
-    note: "Thesis: [Implementing a Functional Language for Flix](http://hdl.handle.net/10012/10856) (completed Sep 2016)"
+    level: "Master of Applied Mathematics and Computer Science"
+    institution: "Southern Federal University"
+    location: "Rostov-on-Don, Russia"
+    date: "Jun 2009"
+    note: "Thesis: BMS-algorithm and its application to decoding"
 
   -
-    level: "Bachelor of Software Engineering"
-    institution: "University of Waterloo"
-    location: "Waterloo ON"
-    date: "Jun 2014"
-    note: "With Distinction [---] Dean's Honours List"
-
+    level: "Bachelor of Applied Mathematics and Computer Science"
+    institution: "Southern Federal University"
+    location: "Rostov-on-Don, Russia"
+    date: "Jun 2007"
