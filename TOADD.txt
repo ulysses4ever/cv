@@ -1,3 +1,5 @@
 PRL-sem-jr talk on Idris 2017
 Boston CC talk on Linear Haskell 2021
 Type Stability Talk
+Admissions committee + service for underrepresented
+KGSA
