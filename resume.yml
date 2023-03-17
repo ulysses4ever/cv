@@ -24,8 +24,10 @@ work:
     title: "Teaching Assistant Professor"
     employer: "Southern Federal University"
     location: "Rostov-on-Don, Russia"
-    start: "Jan 2013"
+    start: "Sep 2012"
     end: "Dec 2016"
+    description:
+      - "Designed and instructed courses on Computer Architecture, Automata, and Quantum Computing"
 
   -
     title: "Software Development Intern"
@@ -49,7 +51,7 @@ teaching:
       - "[CS 4500: Software Development](http://janvitek.org/events/NEU/4500/s20/)"
 
   -
-    title: "Instruction (including lecturing)"
+    title: "Instruction on record"
     employer: "Southern Federal University"
     location: "Rostov-on-Don, Russia"
     start: "Sep 2013"
