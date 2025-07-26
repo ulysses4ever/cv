@@ -223,7 +223,7 @@ pubs =
   , defaultPub
       { title = "Can we learn some PL theory?: how to make use of a corpus of subtype checks"
       , authors = ["Artem Pelenitsyn"]
-      , venue = ""
+      , venue = "International Workshop on Machine Learning techniques for Programming Languages"
       , venueshort = "ML4PL '18"
       , year = 2018
       , doi = Just "10.1145/3236454.3236471"
