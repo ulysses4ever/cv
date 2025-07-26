@@ -1,6 +1,9 @@
 samples
 *.run.xml
 
+.auctex-auto
+TAGS
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
