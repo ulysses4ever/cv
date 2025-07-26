@@ -6,14 +6,14 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[11pt,a4paper]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[10pt,a4paper]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
-%\usepackage{url}
 \newcommand{\CPP}
 {C\nolinebreak[4]\hspace{-.05em}\raisebox{.35ex}{\scriptsize\bfseries +\hspace{-.05em}+}}
 
 \newcommand{\CSH}
 {C\hspace{-.05em}{\raisebox{0.3ex}{\scriptsize\#}}}
+%\usepackage{url}
 %\usepackage{hyperref}
 %\hypersetup{colorlinks=false,urlbordercolor=cyan,linkbordercolor=red}
 %\usepackage[T2A]{fontenc}
@@ -34,8 +34,10 @@
 \fi%
 }
 
+
 % moderncv themes\footnotesize
 \moderncvtheme[black]{classic}
+%\moderncvtheme{contemporary}
 %\moderncvstyle{oldstyle}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 %\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 \renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
@@ -47,16 +49,17 @@
 %\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.8]{geometry}
+\usepackage[hmargin=0.5in, vmargin=10pt]{geometry}
+%\usepackage[scale=0.8]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
 %\setlength{\maketitlenamewidth}{10cm}        % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
-\firstname{Artem}
-\familyname{Pelenitsyn}
+\firstname{}
+\familyname{<<= cfg.name >>}
 \title{Curriculum Vitæ}               % optional, remove the line if not wanted
-\address{50 South Huntington, apt. 22}{02130 Boston, MA, USA}    % optional, remove the line if not wanted
-\mobile{+1~(857)~204~4460}
+\address{<<= cfg.adr1 >>}{<<= cfg.adr2 >>}    % optional, remove the line if not wanted
+\mobile{<<= cfg.tel >>}
 %\mobile{+7~(961)~290~2878}                     % optional, remove the line if not wanted
 %\phone{+7~(863)~237~7831}                      % optional, remove the line if not wanted
 %\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
@@ -84,6 +87,8 @@
 
 \section{Occupation}
 
+% \ cventry {<year --year >}{< degree/job title >}{< institution /employer >}
+%           {<city >}{< grade >}{< description >}
 \cventry{2023--present}{Postdoc}{Purdue U.}{West Lafayette, USA}{Advisor: \textbf{Milind Kulkarni} (milind@purdue.edu)}{%\newline{}
 }
 \cventry{2018--2023}{PhD student}{Northeastern U.}{Boston, USA}{Advisor: \textbf{Jan Vitek} (j.vitek@neu.edu)}{%\newline{}
@@ -128,44 +133,22 @@
 
 Functional Programming, Mathematics of Programming, Type Systems, Programming languages
 
-%\clearpage
-
 \section{List Of Publications}
 
 \subsection{Peer-reviewed International}
 
-  \cvlistitem{%
-  Arkade: k-Nearest Neighbor Search With Non-Euclidean Distances using GPU Ray
-  Tracing (with D.K.~Mandarapu, V.~Nagarajan, M.~Kulkarni) //
-  In: ICS 2024.
-  \texttt{DOI: 10.1145/3650200.3656601}
-  \myhref{https://a-pelenitsyn.github.io/Papers/2024-ICS_arkade-knn-rtcore.pdf}{[PDF]}
-  }
-
-  \cvlistitem{%
-  Approximating Type Stability in the Julia JIT (Work in Progress) //
-  VMIL 2023: Proceedings of the 15th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages.
-  October 2023, Pages 83–87.
-  \texttt{DOI: 10.1145/3623507.3623556}
-  \myhref{https://a-pelenitsyn.github.io/Papers/2023-vmil-approximate-type-stability-short.pdf}{[PDF]}}
-
-  \cvlistitem{%
-  Type Stability in Julia: Avoiding Performance Pathologies in JIT Compilation (with J. Belyakova, B. Chung, R. Tate, J. Vitek) //
-  In: Proc. ACM Program. Lang., Vol. 5, Issue OOPSLA, 2021.
-  \texttt{DOI: 10.1145/3485527}
-  \myhref{https://a-pelenitsyn.github.io/Papers/2021-julia-type-stability.pdf}{[PDF]}}
-
-  \cvlistitem{%
-  Julia Subtyping: a Rational Reconstruction (with F. Zappa Nardelli, J. Belyakova, B. Chung, J. Bezanson, J. Vitek) // 
-  In: Proc. ACM Program. Lang., Vol. 2, Issue OOPSLA, 2018.
-  \texttt{DOI: 10.1145/3276483} 
-  \myhref{https://www.di.ens.fr/~zappa/projects/lambdajulia/paper.pdf}{[PDF]}}
-
-  \cvlistitem{%
-  Functional Parser of Markdown Language Based on Monad Combining and Monoidal Source Stream Representation (with G.Lukyanov) // In: Itsykson V., Scedrov A., Zakharov V. (eds) Tools and Methods of Program Analysis. TMPA 2017. CCIS, vol 779, pp. 90--101. Springer, Cham. \texttt{DOI: 10.1007/978-3-319-71734-0\_8} \myhref{https://a-pelenitsyn.github.io/Papers/2018-TMPA-effects-vs-transformers-in-parsing.pdf}{[PDF]}}
-
-  \cvlistitem{%
-  Associated Types and Constraint Propagation for Generic Programming in Scala // “Programming and Computer Software” (english trans. of “Programmirovanie”), 2015, No 4, pp. 224–230. \texttt{DOI: 10.1134/S0361768815040064} \myhref{https://a-pelenitsyn.github.io/Papers/2015-PCS-Scala-generics.pdf}{[PDF]}.}
+<< for pub in pubs >>
+\cvitem%
+  {<<= pub.venueshort >>}
+  {<<= pub.title >>
+\footnotesize//
+<< if pub.authors >>
+(with <<= pub.authors >>)
+<< endif >>
+ In: \emph{<<= pub.venue >>}.
+ \ttfamily DOI: \myhref{https://doi.org/<<= pub.doi >>}{<<= pub.doi >>}
+}
+<< endfor >>
 
 \subsection{Drafts}
 

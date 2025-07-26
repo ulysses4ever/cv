@@ -1,0 +1,168 @@
+contact:
+  name: "Artem Pelenitsyn"
+  email: "a.pelenitsyn@gmail.com"
+  site: "a-pelenitsyn.github.io"
+  github: "github.com/ulysses4ever"
+
+research:
+  -
+    position: "Research Assistant"
+    institution: "Northeastern University"
+    location: "Boston MA"
+    start: "Sep 2018"
+    end: "present"
+
+  -
+    position: "Research Assistant"
+    institution: "Czech Technical University"
+    location: "Prague, Czechia"
+    start: "Sep 2017"
+    end: "Jul 2018"
+
+work:
+  -
+    title: "Teaching Assistant Professor"
+    employer: "Southern Federal University"
+    location: "Rostov-on-Don, Russia"
+    start: "Sep 2012"
+    end: "Dec 2016"
+    description:
+      - "Designed and instructed courses on Computer Architecture, Automata, and Quantum Computing"
+
+  -
+    title: "Software Development Intern"
+    employer: "Tweag"
+    location: "Boston MA"
+    start: "Jun"
+    end: "Aug 2019"
+    description:
+      - "Developed an integration layer between the Bazel build system and the GHC compiler"
+
+teaching:
+
+  -
+    title: "Teaching Assistantship"
+    employer: "Northeastern University"
+    location: "Boston MA"
+    start: "Jan"
+    end: "Apr 2018"
+    description:
+      - "[CS 4410/6410: Compilers](https://web.archive.org/web/20191126050611/https://course.ccs.neu.edu/csu4410/)"
+      - "[CS 4500: Software Development](http://janvitek.org/events/NEU/4500/s20/)"
+
+  -
+    title: "Instruction on record"
+    employer: "Southern Federal University"
+    location: "Rostov-on-Don, Russia"
+    start: "Sep 2013"
+    end: "Dec 2016"
+    description:
+    description:
+      - "Computer Architecture"
+      - "Automata and Basic Cryptography"
+      - "Quantum Computing"
+
+  -
+    title: "Teaching Assistant"
+    employer: "Southern Federal University"
+    location: "Rostov-on-Don, Russia"
+    start: "Sep 2008"
+    end: "Dec 2016"
+    description:
+      - "Programming Fundamentals"
+      - "Programming Languages"
+      - "Functional Programming"
+      - "Low-level Programming"
+      - "Automata and Languages"
+      - "Geometry and Linear Algebra"
+
+publications:
+  -
+    authors: "A. Author, A. Pelenitsyn"
+    title: "[Some title](https://doi.org/xxx)"
+    in: "OOPSLA 2018"
+    date: "Nov 2018"
+
+service:
+  -
+    position: "Student Volunteer"
+    list:
+      -
+        name: "ECOOP 2018"
+        link: "https://2018.ecoop.org/"
+
+      -
+        name: "SPLASH 2018"
+        link: "https://2018.splashcon.org/"
+
+      -
+        name: "ICFP 2020"
+        link: "https://icfp20.sigplan.org/"
+
+      -
+        name: "ICFP 2021"
+        link: "https://icfp21.sigplan.org/"
+
+  -
+    position: "Conference Organization"
+    list:
+
+      -
+        name: "PLC 2017"
+        link: "http://plc.sfedu.ru/organizers.html"
+
+      -
+        name: "ML4PL 2018"
+        link: "https://conf.researchr.org/committee/ecoop-issta-2018/ml4pl-2018-papers-organizing-committee"
+
+      -
+        name: "ETAPS 2019 (web chair)"
+        link: "https://conf.researchr.org/committee/etaps-2019/etaps-2019-organizing-committee"
+
+  -
+    position: "Artifact Evaluation Committee"
+    list:
+      -
+        name: "ICFP 2022"
+        link: "https://icfp22.sigplan.org/track/icfp-2022-artifact-evaluation"
+
+  -
+    position: "College Service"
+    list:
+
+      -
+        name: "PhD Admissions Committee (2019, 2020)"
+
+      -
+        name: "PhD Admissions Committee (2021): pre-application reviewing for applicants from
+        historically under-represented groups"
+
+skills:
+  - "Actively using Julia and Haskell"
+  - "Experienced with [CPP] and Java"
+  - "Familiar with Bash, Python, JavaScript, C, C[#], Scala, x86 assembly"
+
+awards:
+  -
+    name: "NSERC Postgraduate Scholarship - Doctoral"
+    date: "2016 [--] 2019"
+
+education:
+  -
+    level: "Ph.D. Candidate"
+    institution: "Northeastern University"
+    location: "Boston MA"
+    date: "Sep 2018 [--] present"
+
+  -
+    level: "Master of Applied Mathematics and Computer Science"
+    institution: "Southern Federal University"
+    location: "Rostov-on-Don, Russia"
+    date: "Jun 2009"
+    note: "Thesis: BMS-algorithm and its application to decoding"
+
+  -
+    level: "Bachelor of Applied Mathematics and Computer Science"
+    institution: "Southern Federal University"
+    location: "Rostov-on-Don, Russia"
+    date: "Jun 2007"
