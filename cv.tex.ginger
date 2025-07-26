@@ -89,9 +89,9 @@
 
 % \ cventry {<year --year >}{< degree/job title >}{< institution /employer >}
 %           {<city >}{< grade >}{< description >}
-\cventry{2023--present}{Postdoc}{Purdue U.}{West Lafayette, USA}{Advisor: \textbf{Milind Kulkarni} (milind@purdue.edu)}{%\newline{}
+\cventry{2023--present}{Postdoc}{Purdue U.}{West Lafayette, USA}{Advisor: Milind Kulkarni}{%
 }
-\cventry{2018--2023}{PhD student}{Northeastern U.}{Boston, USA}{Advisor: \textbf{Jan Vitek} (j.vitek@neu.edu)}{%\newline{}
+\cventry{2018--2023}{PhD student}{Northeastern U.}{Boston, USA}{Advisor: Jan Vitek}{%
 }
 \cventry{Summer 2019}{Intern}{\myhref{https://www.tweag.io/}{Tweag I/O}, France (remotely; \myhref{https://www.tweag.io/posts/2019-09-25-bazel-ghc-persistent-worker-internship.html}{final report})}{}{}{%\newline{}
 }
@@ -108,30 +108,29 @@
 
 \section{Education}
 \cventry%
-    {2003--2007}%
-    {B.Sc. in Applied Mathematics and Computer Science}%
+    {2007}%
+    {B. Sc. in Applied Mathematics and Computer Science}%
     {Southern Federal University}%
-    {Rostov-na-Donu, Russia}%
+    {Russia}%
     {\myhref%
         {https://a-pelenitsyn.github.io/Files/Edu/Diploma/diploma-euro-supplement-bsc.pdf}%
-        {link to the transcript}}  % arguments 3 to 6 can be left empty
-    {Major: Foundations and Software Engineering for Computer Science}
+        {[transcript]}}  % arguments 3 to 6 can be left empty
+    {}
 \cventry%
-    {2007--2009}%
-    {M.Sc. in Applied Mathematics and Computer Science}%
+    {2009}%
+    {M. Sc. in Applied Mathematics and Computer Science}%
     {Southern Federal University}%
-    {Rostov-na-Donu, Russia}%
-    {\myhref{https://a-pelenitsyn.github.io/Files/Edu/Diploma/diploma-euro-supplement-msc.pdf}{link to the transcript}}%
-    {Major: Foundations and Software Engineering for Computer Science}
+    {Russia}%
+    {\myhref{https://a-pelenitsyn.github.io/Files/Edu/Diploma/diploma-euro-supplement-msc.pdf}{[transcript]}}%
+    {}
 
-\subsection{Master thesis}
-\cvitem{title}{\emph{BMS-algorithm and its application to decoding}}
-\cvitem{supervisor}{Prof. V.M.~Deundyak}
+\cvitem{MSc thesis}
+  {\emph{BMS-algorithm and its application to decoding} (advisor: Prof. V.M.~Deundyak)}
 %\cvitem{description}{Short thesis abstract}
 
 \section{Research interests}
 
-Functional Programming, Mathematics of Programming, Type Systems, Programming languages
+Programming Languages and Compilers, Functional Programming, Types in Programming Languages
 
 \section{List Of Publications}
 
@@ -556,15 +555,22 @@ Functional Programming, Mathematics of Programming, Type Systems, Programming la
 
 \subsection{Academic Conference Organization}
 
-  \cvitem{\myhref{https://icfp22.sigplan.org/track/icfp-2022-artifact-evaluation}{ICFP '22}}{Artifact Evaluation Committee}
+  \cvlistitem%
+    {\textbf{Program Committees:}
+    PLDI '25, SBLP '25}
 
-  \cvitem{\myhref{https://conf.researchr.org/committee/etaps-2019/etaps-2019-organizing-committee}{ETAPS '19}}{Web Co-Chair}
+  \cvlistitem%
+    {\textbf{Organizing Committees:}
+    \myhref{https://conf.researchr.org/committee/ecoop-issta-2018/ml4pl-2018-papers-organizing-committee}{ML4PL '18}, \myhref{http://plc.sfedu.ru/organizers.html}{PLC '17}}
 
-  \cvitem{\myhref{https://conf.researchr.org/committee/ecoop-issta-2018/ml4pl-2018-papers-organizing-committee}{ML4PL '18}}{Organizer}
+  \cvlistitem%
+    {\textbf{Artifact Evaluation Committee:} \myhref{https://icfp22.sigplan.org/track/icfp-2022-artifact-evaluation}{ICFP '22}}
 
-  \cvitem{\myhref{http://plc.sfedu.ru/organizers.html}{PLC '17}}{Organizer}
+  \cvlistitem%
+    {\textbf{Web Co-Chair:} \myhref{https://conf.researchr.org/committee/etaps-2019/etaps-2019-organizing-committee}{ETAPS '19}}
 
-  \cvitem{ECOOP '18, SPLASH '18, ICFP '20, '21}{Student Volunteer}
+  \cvlistitem%
+    {\textbf{Student Volunteer:} ECOOP '18, SPLASH '18, ICFP '20, '21}
 
 \subsection{Book Translations (English to Russian)}
 
@@ -581,11 +587,14 @@ Functional Programming, Mathematics of Programming, Type Systems, Programming la
 \subsection{Open Source Software Contributions}
 
   %\cvitem{\myhref{}{}}{}
-  \cvitem{\myhref{https://www.haskell.org/ghc/}{GHC}\\--- contributor}{The Glasgow Haskell Compiler (\myhref{https://github.com/ghc/ghc/search?o=desc&q=author:ulysses4ever&s=committer-date&type=Commits}{10+ commits})}
+  \cvitem{\myhref{https://www.haskell.org/cabal/}{Cabal}}{Contributor, maintainer, release manager for the Haskell build system Cabal
+    (\myhref{https://github.com/haskell/cabal/commits/master/?author=ulysses4ever}{10+ commits})}
 
-  \cvitem{\myhref{http://hackage.haskell.org/package/BNFC-meta}{BNFC-meta} --- maintainer}{Embedding BNF grammars into Haskell source via Template Haskell}
+  \cvitem{\myhref{https://www.haskell.org/ghc/}{GHC}}{Contributor to the Glasgow Haskell Compiler (\myhref{https://github.com/ghc/ghc/search?o=desc&q=author:ulysses4ever&s=committer-date&type=Commits}{10+ commits})}
 
-  \cvitem{\myhref{https://juliahub.com/ui/Packages/Monads/dLhEn/}{Monads.jl}\\--- maintainer}{Monadic do-notation for the Julia programming language}
+  \cvitem{\myhref{http://hackage.haskell.org/package/BNFC-meta}{BNFC-meta}}{Maintainer of the Haskell BNFC-meta package for embedding BNF grammars into source via Template Haskell}
+
+  \cvitem{\myhref{https://juliahub.com/ui/Packages/Monads/dLhEn/}{Monads.jl}}{Maintainer for Julia Mondas.jl package implementing monadic do-notation for the Julia programming language}
 
 \section{Pet Projects}
 
@@ -664,20 +673,12 @@ Functional Programming, Mathematics of Programming, Type Systems, Programming la
 \cvitem{Gender}{Male}
 \cvitem{Pronouns}{He/His/him}
 \cvitem{Marital status}{Married to \myhref{https://julbinb.github.io/}{Julia Belyakova}}
-\cvitem{Current place of living}{Boston, USA}
+\cvitem{Current place of living}{Lafayette, IN, USA}
 \cvitem{Citizenship, Homeland}{Russia}
 \cvitem{Name spelling}{To reflect the reality, my first name transliteration should be, in fact, something like Artyom. Also, there is no ‘ch’ sound after the ‘r’ sound — just ‘t’.}
 %\cvitem{Name spelling in Russian}{Артём Михайлович Пеленицын}
 \cvitem{Languages}{
-  Russian: Native; English: Advanced (IELTS exam band score 7.5 taken in 2012)}
-
-
-\subsection{Non-technical Interests}
-
-\cvitem{Classical literature}{Homer, Goethe, Joyce, Kafka, Camus, Sartr, Brodsky}
-\cvitem{Art cinema}{Bergman, Fellini, Truffaut, Tarkovsky, Wenders, Kitano, von Trier}
-
-
+  Russian: Native; English: Advanced}
 
 
 %\cvitemwithcomment{Language 3}{Skill level}{Comment}
