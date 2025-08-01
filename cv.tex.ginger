@@ -149,12 +149,16 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 \cvitem%
   {<<= pub.venueshort >>}
   {<<= pub.title >>
-\footnotesize//
-<< if pub.authors >>
-(with <<= pub.authors >>)
+{\footnotesize//}
+<< if pub.award >>
+  \textbf{<<= pub.award >>}
 << endif >>
- In: \emph{<<= pub.venue >>}.
- \ttfamily DOI: \myhref{https://doi.org/<<= pub.doi >>}{<<= pub.doi >>}
+\footnotesize
+<< if pub.authors >>
+  (with <<= pub.authors >>)
+<< endif >>
+  In: \emph{<<= pub.venue >>}.
+  \ttfamily DOI: \myhref{https://doi.org/<<= pub.doi >>}{<<= pub.doi >>}
 }
 << endfor >>
 

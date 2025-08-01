@@ -95,9 +95,12 @@ data Publication = MkPublication
   , year :: Int
   , doi :: Maybe Text
   , pdf :: Text
+  , award :: Maybe Text
   }
   deriving (Generic, ToJSON)
 
+-- Default publication, used to fill in missing fields.
+-- Everything marked with `error` should be filled in by the user.
 defaultPub = MkPublication
   { title = error "Untitled"
   , authors = error "Unknown authors"
@@ -106,6 +109,7 @@ defaultPub = MkPublication
   , year = error "Unknown year"
   , doi = Nothing
   , pdf = "unknown.pdf"
+  , award = Nothing
   }
 
 pubsCv :: [Publication]
@@ -167,6 +171,7 @@ pubs =
       , venueshort = "ICS '24"
       , year = 2024
       , doi = Just "10.1145/3650200.3656601"
+      , award = Just "Best Paper Award"
       }
   , defaultPub
       { title = "Garbage Collection for Mostly Serialized Heaps"
@@ -201,6 +206,7 @@ pubs =
       , year = 2021
       , doi = Just "10.1145/3485527"
       }
+  -- TODO: arXiv should probably be a "type" of publication once I add support for it
   -- , defaultPub
   --     { title = "Type Stability in Julia: Avoiding Performance Pathologies in JIT Compilation (Extended Version)"
   --     , authors = ["Artem Pelenitsyn", "Julia Belyakova", "Benjamin Chung", "Ross Tate", "Jan Vitek"]
@@ -217,14 +223,15 @@ pubs =
       , year = 2018
       , doi = Just "10.1145/3276483"
       }
-  , defaultPub
-      { title = "Can we learn some PL theory?: how to make use of a corpus of subtype checks"
-      , authors = ["Artem Pelenitsyn"]
-      , venue = "International Workshop on Machine Learning techniques for Programming Languages"
-      , venueshort = "ML4PL '18"
-      , year = 2018
-      , doi = Just "10.1145/3236454.3236471"
-      }
+  -- TODO: ML4PL should be a talk once talks are supported
+  -- , defaultPub
+  --     { title = "Can we learn some PL theory?: how to make use of a corpus of subtype checks"
+  --     , authors = ["Artem Pelenitsyn"]
+  --     , venue = "International Workshop on Machine Learning techniques for Programming Languages"
+  --     , venueshort = "ML4PL '18"
+  --     , year = 2018
+  --     , doi = Just "10.1145/3236454.3236471"
+  --     }
   , defaultPub
       { title = "Functional Parser of Markdown Language Based on Monad Combining and Monoidal Source Stream Representation"
       , authors = ["Georgy Lukyanov", "Artem Pelenitsyn"]
