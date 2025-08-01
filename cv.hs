@@ -30,7 +30,7 @@ main = do
   etemplate <- parseGingerFile'
     ((mkParserOptions resolver) { poDelimiters = myDelimiters })
     "cv.tex.ginger"
-  let template = either (\e -> error (show e)) id etemplate
+  let template = either (error . show) id etemplate
   Text.putStrLn $
     runGinger
       (makeContextText context)
@@ -54,7 +54,7 @@ context = \case
 
 
 -- ##############################################
--- ##                 Datatypes                ##
+-- ##                 Config                   ##
 -- ##############################################
 
 data Config = MkConfig
@@ -69,6 +69,23 @@ data Config = MkConfig
   }
   deriving (Generic, ToJSON)
 
+
+myConfig :: Config
+myConfig = MkConfig
+  { name = "Artem Pelenitsyn"
+  , email = "a@pelenitsyn.top"
+  , adr1  = "1308 South St, Apt 1"
+  , adr2  = "Lafayette, IN, USA, 47901"
+  , tel = "+1-(857)-204-4460"
+  , web = "https://a.pelenitsyn.top"
+  , dblp = "https://dblp.org/pid/165/7962.html"
+  , gScholar = "https://scholar.google.com/citations?user=my1k3PQAAAAJ&hl=en"
+  }
+
+
+-- ##############################################
+-- ##                 Publications             ##
+-- ##############################################
 
 data Publication = MkPublication
   { title :: Text
@@ -90,26 +107,6 @@ defaultPub = MkPublication
   , doi = Nothing
   , pdf = "unknown.pdf"
   }
-
--- ##############################################
--- ##                 Config                   ##
--- ##############################################
-
-myConfig :: Config
-myConfig = MkConfig
-  { name = "Artem Pelenitsyn"
-  , email = "a@pelenitsyn.top"
-  , adr1  = "1308 South St, Apt 1"
-  , adr2  = "Lafayette, IN, USA, 47901"
-  , tel = "+1-(857)-204-4460"
-  , web = "https://a.pelenitsyn.top"
-  , dblp = "https://dblp.org/pid/165/7962.html"
-  , gScholar = "https://scholar.google.com/citations?user=my1k3PQAAAAJ&hl=en"
-  }
-
--- ##############################################
--- ##                 Publications             ##
--- ##############################################
 
 pubsCv :: [Publication]
 pubsCv = pubs
