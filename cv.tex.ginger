@@ -222,9 +222,9 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 
   }
 
-\section{Conference Talks: Research}
+\section{Talks}
 
-\subsection{International}
+\subsection{Research, International Conferences}
 
 \cventry{2023}%
     {ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages, 2023}%
@@ -239,7 +239,7 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
     {OOPSLA Research Papers Track Talk ``Type Stability in Julia: Avoiding Performance Pathologies in JIT Compilation''}
     {Chicago, USA, 2021}{}%
     {%
-	    \myhref{https://2021.splashcon.org/details/splash-2021-oopsla/54/Type-Stability-in-Julia-Avoiding-Performance-Pathologies-in-JIT-Compilation}{Link to the conference page} (inlcudes video)%
+      \myhref{https://2021.splashcon.org/details/splash-2021-oopsla/54/Type-Stability-in-Julia-Avoiding-Performance-Pathologies-in-JIT-Compilation}{Link to the conference page} (includes video)%
     }
 
 \cventry{2018}%
@@ -259,38 +259,7 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
     %\myhref{https://conf.researchr.org/event/ecoop-issta-2018/ml4pl-2018-papers-can-we-learn-some-pl-theory-how-to-make-use-of-a-corpus-of-subtype-checks}{Link to the abstract}%
     }
 
-{\footnotesize
-\subsection{Russian}
-
-\cventry{2015}%
-    {Scientific Conference “Modern Information Technologies and IT-Education”}%
-    {talk “\protect\CPP{}17 Concepts in their relation to \protect\CPP{}0x ones”}
-    {Lomonosov Moscov State University, Faculty of Computational Mathematics and Cybernetics}{}%
-    {%
-    %\myhref{http://conf.it-edu.ru/conference/2015/programm}{Link to the web-site (in Russian)},%
-    %\myhref{https://a-pelenitsyn.github.io/Papers/Talks/2015-SITITO-Cpp1z-concepts.pdf}{link to the slides (in Russian)}.%
-    }
-
-\cventry{2012}%
-    {Research and Pratice Conference: Free Open Source Software “FOSS Lviv 2012”}%
-    {talk “Software Implementation of Decoder For a Class Of Error-Correcting Codes on Algebraic Curves: Designing on a Basis of Generic Metaprogramming Templates”}%
-    {Ivan Franko National University of Lviv, Lviv, Ukraine}{}%
-    {%
-    %\myhref{http://conference.linux.lviv.ua/en/main}{Link to the web-site},%
-    %\myhref{https://a-pelenitsyn.github.io/Papers/Talks/2012-FOSS-Lviv.pdf}{link to the slides (in Russian)}.%
-    }
-
-\cventry{2008}%
-    {Conference “Week of Science” in Southern Federal University}%
-    {talk “On Implementation of Decoder for a Class of Algebraic-Geometry Codes on Projectve Curves using Sakata algorithm”}%
-    {Rostov-na-Donu, Russia}{}%
-    {%
-    %\myhref{https://a-pelenitsyn.github.io/Papers/Talks/2008-SFedU-SciWeek-slides.pdf}{Link to the slides (in Russian)}.%
-    }
-}
-
-\section{Seminar Talks}
-{\footnotesize
+\subsection{Research Seminars}
 %\subsection{In English}
 
 \cventry{2021}
@@ -361,7 +330,6 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
     %\myhref{https://a-pelenitsyn.github.io/Papers/Talks/2009-03-19-CT-inducttypes.pdf}{Link to the slides (in Russian)}%
     }
 
-
 \cventry{2008}%
     {Talk “Spring Framework”}%
     {Rostov Java User Group}%
@@ -370,12 +338,41 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
     {%
     %\myhref{https://a-pelenitsyn.github.io/Papers/Talks/2008-RostovJUG-SpringFramework.zip}{Link to the slides (xul format -- to be run in Mozilla Firefox browser; in Russian)}%
     }
+
+
+\subsection{Research, Russian}
+
+{\footnotesize
+\cventry{2015}%
+    {Scientific Conference “Modern Information Technologies and IT-Education”}%
+    {talk “\protect\CPP{}17 Concepts in their relation to \protect\CPP{}0x ones”}
+    {Lomonosov Moscow State University, Faculty of Computational Mathematics and Cybernetics}{}%
+    {%
+    %\myhref{http://conf.it-edu.ru/conference/2015/programm}{Link to the web-site (in Russian)},%
+    %\myhref{https://a-pelenitsyn.github.io/Papers/Talks/2015-SITITO-Cpp1z-concepts.pdf}{link to the slides (in Russian)}.%
+    }
+
+\cventry{2012}%
+    {Research and Practice Conference: Free Open Source Software “FOSS Lviv 2012”}%
+    {talk “Software Implementation of Decoder For a Class Of Error-Correcting Codes on Algebraic Curves: Designing on a Basis of Generic Metaprogramming Templates”}%
+    {Ivan Franko National University of Lviv, Lviv, Ukraine}{}%
+    {%
+    %\myhref{http://conference.linux.lviv.ua/en/main}{Link to the web-site},%
+    %\myhref{https://a-pelenitsyn.github.io/Papers/Talks/2012-FOSS-Lviv.pdf}{link to the slides (in Russian)}.%
+    }
+
+\cventry{2008}%
+    {Conference “Week of Science” in Southern Federal University}%
+    {talk “On Implementation of Decoder for a Class of Algebraic-Geometry Codes on Projectve Curves using Sakata algorithm”}%
+    {Rostov-na-Donu, Russia}{}%
+    {%
+    %\myhref{https://a-pelenitsyn.github.io/Papers/Talks/2008-SFedU-SciWeek-slides.pdf}{Link to the slides (in Russian)}.%
+    }
 }
 
-\section{Conference Talks: Education, Technology, Popular Science}
+\subsection{Talks on Education, Technology, Popular Science}
 
-\subsection{International}
-
+{\footnotesize
 \cventry{2014}%
     {Joint International Program For Scientific and Technology Cooperation}%
     {talk “Computer Science Projects Developed inside (in connection with) Department of Mathematics, Mechanics and Computer Sciences / SFedU”}
@@ -384,9 +381,6 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
     %\myhref{http://sfedu.ru/www/sfedu$news$.show_full?p_nws_id=46741}{Info on university web-site} (in Russian),%
     %\myhref{https://a-pelenitsyn.github.io/Papers/Talks/2014-BRICS-University-Forum.pdf}{link to the slides}.%
     }
-
-{\footnotesize
-\subsection{Russian}
 
 \cventry{2015}%
     {Scientific Conference “Modern Information Technologies in Education”}%
@@ -568,7 +562,7 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 
   \cvlistitem%
     {\textbf{Program Committees:}
-    PLDI '25, SBLP '25}
+    PLC '17, ML4PL '18, PLDI '25, SBLP '25}
 
   \cvlistitem%
     {\textbf{Organizing Committees:}
