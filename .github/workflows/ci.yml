@@ -26,8 +26,9 @@ jobs:
         run: nix-build
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
-        path:
-          name: result/cv.pdf
+        with:
+          name: cv.pdf
+          path: result/cv.pdf
 
   prerelease:
     name: Create a GitHub prerelease 🚀
