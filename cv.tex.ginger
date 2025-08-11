@@ -262,6 +262,18 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 \subsection{Research Seminars}
 %\subsection{In English}
 
+\cventry{2025}
+    {Cultivating performance with types and without}
+    {Portland State University, PLV seminar}{}
+    {Boston, USA (virtually, \myhref{https://docs.google.com/presentation/d/1XQdapCJZJ4uEbiPRdUpfEDZT7Tcl9q9xOPX3ldP-4do/edit?usp=sharing}{Slides})}
+    {}
+
+\cventry{2023}
+    {Type Stability In Julia: A Simple and Efficient Optimization Technique}
+    {PurPL Seminar}{}
+    {Lafayette, USA (\myhref{https://docs.google.com/presentation/d/1iSve1WRMC5x-GAGohOQumYIu7eYJZ3IjgQ9g8xq51w4/edit?usp=sharing}{Slides})}
+    {}
+
 \cventry{2021}
     {Linear Haskell}
     {Boston Computation Club}{}
