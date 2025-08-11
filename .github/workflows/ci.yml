@@ -1,4 +1,4 @@
-name: Build CV and deploy the PDF to GitHub Pages
+name: Build CV and deploy as prerelease
 
 on:
   push:
@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Nix 🦄
@@ -24,8 +24,32 @@ jobs:
         uses: actions/checkout@v4
       - name: Install and Build 🔧
         run: nix-build
-      - name: Deploy 🚀
-        if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
         with:
-          folder: result
+          name: result/cv.pdf
+
+  prerelease:
+    name: Create a GitHub prerelease 🚀
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    permissions:
+      contents: write
+
+    needs: [build]
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: cv.pdf
+          merge-multiple: true
+
+      - name: (Re)Create GitHub prerelease
+        uses: andelf/nightly-release@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: head
+          name: cv-head
+          prerelease: true
+          files: "cv.pdf"
