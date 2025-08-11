@@ -3,7 +3,7 @@
 ### Requirements
 
 * Haskell toolchain (cabal, ghc)
-* Latex toolchain (latexmk to use the Makefile)
+* LaTeX toolchain (latexmk to use the Makefile)
 
 
 ### Build
