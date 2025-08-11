@@ -1,12 +1,3 @@
-#!/usr/bin/env cabal
-{- cabal:
-build-depends:  base
-              , aeson
-              , ginger
-              , text
-default-language: GHC2021
--}
-
 {-# LANGUAGE BlockArguments #-}
 {-# LANGUAGE DeriveAnyClass #-}
 {-# LANGUAGE LambdaCase #-}

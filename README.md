@@ -5,13 +5,16 @@
 * Haskell toolchain (cabal, ghc)
 * Latex toolchain (latexmk to use the Makefile)
 
+
 ### Build
 
-``` shellsession
-make
-```
+The main way to build this CV is via Nix: call `nix-build` to get `restult/cv.pdf`.
 
-Should produce `cv.pdf`.
+You can also use `make` (the `all` target does the job), but it assumes GHC has
+the necessary packages in its package database (the packages are listed in
+`default.nix`). The easiest way to set this up is probably by doing `cabal
+install --lib package1 package2...` manually.
+
 
 ### Philosophy
 
