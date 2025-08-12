@@ -1,5 +1,8 @@
-%% start of file `template.tex'.
-%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%%
+%% Artem's CV
+%%
+
+%% Adapted from `template.tex' (Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com))
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License version 1.3c,
@@ -43,13 +46,10 @@
 \renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 
-% character encoding
 \usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
-% \usepackage[T2A]{fontenc} -- this breaks moderncv horribly
-%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[hmargin=0.5in, vmargin=15pt]{geometry}
+\usepackage[hmargin=0.5in, vmargin=0.5in]{geometry}
 %\usepackage[scale=0.8]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
 %\setlength{\maketitlenamewidth}{10cm}        % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
@@ -57,7 +57,7 @@
 % personal data
 \firstname{}
 \familyname{<<= cfg.name >>}
-\title{Curriculum Vitæ}               % optional, remove the line if not wanted
+\title{Curriculum Vitæ \footnotesize (Last updated: \today)}               % optional, remove the line if not wanted
 \address{<<= cfg.adr1 >>}{<<= cfg.adr2 >>}    % optional, remove the line if not wanted
 \mobile{<<= cfg.tel >>}
 %\mobile{+7~(961)~290~2878}                     % optional, remove the line if not wanted
@@ -82,7 +82,6 @@
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
-%\begin{CJK*}{UTF8}{gbsn}                     % to typeset your resume in Chinese using CJK
 \maketitle
 
 \section{Occupation}
