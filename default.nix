@@ -2,8 +2,9 @@
 
 let
   texlive = pkgs.texlive.combine {
-    inherit (pkgs.texlive) scheme-small latexmk
-      collection-fontsrecommended
+    inherit (pkgs.texlive)
+      scheme-full latexmk
+      # collection-langcyrillic
       moderncv;
   };
 in pkgs.stdenv.mkDerivation {

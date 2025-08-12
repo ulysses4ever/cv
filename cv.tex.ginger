@@ -10,7 +10,13 @@
 
 
 \documentclass[10pt,a4paper]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}              % if you are not using xelatex ou lualatex, replace by the encoding you are using
 
+
+%%
+%% Macros
+%%
 \newcommand{\CPP}
 {C\nolinebreak[4]\hspace{-.05em}\raisebox{.35ex}{\scriptsize\bfseries +\hspace{-.05em}+}}
 
@@ -38,6 +44,9 @@
 }
 
 
+%%
+%% moderncv setup
+%%
 % moderncv themes\footnotesize
 \moderncvtheme[black]{classic}
 %\moderncvtheme{contemporary}
@@ -46,30 +55,18 @@
 \renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 
-\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
 
-% adjust the page margins
+%%
+%% Margins
+%%
 \usepackage[hmargin=0.5in, vmargin=0.5in]{geometry}
 %\usepackage[scale=0.8]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
 %\setlength{\maketitlenamewidth}{10cm}        % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
-% personal data
-\firstname{}
-\familyname{<<= cfg.name >>}
-\title{Curriculum Vitæ \footnotesize (Last updated: \today)}               % optional, remove the line if not wanted
-\address{<<= cfg.adr1 >>}{<<= cfg.adr2 >>}    % optional, remove the line if not wanted
-\mobile{<<= cfg.tel >>}
-%\mobile{+7~(961)~290~2878}                     % optional, remove the line if not wanted
-%\phone{+7~(863)~237~7831}                      % optional, remove the line if not wanted
-%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
-%\email{ulysses4ever@gmail.com}                          % optional, remove the line if not wanted
-\email{a@pelenitsyn.top}
-\homepage{a.pelenitsyn.top}                    % optional, remove the line if not wanted
-%\extrainfo{Current place of living: Rostov-na-Donu, Russia}            % optional, remove the line if not wanted
-% \photo{neu-2018.jpg}%[64pt][0.4pt]                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
-%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
-
+%%
+%% Bibliography settings (not used)
+%%
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
 %\makeatletter
 %\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
@@ -78,11 +75,37 @@
 % bibliography with mutiple entries
 %\usepackage{multibib}
 %\newcites{book,misc}{{Books},{Others}}
+
+\title{Curriculum Vitæ \footnotesize (Last updated: \today)}               % optional, remove the line if not wanted
+
+%%
+%% Contact
+%%
+\firstname{}
+\familyname{<<= cfg.name >>}
+\address{<<= cfg.adr1 >>}{<<= cfg.adr2 >>}    % optional, remove the line if not wanted
+\mobile{<<= cfg.tel >>}
+\email{<<= cfg.email >>}
+\homepage{<<= cfg.web >>}                    % optional, remove the line if not wanted
+
+% Attic:
+%\mobile{+7~(961)~290~2878}                     % optional, remove the line if not wanted
+%\phone{+7~(863)~237~7831}                      % optional, remove the line if not wanted
+%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
+%\email{ulysses4ever@gmail.com}                          % optional, remove the line if not wanted
+%\extrainfo{Current place of living: Rostov-na-Donu, Russia}            % optional, remove the line if not wanted
+%\photo{neu-2018.jpg}%[64pt][0.4pt]                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
 \maketitle
+
+\section{Research interests}
+
+Programming Languages and Compilers, Functional Programming, Types in Programming Languages
 
 \section{Occupation}
 
@@ -112,14 +135,14 @@
     {Northeastern University}%
     {USA}%
     {}%
-    {}
+    {Thesis: \emph{Type Stability in Julia: A Simple and Efficient Optimization Technique} (advisor: Jan Vitek)}
 \cventry%
     {2009}%
     {M. Sc. in Applied Mathematics and Computer Science}%
     {Southern Federal University}%
     {Russia}%
     {\myhref{https://a-pelenitsyn.github.io/Files/Edu/Diploma/diploma-euro-supplement-msc.pdf}{[transcript]}}%
-    {}
+    {\emph{BMS-algorithm and its application to decoding} (advisor: Vladimir Deundyak)}
 \cventry%
     {2007}%
     {B. Sc. in Applied Mathematics and Computer Science}%
@@ -130,19 +153,12 @@
         {[transcript]}}  % arguments 3 to 6 can be left empty
     {}
 
-\cvitem{Ph. D. thesis}
-  {\emph{Type Stability in Julia: A Simple and Efficient Optimization Technique} (advisor: Jan Vitek)}
-\cvitem{M. Sc. thesis}
-  {\emph{BMS-algorithm and its application to decoding} (advisor: Vladimir Deundyak)}
-%\cvitem{description}{Short thesis abstract}
-
-\section{Research interests}
-
-Programming Languages and Compilers, Functional Programming, Types in Programming Languages
 
 \section{List Of Publications}
 
 \subsection{Peer-reviewed International}
+
+%\cvitem{description}{Short thesis abstract}
 
 << for pub in pubs >>
 \cvitem%
@@ -687,12 +703,12 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 \section{Personal Info}
 
 \cvitem{Gender}{Male}
-\cvitem{Pronouns}{He/His/him}
-\cvitem{Marital status}{Married to \myhref{https://julbinb.github.io/}{Julia Belyakova}}
+\cvitem{Pronouns}{He/His/They/Their}
+\cvitem{Family}{Married to \myhref{https://julbinb.github.io/}{Julia Belyakova} with two kids}
 \cvitem{Current place of living}{Lafayette, IN, USA}
 \cvitem{Citizenship, Homeland}{Russia}
 \cvitem{Name spelling}{To reflect the reality, my first name transliteration should be, in fact, something like Artyom. Also, there is no ‘ch’ sound after the ‘r’ sound — just ‘t’.}
-%\cvitem{Name spelling in Russian}{Артём Михайлович Пеленицын}
+%\cvitem{Name spelling in Russian}{Артём Михайлович Пеленицын} % it's annoying to set up cyrillic support with nix-provided latex :-(
 \cvitem{Languages}{
   Russian: Native; English: Advanced}
 
