@@ -9,14 +9,14 @@
 ### Build
 
 The main way to build this CV is via Nix: call `nix-build` to get `restult/cv.pdf`.
+For convenience, `make` (and `make all`) does that plus it copies the result in CWD.
 
-You can also use `make` (the `all` target does the job), but it assumes GHC has
-the necessary packages in its package database (the packages are listed in
-`default.nix`). The easiest way to set this up is probably by doing `cabal
-install --lib package1 package2...` manually.
+The nix-less way of building the CV is `make pdf`.
+It assumes GHC has the necessary packages in its package database (the packages are listed in `default.nix`).
+The easiest way to set this up is probably by doing `cabal install --lib package1 package2... --package-env .` manually.
 
 
-### Philosophy
+### Architecture
 
 I've been keeping this CV for many years as just a Latex file.
 But then I got tired of navigating tons of Latex code to make simple updates.
