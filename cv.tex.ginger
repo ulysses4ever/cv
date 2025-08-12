@@ -10,7 +10,7 @@
 
 
 \documentclass[10pt,a4paper]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
-\usepackage[T2A]{fontenc}
+%\usepackage[T2A]{fontenc}               % it's annoying to set up cyrillic support with nix-provided latex :-(
 \usepackage[utf8]{inputenc}              % if you are not using xelatex ou lualatex, replace by the encoding you are using
 
 
@@ -708,7 +708,7 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 \cvitem{Current place of living}{Lafayette, IN, USA}
 \cvitem{Citizenship, Homeland}{Russia}
 \cvitem{Name spelling}{To reflect the reality, my first name transliteration should be, in fact, something like Artyom. Also, there is no ‘ch’ sound after the ‘r’ sound — just ‘t’.}
-%\cvitem{Name spelling in Russian}{Артём Михайлович Пеленицын} % it's annoying to set up cyrillic support with nix-provided latex :-(
+%\cvitem{Name spelling in Russian}{Артём Михайлович Пеленицын} % see the comment near fontenc / T2A
 \cvitem{Languages}{
   Russian: Native; English: Advanced}
 
