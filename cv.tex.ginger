@@ -281,19 +281,19 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 \cventry{2025}
     {Cultivating performance with types and without}
     {Portland State University, PLV seminar}{}
-    {Boston, USA (virtually, \myhref{https://docs.google.com/presentation/d/1XQdapCJZJ4uEbiPRdUpfEDZT7Tcl9q9xOPX3ldP-4do/edit?usp=sharing}{Slides})}
+    {Boston, MA, USA (virtually, \myhref{https://docs.google.com/presentation/d/1XQdapCJZJ4uEbiPRdUpfEDZT7Tcl9q9xOPX3ldP-4do/edit?usp=sharing}{Slides})}
     {}
 
 \cventry{2023}
     {Type Stability In Julia: A Simple and Efficient Optimization Technique}
-    {Purdue University, PurPL Seminar}{}
-    {Lafayette, USA (\myhref{https://docs.google.com/presentation/d/1iSve1WRMC5x-GAGohOQumYIu7eYJZ3IjgQ9g8xq51w4/edit?usp=sharing}{Slides})}
+    {Purdue University, PurPL~Seminar}{}
+    {Lafayette, IN, USA (\myhref{https://docs.google.com/presentation/d/1iSve1WRMC5x-GAGohOQumYIu7eYJZ3IjgQ9g8xq51w4/edit?usp=sharing}{Slides})}
     {}
 
 \cventry{2021}
     {Linear Haskell}
     {Boston Computation Club}{}
-    {Boston, USA (virtually, \myhref{https://youtu.be/ODjWURRRjxA}{Video})}
+    {Boston, MA, USA (virtually, \myhref{https://youtu.be/ODjWURRRjxA}{Video})}
     {}
 
 \cventry{2017}
@@ -465,57 +465,57 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
     \cvlistitem {PhD students: Adhitha Dias, Durga Keerthi Mandarapu @ Purdue 2023--2026}
     \cvlistitem {Undegraduate students: Mikah Kainen @ Purdue 2024--2026}
 
-\section{Summer Schools and Workshops}
+% \section{Summer Schools and Workshops}
 
-  \cventry{2018}{Programming Languages Mentoring Workshop @ ICFP}%
-      {}{St. Louis, USA, September 23rd 2018}%
-      {}%
-      {%
-      %\myhref{https://icfp18.sigplan.org/track/PLMW-ICFP-2018}{Link to the program}.%
-      }
+%   \cventry{2018}{Programming Languages Mentoring Workshop @ ICFP}%
+%       {}{St. Louis, USA, September 23rd 2018}%
+%       {}%
+%       {%
+%       %\myhref{https://icfp18.sigplan.org/track/PLMW-ICFP-2018}{Link to the program}.%
+%       }
 
-  \cventry{2017}{Oregon Programming Languages Summer School}%
-      {Univeristy of Oregon}{Eugene, USA, June 26th to July 8th 2017}%
-      {}%
-      {%
-      %\myhref{https://www.cs.uoregon.edu/research/summerschool/summer17/}{Link to Official Web Page}.%
-      }
+%   \cventry{2017}{Oregon Programming Languages Summer School}%
+%       {Univeristy of Oregon}{Eugene, USA, June 26th to July 8th 2017}%
+%       {}%
+%       {%
+%       %\myhref{https://www.cs.uoregon.edu/research/summerschool/summer17/}{Link to Official Web Page}.%
+%       }
 
-  \cventry{2015}{Summer School on Generic and Effectful Programming}%
-      {Department of Computer Science, Univeristy of Oxford}{St Anne's College, Oxford, 6th to 10th July 2015}%
-      {}%
-      {%
-      %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2015-oxford.pdf}{Link to Certificate of Attendance}. \myhref{https://www.cs.ox.ac.uk/projects/utgp/school/}{Link to Official Web Page}.%
-      }
+%   \cventry{2015}{Summer School on Generic and Effectful Programming}%
+%       {Department of Computer Science, Univeristy of Oxford}{St Anne's College, Oxford, 6th to 10th July 2015}%
+%       {}%
+%       {%
+%       %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2015-oxford.pdf}{Link to Certificate of Attendance}. \myhref{https://www.cs.ox.ac.uk/projects/utgp/school/}{Link to Official Web Page}.%
+%       }
 
-  \cventry{2011}{Summer School “Algebra and Geometry”}%
-      {Laboratory of Algebraic Geometry in the National Research University Higher School of Economics, Teachers' Training University of Yaroslavl'}{Yaroslavl', Russia}%
-      {}%
-      {%
-      %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2011-Yaroslavl.jpg}{Link to Certificate of Attendance} (in Russian). \myhref{http://bogomolov-lab.ru/SHKOLA/}{Link to Official Web Page} (in Russian).%
-      }
+%   \cventry{2011}{Summer School “Algebra and Geometry”}%
+%       {Laboratory of Algebraic Geometry in the National Research University Higher School of Economics, Teachers' Training University of Yaroslavl'}{Yaroslavl', Russia}%
+%       {}%
+%       {%
+%       %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2011-Yaroslavl.jpg}{Link to Certificate of Attendance} (in Russian). \myhref{http://bogomolov-lab.ru/SHKOLA/}{Link to Official Web Page} (in Russian).%
+%       }
 
-  \cventry{2010}%
-      {Microsoft Algorithms and Data Structures Summer School}%
-      {Microsoft Research in Silicon Valey}{Saint-Petersburg, Russia}{}%
-      {%
-      %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2010-MIDAS-participation.jpg}{Link to Certificate of Attendance}. \myhref{http://logic.pdmi.ras.ru/midas/en/about}{Link to Official Web Page}.%
-      }
+%   \cventry{2010}%
+%       {Microsoft Algorithms and Data Structures Summer School}%
+%       {Microsoft Research in Silicon Valey}{Saint-Petersburg, Russia}{}%
+%       {%
+%       %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2010-MIDAS-participation.jpg}{Link to Certificate of Attendance}. \myhref{http://logic.pdmi.ras.ru/midas/en/about}{Link to Official Web Page}.%
+%       }
 
-  \cventry{2010}%
-      {Winter School on Applied Mathematics and Computer Science}%
-      {National Research University Higher School of Economics}%
-      {Moscow province, Russia}{}%
-      {%
-      %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2010-HSE-math-school-participation.jpg}{Link to Certificate of Attendance} (in Russian).%
-      }
+%   \cventry{2010}%
+%       {Winter School on Applied Mathematics and Computer Science}%
+%       {National Research University Higher School of Economics}%
+%       {Moscow province, Russia}{}%
+%       {%
+%       %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2010-HSE-math-school-participation.jpg}{Link to Certificate of Attendance} (in Russian).%
+%       }
 
-  \cventry{2009}%
-      {Marktoberdorf Summer School “Logics and Languages for Reliability and Security”}%
-      {}{Marktoberdorf, Germany}{}%
-      {%
-      %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2009-Marktoberdorf-adoption.jpg}{Letter of Acceptance}. \myhref{http://asimod.in.tum.de/2009/index.shtml}{Link to Official Web Page}.%
-      }
+%   \cventry{2009}%
+%       {Marktoberdorf Summer School “Logics and Languages for Reliability and Security”}%
+%       {}{Marktoberdorf, Germany}{}%
+%       {%
+%       %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2009-Marktoberdorf-adoption.jpg}{Letter of Acceptance}. \myhref{http://asimod.in.tum.de/2009/index.shtml}{Link to Official Web Page}.%
+%       }
 
 %\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
 
