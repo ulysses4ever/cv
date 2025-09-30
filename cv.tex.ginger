@@ -666,7 +666,7 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 
   \cvitem{Programming languages}{Proficient: Haskell, Julia; Experienced: \CPP, Java, C, Pascal; Familiar: Scala, \CSH}
 
-  \cvitem{Markup, Scripting}{\textbf{\LaTeX}, {\color{gray}HTML, CSS, JavaScript, PHP},
+  \cvitem{Markup, Scripting}{\textbf{\LaTeX}, {\color{gray}HTML, CSS, JavaScript, PHP}, bash, Regular expressions}
 
   \cvitem{Environment}{Git, Make, Nix/NixOS, Emacs, Wiki/Markdown, Docker}
 
