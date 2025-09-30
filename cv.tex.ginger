@@ -670,44 +670,44 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 
   \cvitem{Operating systems}{\textbf{GNU/Linux family}, Windows family}
 
-\section{Awards, Scholarships, etc.}
+% \section{Awards, Scholarships, etc.}
 
-  \cventry{2012}
-      {Participation in all-russian final of international student olympiad “IT-planet”}{}{}
-      {competition: “Oracle Java Olympic”}
-      {%
-  %    \MyHrefImpl{https://a-pelenitsyn.github.io/Papers/Trainings/2012-ITPlanet-final.pdf}{Link to Diploma for Participation (in Russian)}%
-      }
+%   \cventry{2012}
+%       {Participation in all-russian final of international student olympiad “IT-planet”}{}{}
+%       {competition: “Oracle Java Olympic”}
+%       {%
+%   %    \MyHrefImpl{https://a-pelenitsyn.github.io/Papers/Trainings/2012-ITPlanet-final.pdf}{Link to Diploma for Participation (in Russian)}%
+%       }
 
-  \cventry{2012}
-      {Diploma for taking second place in regional stage of international student olympiad “IT-planet”}{}{}{competition: “Oracle Java Olympic”}
-      {%
-      %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2012-ITPlanet.jpg}{Link to Diploma scan (in Russian)}%
-      }
+%   \cventry{2012}
+%       {Diploma for taking second place in regional stage of international student olympiad “IT-planet”}{}{}{competition: “Oracle Java Olympic”}
+%       {%
+%       %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2012-ITPlanet.jpg}{Link to Diploma scan (in Russian)}%
+%       }
 
-  \cventry{2012}
-      {Participation in the final stage of VI Open Programming Contest of Southern Federal University}{}{}{individual event}
-      {%
-      %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2012-TTI-olymp-participation.jpg}{Link to Diploma for Participation (in Russian)}%
-      }
+%   \cventry{2012}
+%       {Participation in the final stage of VI Open Programming Contest of Southern Federal University}{}{}{individual event}
+%       {%
+%       %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2012-TTI-olymp-participation.jpg}{Link to Diploma for Participation (in Russian)}%
+%       }
 
-  \cventry{2011}
-      {Scholarship from foundation "Education and Science on the South of Russia"}{}{}{}
-      {%
-      %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2011-CI-cert.jpg}{Link to the scholarship statement scan (in Russian)}%
-      }
+%   \cventry{2011}
+%       {Scholarship from foundation "Education and Science on the South of Russia"}{}{}{}
+%       {%
+%       %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2011-CI-cert.jpg}{Link to the scholarship statement scan (in Russian)}%
+%       }
 
-  \cventry{2011}
-      {Rector's commendation for participating in international accreditation of unversity teaching programmes}{Southern Federal University}{}{}
-      {%
-      %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2011-rector-commendation.pdf}{Link to scan of the commendation text (in Russian)}%
-      }
+%   \cventry{2011}
+%       {Rector's commendation for participating in international accreditation of unversity teaching programmes}{Southern Federal University}{}{}
+%       {%
+%       %\myhref{https://a-pelenitsyn.github.io/Papers/Trainings/2011-rector-commendation.pdf}{Link to scan of the commendation text (in Russian)}%
+%       }
 
-  \cventry{2008}
-      {Diploma for the best talk}{student session during annual “Week of Science”, Southern Federal University}{}{}
-      {%
-      %\myhref{https://a-pelenitsyn.github.io/Papers/Talks/2008-SFedU-SciWeek-diploma.jpg}{Link to Diploma scan (in Russian)}%
-    }
+%   \cventry{2008}
+%       {Diploma for the best talk}{student session during annual “Week of Science”, Southern Federal University}{}{}
+%       {%
+%       %\myhref{https://a-pelenitsyn.github.io/Papers/Talks/2008-SFedU-SciWeek-diploma.jpg}{Link to Diploma scan (in Russian)}%
+%     }
 
 
 
