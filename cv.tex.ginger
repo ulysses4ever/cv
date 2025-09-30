@@ -454,14 +454,19 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
     \cvlistitem {Microprogramming/Assembler Programming labs --- 2009 (Fall).}
     \cvlistitem {Geometry and Algebra --- 2009 (Fall).}
 
-\subsection{Supervising Students at Southern Federal University}
+\subsection{Supervising Students for Degree Reports / Thesis Work at Southern Federal University}
 
-    \cvlistitem {\textit{Structuring Effectful Computations} --- MSc~G.~Lukyanov,~2017,~\myhref{https://a-pelenitsyn.github.io/Files/Edu/tutoring/2017/Lukyanov/text.pdf}{[PDF]}}
-    \cvlistitem {\textit{Generic Programming and Zippers} --- A.~Bolotina,~2017}
-    \cvlistitem {\textit{Generation of algebraic data types descriptions based on JSON data via Template Haskell} --- BSc~O.~Maroseev,~2016}
-    \cvlistitem {\textit{Generation of type class instances based on instances of superclasses via GHC API} --- BSc~O.~Filippskaya,~2016}
-    \cvlistitem {\textit{Functional parser for Markdown using monad combination and monoidal representation of input} --- BSc~G.~Lukianov,~2015}
-    \cvlistitem {\textit{Deduction system for linear logic in Haskell} --- BSc V. Pankov, 2015}
+    \cvlistitem {\textit{Structuring Effectful Computations} --- G.~Lukyanov,~MSc,~2017,~\myhref{https://a-pelenitsyn.github.io/Files/Edu/tutoring/2017/Lukyanov/text.pdf}{[PDF]}}
+    \cvlistitem {\textit{Generic Programming and Zippers} --- A.~Bolotina,~BSc,~2017}
+    \cvlistitem {\textit{Generation of algebraic data types descriptions based on JSON data via Template Haskell} --- O.~Maroseev,~BSc,~2016}
+    \cvlistitem {\textit{Generation of type class instances based on instances of superclasses via GHC API} --- O.~Filippskaya,~BSc,~2016}
+    \cvlistitem {\textit{Functional parser for Markdown using monad combination and monoidal representation of input} --- G.~Lukianov,~BSc,~2015}
+    \cvlistitem {\textit{Deduction system for linear logic in Haskell} --- V. Pankov, BSc, 2015}
+
+\subsection{Mentoring}
+
+    \cvlistitem {PhD students: Adhitha Dias, Durga Keerthi Mandarapu @ Purdue 2023--2026}
+    \cvlistitem {Undegraduate students: Mikah Kainen @ Purdue 2024--2026}
 
 \section{Summer Schools and Workshops}
 
@@ -603,6 +608,13 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 
   \cvlistitem%
     {\textbf{Student Volunteer:} ECOOP '18, SPLASH '18, ICFP '20, '21}
+
+\subsection{Volunteering}
+
+  \cvlistitem%
+    {\textbf{PhD application mentoring for members of historically underserved groups in computing:} Northeastern~'21}
+  \cvlistitem%
+    {\textbf{PhD Admissions Committee:} Northeastern '19, '22}
 
 \subsection{Book Translations (English to Russian)}
 
