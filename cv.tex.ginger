@@ -633,7 +633,7 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 
   %\cvitem{\myhref{}{}}{}
   \cvitem{\myhref{https://www.haskell.org/cabal/}{Cabal}}{Release manager, maintainer for the Haskell build system Cabal
-    (\myhref{https://github.com/haskell/cabal/commits/master/?author=ulysses4ever}{10+ commits})}
+    (\myhref{https://github.com/haskell/cabal/commits/master/?author=ulysses4ever}{100+ commits})}
 
   \cvitem{\myhref{https://www.haskell.org/ghc/}{GHC}}{Contributor to the Glasgow Haskell Compiler (\myhref{https://github.com/ghc/ghc/search?o=desc&q=author:ulysses4ever&s=committer-date&type=Commits}{10+ commits})}
 
@@ -666,7 +666,7 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 
   \cvitem{Programming languages}{Proficient: Haskell, Julia; Experienced: \CPP, Java, C, Pascal; Familiar: Scala, \CSH}
 
-  \cvitem{Markup, Scripting}{\textbf{\LaTeX}, {\color{gray}HTML, CSS, JavaScript, PHP}, bash, Regular expressions}
+  \cvitem{Markup, Scripting}{\textbf{\LaTeX}, {\color{gray}HTML, CSS, JavaScript, PHP},
 
   \cvitem{Environment}{Git, Make, Nix/NixOS, Emacs, Wiki/Markdown, Docker}
 
