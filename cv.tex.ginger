@@ -609,11 +609,13 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 \subsection{Volunteering}
 
   \cvlistitem%
+    {\textbf{Mentor through ACM SIGPLAN-M Mentorship program} '21}
+  \cvlistitem%
     {\textbf{PhD application mentoring for members of historically underserved groups in computing:} Northeastern~'21}
   \cvlistitem%
-    {\textbf{PhD Admissions Committee:} Northeastern '19, '22}
-  \cvlistitem%
     {\textbf{PL seminar and PL-junior seminar} (co-organizer): Northeastern '20}
+  \cvlistitem%
+    {\textbf{PhD Admissions Committee:} Northeastern '19, '22}
 
 \subsection{Book Translations (English to Russian)}
 
@@ -639,25 +641,25 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 
   \cvitem{\myhref{https://juliahub.com/ui/Packages/Monads/dLhEn/}{Monads.jl}}{Maintainer for Julia Mondas.jl package implementing monadic do-notation for the Julia programming language}
 
-\section{Pet Projects}
+% \section{Pet Projects}
 
-  \cvitem{\myhref{https://github.com/ulysses4ever/covid-19-in-russian-regions}{covid-19-in-russia}}{ Updating the Wikipedia table showing dynamics of COVID-19 in Russia by region / Julia,~2020}
+%   \cvitem{\myhref{https://github.com/ulysses4ever/covid-19-in-russian-regions}{covid-19-in-russia}}{ Updating the Wikipedia table showing dynamics of COVID-19 in Russia by region / Julia,~2020}
 
-  \cvitem{\myhref{https://github.com/ulysses4ever/tiger-test}{tiger-test}}{The v2 of check-test (see below) developed at NEU / Haskell, 2019}
+%   \cvitem{\myhref{https://github.com/ulysses4ever/tiger-test}{tiger-test}}{The v2 of check-test (see below) developed at NEU / Haskell, 2019}
 
-  \cvitem{\myhref{https://github.com/PRL-PRG/subtype-fuzzer}{subtype-fuzzer}}{A fuzzer to test a tricky subtype relation as found in the Julia programming language / Haskel, 2018}
+%   \cvitem{\myhref{https://github.com/PRL-PRG/subtype-fuzzer}{subtype-fuzzer}}{A fuzzer to test a tricky subtype relation as found in the Julia programming language / Haskel, 2018}
 
-  \cvitem{\myhref{https://github.com/ulysses4ever/check-test}{chek-test}}{Remove groove from checking students' submissions / Haskell, 2016}
+%   \cvitem{\myhref{https://github.com/ulysses4ever/check-test}{chek-test}}{Remove groove from checking students' submissions / Haskell, 2016}
 
-  \cvitem{\myhref{http://code.google.com/p/cpp-mv-poly/}{cpp-mv-poly}}{\CPP-implementation of multivariate polynomials and the BMS-algrithm massively using \CPP{} templates}
+%   \cvitem{\myhref{http://code.google.com/p/cpp-mv-poly/}{cpp-mv-poly}}{\CPP-implementation of multivariate polynomials and the BMS-algrithm massively using \CPP{} templates}
 
-  \cvitem{\myhref{http://code.google.com/p/mmcs-entrance-2010/}{mmcs-entrance}}{Generation of entrance diagrams (in PNG) in MMCS/SFedU from oficial data (XLS) / Java, 2010}
+%   \cvitem{\myhref{http://code.google.com/p/mmcs-entrance-2010/}{mmcs-entrance}}{Generation of entrance diagrams (in PNG) in MMCS/SFedU from oficial data (XLS) / Java, 2010}
 
-  \cvitem{\myhref{http://code.google.com/p/lj-comments-notifier/}{lj-comments-notifier}}{Notifications about new comments in some livejournal.com-based blog / Haskell, 2011}
+%   \cvitem{\myhref{http://code.google.com/p/lj-comments-notifier/}{lj-comments-notifier}}{Notifications about new comments in some livejournal.com-based blog / Haskell, 2011}
 
-  \cvitem{\myhref{http://projecteuler.net/profile/ulysses4ever.png}{Project Euler}}{Link to the participant record / Haskell (mostly), \CPP}
+%   \cvitem{\myhref{http://projecteuler.net/profile/ulysses4ever.png}{Project Euler}}{Link to the participant record / Haskell (mostly), \CPP}
 
-  \cvitem{\myhref{https://github.com/ulysses4ever}{Me @ GitHub}}{ulysses4ever}
+%   \cvitem{\myhref{https://github.com/ulysses4ever}{Me @ GitHub}}{ulysses4ever}
 
 
 \section{Computer skills}
@@ -711,17 +713,17 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 
 
 
-\section{Personal Info}
+% \section{Personal Info}
 
-\cvitem{Gender}{Male}
-\cvitem{Pronouns}{He/His/They/Their}
-\cvitem{Family}{Married to \myhref{https://julbinb.github.io/}{Julia Belyakova} with two kids}
-\cvitem{Current place of living}{Lafayette, IN, USA}
-\cvitem{Citizenship, Homeland}{Russia}
-\cvitem{Name spelling}{To reflect the reality, my first name transliteration should be, in fact, something like Artyom. Also, there is no ‘ch’ sound after the ‘r’ sound — just ‘t’.}
-%\cvitem{Name spelling in Russian}{Артём Михайлович Пеленицын} % see the comment near fontenc / T2A
-\cvitem{Languages}{
-  Russian: Native; English: Advanced}
+% \cvitem{Gender}{Male}
+% \cvitem{Pronouns}{He/His/They/Their}
+% \cvitem{Family}{Married to \myhref{https://julbinb.github.io/}{Julia Belyakova} with two kids}
+% \cvitem{Current place of living}{Lafayette, IN, USA}
+% \cvitem{Citizenship, Homeland}{Russia}
+% \cvitem{Name spelling}{To reflect the reality, my first name transliteration should be, in fact, something like Artyom. Also, there is no ‘ch’ sound after the ‘r’ sound — just ‘t’.}
+% %\cvitem{Name spelling in Russian}{Артём Михайлович Пеленицын} % see the comment near fontenc / T2A
+% \cvitem{Languages}{
+%   Russian: Native; English: Advanced}
 
 
 %\cvitemwithcomment{Language 3}{Skill level}{Comment}
