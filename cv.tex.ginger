@@ -240,67 +240,65 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 \clearpage
 \section{Talks}
 
-% \subsection{Research, International Conferences}
+\subsection{Conferences}
 
-\cventry{2023}%
-    {ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages, 2023}%
-    {``Approximating Type Stability in the Julia JIT (Work in Progress)''}
-    {}{}%
-    {%
-	    \myhref{https://youtu.be/eaJRsG5GtNc?si=6IgTjmCQztGEO6bd}{Video on SIGPLAN YouTube channel}%
+\cvitem{2023}%
+    {\emph{Approximating Type Stability in the Julia JIT (Work in Progress)} //
+    ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages, 2023
+    \myhref{https://youtu.be/eaJRsG5GtNc?si=6IgTjmCQztGEO6bd}{(video)}%
     }
 
-\cventry{2021}%
-    {ACM SIGPLAN conference on Systems, Programming, Languages, and Applications: Software for Humanity, 2021}%
-    {OOPSLA Research Papers Track Talk ``Type Stability in Julia: Avoiding Performance Pathologies in JIT Compilation''}
-    {Chicago, USA, 2021}{}%
-    {%
-      \myhref{https://2021.splashcon.org/details/splash-2021-oopsla/54/Type-Stability-in-Julia-Avoiding-Performance-Pathologies-in-JIT-Compilation}{Link to the conference page} (includes video)%
+\cvitem{2021}%
+    {\emph{Type Stability in Julia: Avoiding Performance Pathologies in JIT Compilation} //
+    ACM SIGPLAN conference on Systems, Programming, Languages, and Applications: Software for Humanity, 2021,
+    Chicago, USA
+      \myhref{https://2021.splashcon.org/details/splash-2021-oopsla/54/Type-Stability-in-Julia-Avoiding-Performance-Pathologies-in-JIT-Compilation}{(conference page with the video)}
     }
 
-\cventry{2018}%
-    {ACM SIGPLAN Symposium on Scala, 2018}%
-    {Student Talk ``Julia Subtyping Lessons Scala Could Learn''}
-    {St. Louis, USA, 2018 (co-located with ICFP)}{}%
-    {%
-    %\myhref{https://conf.researchr.org/event/scala-2018/scala-2018-papers-julia-subtyping-lessons-scala-could-learn-student-talk-}{Link to the abstract}%
+\cvitem{2018}%
+    {\emph{Julia Subtyping Lessons Scala Could Learn} //
+    ACM SIGPLAN Symposium on Scala, 2018,
+    St. Louis, USA
+    \myhref{https://conf.researchr.org/event/scala-2018/scala-2018-papers-julia-subtyping-lessons-scala-could-learn-student-talk-}{(abstract)}%
     }
 
-
-\cventry{2018}%
-    {2nd Workshop on Machine Learning Techniques for Programming Languages}%
-    {Talk ``Can We Learn Some PL Theory? How To Make Use of a Corpus of Subtype Checks''}
-    {Amsterdam, The Netherlands, 2018 (co-located with ECOOP/ISSTA)}{}%
-    {%
-    %\myhref{https://conf.researchr.org/event/ecoop-issta-2018/ml4pl-2018-papers-can-we-learn-some-pl-theory-how-to-make-use-of-a-corpus-of-subtype-checks}{Link to the abstract}%
+\cvitem{2018}%
+    {\emph{Can We Learn Some PL Theory? How To Make Use of a Corpus of Subtype Checks} //
+    2nd Workshop on Machine Learning Techniques for Programming Languages (co-located with ECOOP/ISSTA),
+    Amsterdam, The Netherlands, 2018
+    \myhref{https://conf.researchr.org/event/ecoop-issta-2018/ml4pl-2018-papers-can-we-learn-some-pl-theory-how-to-make-use-of-a-corpus-of-subtype-checks}{(abstract)}%
     }
 
-\subsection{Research Seminars}
+\subsection{Seminars}
 %\subsection{In English}
 
-\cventry{2025}
-    {Cultivating performance with types and without}
-    {Portland State University, PLV seminar}{}
-    {Boston, MA, USA (virtually, \myhref{https://docs.google.com/presentation/d/1XQdapCJZJ4uEbiPRdUpfEDZT7Tcl9q9xOPX3ldP-4do/edit?usp=sharing}{Slides})}
-    {}
+\cvitem{2025}
+    {\emph{Cultivating performance with types and without} //
+    Portland State University, PLV seminar
+    (virtually, \myhref{https://docs.google.com/presentation/d/1XQdapCJZJ4uEbiPRdUpfEDZT7Tcl9q9xOPX3ldP-4do/edit?usp=sharing}{slides})
+    }
 
-\cventry{2023}
-    {Type Stability In Julia: A Simple and Efficient Optimization Technique}
-    {Purdue University, PurPL~Seminar}{}
-    {Lafayette, IN, USA (\myhref{https://docs.google.com/presentation/d/1iSve1WRMC5x-GAGohOQumYIu7eYJZ3IjgQ9g8xq51w4/edit?usp=sharing}{Slides})}
-    {}
+\cvitem{2023}
+    {\emph{Type Stability In Julia: A Simple and Efficient Optimization Technique} //
+    PurPL~Seminar, Purdue University
+    (\myhref{https://docs.google.com/presentation/d/1iSve1WRMC5x-GAGohOQumYIu7eYJZ3IjgQ9g8xq51w4/edit?usp=sharing}{slides})
+    }
 
-\cventry{2021}
-    {Linear Haskell}
-    {Boston Computation Club}{}
-    {Boston, MA, USA (virtually, \myhref{https://youtu.be/ODjWURRRjxA}{Video})}
-    {}
+\cvitem{2021}
+    {\emph{Linear Haskell} //
+    Boston Computation Club
+    (virtually, \myhref{https://youtu.be/ODjWURRRjxA}{video})
+    }
 
-\cventry{2017}
-    {Introduction to Dependent Types in Idris}
-    {PL Seminar Jr.}{}
-    {Northeastern University, USA}
-    {}
+\cvitem{2019}
+    {\emph{A Spectrum of Type Soundness And Performance} //
+    \myhref{https://www.ccs.neu.edu/home/amal/course/7480-s19/}{CS7480}: Special Topics in PL, Northeastern University (USA)
+    (\myhref{https://docs.google.com/presentation/d/1Vld7fVjRYoxKCd9iVQzSlEEemKTOfseUJWpAKdYZjiM/edit?usp=sharing}{slides})
+    }
+
+\cvitem{2017}
+    {\emph{Introduction to Dependent Types in Idris} //
+    PL Seminar Jr., Northeastern University (USA)}
 
 %\subsection{In Russian}
 %\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
