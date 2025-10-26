@@ -107,27 +107,6 @@
 
 Programming Languages and Compilers, Functional Programming, Types in Programming Languages
 
-\section{Occupation}
-
-% \ cventry {<year --year >}{< degree/job title >}{< institution /employer >}
-%           {<city >}{< grade >}{< description >}
-\cventry{2023--present}{Postdoc}{Purdue University}{West Lafayette, USA}{Advisor: Milind Kulkarni}{%
-}
-\cventry{2018--2023}{Graduate Research Assistant}{Northeastern University}{Boston, USA}{Advisor: Jan Vitek}{%
-}
-\cventry{Summer 2019}{Intern}{\myhref{https://www.tweag.io/}{Tweag I/O}, France (remotely; \myhref{https://www.tweag.io/posts/2019-09-25-bazel-ghc-persistent-worker-internship.html}{final report})}{}{}{%\newline{}
-}
-\cventry{Fall 2017}{Researcher}{\myhref{https://prl-prg.github.io}{Programming Research Lab}, Czech Technical University}{Prague, Czechia}{}{%\newline{}
-}
-\cventry{Spring 2017}{Visiting Research Assistant}{\myhref{http://prl.ccs.neu.edu/}{Programming Research Lab}, Northeastern U.}{Boston, USA}{}{%\newline{}
-}
-\cventry{2010--2017}{Teaching Assistant Professor}{Southern Federal University
-}{Rostov-na-Donu, Russia}{}{%\newline{}
-}
-\cventry{2012--2013}{Software Engineer}{Angstrem-SFEDU Labs (part-time)
-}{Rostov-na-Donu, Russia}{}{%\newline{}
-}
-
 \section{Education}
 \cventry%
     {2023}%
@@ -152,6 +131,27 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
         {https://a-pelenitsyn.github.io/Files/Edu/Diploma/diploma-euro-supplement-bsc.pdf}%
         {[transcript]}}  % arguments 3 to 6 can be left empty
     {}
+
+\section{Occupation}
+
+% \ cventry {<year --year >}{< degree/job title >}{< institution /employer >}
+%           {<city >}{< grade >}{< description >}
+\cventry{2023--present}{Postdoc}{Purdue University}{West Lafayette, USA}{Advisor: Milind Kulkarni}{%
+}
+\cventry{2018--2023}{Graduate Research Assistant}{Northeastern University}{Boston, USA}{Advisor: Jan Vitek}{%
+}
+\cventry{Summer 2019}{Intern}{\myhref{https://www.tweag.io/}{Tweag I/O}, France (remotely; \myhref{https://www.tweag.io/posts/2019-09-25-bazel-ghc-persistent-worker-internship.html}{final report})}{}{}{%\newline{}
+}
+\cventry{Fall 2017}{Researcher}{\myhref{https://prl-prg.github.io}{Programming Research Lab}, Czech Technical University}{Prague, Czechia}{}{%\newline{}
+}
+\cventry{Spring 2017}{Visiting Research Assistant}{\myhref{http://prl.ccs.neu.edu/}{Programming Research Lab}, Northeastern U.}{Boston, USA}{}{%\newline{}
+}
+\cventry{2010--2017}{Teaching Assistant Professor}{Southern Federal University
+}{Rostov-na-Donu, Russia}{}{%\newline{}
+}
+\cventry{2012--2013}{Software Engineer}{Angstrem-SFEDU Labs (part-time)
+}{Rostov-na-Donu, Russia}{}{%\newline{}
+}
 
 
 \section{List Of Publications}
