@@ -38,7 +38,7 @@ in pkgs.stdenv.mkDerivation {
   installPhase = ''
     # Copy the resulting PDF to $out
     mkdir -p $out
-    cp cv.pdf $out/
+    cp cv.tex cv.pdf $out/
   '';
 
 }
