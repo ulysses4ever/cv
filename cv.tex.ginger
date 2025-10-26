@@ -437,17 +437,18 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 
 \subsection{Teaching at \myhref{http://sfedu.ru/international/}{Southern Federal University} (in Russian, unless marked otherwise)}
 
-    \cvlistitem {Quantum Computations (lectures in English) --- 2016 (Fall).}
-    \cvlistitem {Galois Theory seminar (lectures) --- 2016 (Spring).}
+    \cvlistitem {Quantum Computations (instructor; lectures in English) --- 2016 (Fall).}
+    \cvlistitem {Galois Theory seminar (instructor; lectures) --- 2016 (Spring).}
 % \myhref{https://docs.google.com/document/d/1hCrg3VZDxYAHygG_DnrP_--k_qmGMrNFvtKxEOGR790/edit?usp=sharing}{link to syllabus})
-    \cvlistitem {Computer Architecture (lectures \& labs) --- 2013–2016 (Spring).}
-    \cvlistitem {Automata and Ciphers (lectures) --- 2013–2016 (Fall).}
-    \cvlistitem {Programming Basics labs --- 2008, 2010–2012, 2014--2016.}
-    \cvlistitem {Programming Languages labs --- 2008, 2010, 2012--2015 (Fall).}
-    \cvlistitem {Functional Programming labs --- 2011 (Spring).}
-    \cvlistitem {Automata and Languages --- 2010 (Spring).}
-    \cvlistitem {Microprogramming/Assembler Programming labs --- 2009 (Fall).}
-    \cvlistitem {Geometry and Algebra --- 2009 (Fall).}
+    \cvlistitem {Computer Architecture (instructor; lectures \& labs) --- 2013–2016 (Spring).}
+    \cvlistitem {Automata and Ciphers (instructor; lectures) --- 2013–2016 (Fall).}
+    \cvlistitem {Cross-Platform Software Development (instructor; lectures) --- 2012 (Spring).}
+    \cvlistitem {Programming Basics (labs) --- 2008, 2010–2012, 2014--2016.}
+    \cvlistitem {Programming Languages (labs) --- 2008, 2010, 2012--2015 (Fall).}
+    \cvlistitem {Functional Programming (labs) --- 2011 (Spring).}
+    \cvlistitem {Automata and Languages (labs) --- 2010 (Spring).}
+    \cvlistitem {Assembly Language Programming (labs) --- 2009 (Fall).}
+    \cvlistitem {Geometry and Algebra (labs) --- 2009 (Fall).}
 
 \subsection{Supervising Students for Degree Reports / Thesis Work at Southern Federal University}
 
@@ -612,6 +613,8 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
     {\textbf{PhD application mentoring for members of historically underserved groups in computing:} Northeastern~'21}
   \cvlistitem%
     {\textbf{PL seminar and PL-junior seminar} (co-organizer): Northeastern '20}
+  \cvlistitem%
+    {\textbf{Khoury Graduate Student Association:} organizer 2020--2023, president 2022; Northeastern}
   \cvlistitem%
     {\textbf{PhD Admissions Committee:} Northeastern '19, '22}
 
