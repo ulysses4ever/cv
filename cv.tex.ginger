@@ -203,35 +203,39 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 
 \subsection{Conferences}
 
+\cvitem{2024}%
+    {\emph{The Unreasonable Performance of The Julia Language} //
+    LambdaConf: Multi-disciplinary Developer Conference, Estes Park, CO, USA
+    \myhref{https://youtu.be/hayhJV0lCSI?si=09vwK6Dm77zauaKD}{(video)}%
+    }
+
 \cvitem{2023}%
     {\emph{Approximating Type Stability in the Julia JIT (Work in Progress)} //
-    ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages, 2023
+    ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages,
     \myhref{https://youtu.be/eaJRsG5GtNc?si=6IgTjmCQztGEO6bd}{(video)}%
     }
 
 \cvitem{2021}%
     {\emph{Type Stability in Julia: Avoiding Performance Pathologies in JIT Compilation} //
-    ACM SIGPLAN conference on Systems, Programming, Languages, and Applications: Software for Humanity, 2021,
+    ACM SIGPLAN conference on Systems, Programming, Languages, and Applications: Software for Humanity,
     Chicago, USA
       %\myhref{https://2021.splashcon.org/details/splash-2021-oopsla/54/Type-Stability-in-Julia-Avoiding-Performance-Pathologies-in-JIT-Compilation}{(conference page with the video)}
     }
 
 \cvitem{2018}%
     {\emph{Julia Subtyping Lessons Scala Could Learn} //
-    ACM SIGPLAN Symposium on Scala, 2018,
-    St. Louis, USA
+    ACM SIGPLAN Symposium on Scala, St. Louis, USA
     %\myhref{https://conf.researchr.org/event/scala-2018/scala-2018-papers-julia-subtyping-lessons-scala-could-learn-student-talk-}{(abstract)}%
     }
 
 \cvitem{2018}%
     {\emph{Can We Learn Some PL Theory? How To Make Use of a Corpus of Subtype Checks} //
     2nd Workshop on Machine Learning Techniques for Programming Languages (co-located with ECOOP/ISSTA),
-    Amsterdam, The Netherlands, 2018
+    Amsterdam, The Netherlands
     \myhref{https://conf.researchr.org/event/ecoop-issta-2018/ml4pl-2018-papers-can-we-learn-some-pl-theory-how-to-make-use-of-a-corpus-of-subtype-checks}{(abstract)}%
     }
 
 \subsection{Seminars}
-%\subsection{In English}
 
 \cvitem{2025}
     {\emph{Cultivating performance with types and without} //
