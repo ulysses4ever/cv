@@ -157,7 +157,6 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 \section{List Of Publications}
 
 % \subsection{Peer-reviewed International}
-
 %\cvitem{description}{Short thesis abstract}
 
 << for pub in pubs >>
@@ -189,53 +188,7 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 %   \myhref{https://a-pelenitsyn.github.io/Papers/2018-unpb-dgp-recursion.pdf}{[PDF]}}
 
 
-% {\footnotesize
-% \subsection{Russian}
-
-%   \cvlistitem{%
-%   Buliding parsers with algebraic effects // Proceedings of the First Russian Conference on Programming Languages and Compilers (PLC'17), 2017, pp. 185–190. With G. Lukyanov.}
-
-%   \cvlistitem{%
-%   Pelenitsyn A. Generic and meta- programming approach to design of software implementation of decoder for a class of algebraic geometry codes // “Prikladnaya informatika” (Applied computer science), 2012, No 2(38), pp. 60–70. \myhref{https://a-pelenitsyn.github.io/Papers/2012-PriklInf-metaprogramming-to-decoding.pdf}{[PDF]}, \myhref{https://a-pelenitsyn.github.io/Papers/2012-prepared-for-wgp.pdf}{link to the draft in English}.%
-%   }
-
-%   \cvlistitem{%
-%   Pelenitsyn A. On exploiting one metaprogramming technique. Journal of the Ivanovo Mathematical Society, 2011, No. 1(8), pp.79–84. \myhref{https://a-pelenitsyn.github.io/Papers/2011-Ivanovo-metaprogramming.pdf}{[PDF]}.%
-%   }
-
-%   \cvlistitem{%
-%   Deundyak V., Pelenitsyn A. Operator-theoretic approach to Berlekamp--Massey Algorithm, // Izvestia vuzov (Universities' Bulletin), Sev.-Kav. Region (Caucasus Region), Estestvennie Nauki (Sciences), 2011, No. 3. Pp. 11–13.
-%   \myhref{https://a-pelenitsyn.github.io/Papers/2011-Izv-vuzov-BMSA-through-operator-theory.pdf}{[PDF]}.}
-
-%   \cvlistitem{%
-%   Mayevskiy A., Pelenitsyn A. Software Implementation of Algebraic-Geometry Codec using Sakata algorithm, // Izvestia Yufu (Southern Federal University Bulletin), Technology Sciences, 2008, No. 8, pp. 196–198.
-%   \myhref{https://a-pelenitsyn.github.io/Papers/2008-2-Izvestia-AGCodec-Sakata.pdf}{[PDF].}}
-
-%   }
-
-% \subsection{In Conference Transactions (Russian)}
-
-%   {\footnotesize
-%   \cvlistitem{%
-%   Pelenitsyn A. On Implementation of n-Dimensional BMS-algorithm Using Generic Programming // Transactions of Scientific School of I.B. Simonenko, 2010, pp. 197–203.
-%   \myhref{https://a-pelenitsyn.github.io/Papers/2010-2-Sbor-Simonenko-BMSA-impl.pdf}{[PDF] (in Russian)}.}
-
-%   \cvlistitem{%
-%   Mayevskiy A., Pelenitsyn A. Methodic Supply and IT-infrastructure for Teaching Low-Level Programming // Transactions of Scientific-Methodic Conference “Modern Information Technologies in Education”, 2010, pp. 210–212.
-%   \myhref{https://a-pelenitsyn.github.io/Papers/2010-1-SITO-abstract-preprint.pdf}{[PDF] (in Russian)}.}
-
-%   \cvlistitem{%
-%   Mayevskiy A., Pelenitsyn A. On Software Implementation of Algebraic-Geometry Codec using Sakata algorithm, // Transactions of X International Conference on Information Security and Safety, 2008, pp. 55–57.}
-
-%   \cvlistitem{%
-%   Pelenitsyn A. On Implementation of Decoder for a Class of Algebraic-Geometry Codes on Projectve Curves using Sakata algorithm, // Transactions of the Conference "Week of Science" in Southern Federal University, 2008, vol. 1, pp. 55–57.
-%   \myhref{https://a-pelenitsyn.github.io/Papers/2008-1-SciWeek-Decoder-Sakata-preprint.pdf}{[PDF] (in Russian)}.}
-
-%   \cvlistitem{%
-%   Bragilevsky V., Mihalkovich S., Pelenitsyn A. Building Web-portal for Information and Education purposes on Computing Department // Transactions of Scientific-Methodic Conference “Modern Information Technologies in Education”, 2008, pp. 48–49.
-%   \myhref{https://a-pelenitsyn.github.io/Papers/2008-3-SITO-IT-portal-preprint.pdf}{[PDF] (in Russian)}.}
-
-%   }
+%\input{ru-pubs.tex}
 
 \clearpage
 \section{Talks}
