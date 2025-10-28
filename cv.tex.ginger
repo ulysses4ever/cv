@@ -340,24 +340,24 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 
 \section{Leadership}
 
-  \cvlistitem%
-    {\textbf{Khoury Graduate Student Association:} organizer 2020--2023, president 2022; Northeastern}
-  \cvlistitem%
-    {\textbf{PL seminar and PL-junior seminar:} co-organizer, Northeastern 2020}
-  \cvlistitem%
+  \cvitem{2020--2023}%
+    {\textbf{Khoury Graduate Student Association:} organizer and president (2022); Northeastern}
+  \cvitem{2020}%
+    {\textbf{PL seminar and PL-junior seminar:} co-organizer, Northeastern}
+  \cvitem{2010}%
     {\textbf{Curriculum Building:} co-author of a new CS/SE-focused major at SFedU, 2010}
 
 \section{Outreach}
 
-  \cvlistitem%
-    {\textbf{High-School Computing Extracurricular: SFedU 2012--2016}}
-  \cvlistitem{%
+  \cvitem{2012--2016}
+    {\textbf{Computing Extracurricular Courses for High-School Students}, SFedU}
+  \cvitem{2013}{%
     \textbf{Book Translation} (English to Russian):
     \textit{Introduction to the Theory of Programming Languages} by Gilles Dowek, Jean-Jacques Levy / Springer. 2011. Russian translation together with V.~Bragilevsky. Published by DMK Press in 2013. \myhref{http://www.xn--d1amf.xn--p1ai/catalog/computer/programming/978-5-94074-913-4/}{Link to web page},
     \myhref{http://books.google.ru/books?id=YR7RAAAAQBAJ&printsec=frontcover}{link to Google.Books preview.}    
   }
 
-  \cvlistitem{%
+  \cvitem{2013}{%
     \textbf{Book Translation} (English to Russian):
     \textit{Pearls of Functional Algorithm Design} by Richard Bird / Cambridge University Press. 2010. Russian translation together with V.~Bragilevsky. Published by DMK Press in 2013. \myhref{http://www.xn--d1amf.xn--p1ai/catalog/computer/programming/978-5-94074-867-0/}{Link to web page},
     \myhref{http://books.google.ru/books?id=JSjRAAAAQBAJ&printsec=frontcover}{link to Google.Books preview.}
@@ -366,10 +366,10 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 \section{Open Source Software Contributions}
 
   %\cvitem{\myhref{}{}}{}
-  \cvitem{\myhref{https://www.haskell.org/cabal/}{Cabal}}{Release manager, maintainer for the Haskell build system Cabal
+  \cvitem{2021-present}{\textbf{Release manager, maintainer, contributor} to the Haskell build system \myhref{https://www.haskell.org/cabal/}{Cabal}
     (\myhref{https://github.com/haskell/cabal/commits/master/?author=ulysses4ever}{100+ commits})}
 
-  \cvitem{\myhref{https://www.haskell.org/ghc/}{GHC}}{Contributor to the Glasgow Haskell Compiler (\myhref{https://github.com/ghc/ghc/search?o=desc&q=author:ulysses4ever&s=committer-date&type=Commits}{10+ commits})}
+  \cvitem{2018--2022}{\textbf{Contributor} to the Glasgow Haskell Compiler, \myhref{https://www.haskell.org/ghc/}{GHC} (\myhref{https://github.com/ghc/ghc/search?o=desc&q=author:ulysses4ever&s=committer-date&type=Commits}{20+ commits})}
 
   % \cvitem{\myhref{http://hackage.haskell.org/package/BNFC-meta}{BNFC-meta}}{Maintainer of the Haskell BNFC-meta package for embedding BNF grammars into source via Template Haskell}
 
