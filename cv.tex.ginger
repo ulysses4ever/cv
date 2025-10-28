@@ -340,17 +340,17 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 \section{Outreach}
 
   \cvlistitem%
-    {High-School Computing Extracurricular: SFedU 2012--2016}
+    {\textbf{High-School Computing Extracurricular: SFedU 2012--2016}}
   \cvlistitem{%
-  Book Translation (English to Russian):
-  Dowek, Gilles, Levy, Jean-Jacques. Introduction to the Theory of Programming Languages. / Springer. 2011. Russian translation together with V.~Bragilevsky. Published by DMK Press in 2013. \myhref{http://www.xn--d1amf.xn--p1ai/catalog/computer/programming/978-5-94074-913-4/}{Link to web page},
-  \myhref{http://books.google.ru/books?id=YR7RAAAAQBAJ&printsec=frontcover}{link to Google.Books preview.}    
+    \textbf{Book Translation} (English to Russian):
+    \textit{Introduction to the Theory of Programming Languages} by Gilles Dowek, Jean-Jacques Levy / Springer. 2011. Russian translation together with V.~Bragilevsky. Published by DMK Press in 2013. \myhref{http://www.xn--d1amf.xn--p1ai/catalog/computer/programming/978-5-94074-913-4/}{Link to web page},
+    \myhref{http://books.google.ru/books?id=YR7RAAAAQBAJ&printsec=frontcover}{link to Google.Books preview.}    
   }
 
   \cvlistitem{%
-  Book Translation (English to Russian):
-  Bird, Richard. Pearls of Functional Algorithm Design. / Cambridge University Press. 2010. Russian translation together with V.~Bragilevsky. Published by DMK Press in 2013. \myhref{http://www.xn--d1amf.xn--p1ai/catalog/computer/programming/978-5-94074-867-0/}{Link to web page},
-  \myhref{http://books.google.ru/books?id=JSjRAAAAQBAJ&printsec=frontcover}{link to Google.Books preview.}
+    \textbf{Book Translation} (English to Russian):
+    \textit{Pearls of Functional Algorithm Design} by Richard Bird / Cambridge University Press. 2010. Russian translation together with V.~Bragilevsky. Published by DMK Press in 2013. \myhref{http://www.xn--d1amf.xn--p1ai/catalog/computer/programming/978-5-94074-867-0/}{Link to web page},
+    \myhref{http://books.google.ru/books?id=JSjRAAAAQBAJ&printsec=frontcover}{link to Google.Books preview.}
   }
 
 \section{Open Source Software Contributions}
