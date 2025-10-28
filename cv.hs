@@ -235,7 +235,7 @@ pubs =
       { title = "Associated types and constraint propagation for generic programming in Scala"
       , authors = ["Artem Pelenitsyn"]
       , venue = "Programming and Computer Software"
-      , venueshort = "PCS"
+      , venueshort = "PCS '15"
       , year = 2015
       , doi = Just "10.1134/S0361768815040064"
       }
