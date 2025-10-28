@@ -267,45 +267,48 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 
 \subsection{Teaching Assistantship at \myhref{http://sfedu.ru/international/}{Northeastern University}}
 
-    \cvlistitem {CS4500: Software Development --- 2020 (Spring).}
-    \cvlistitem {CS4410/6410: Compilers --- 2019 (Fall).}
+    \cvitem{2020 (Spring)}{CS4500: Software Development}
+    \cvitem{2019 (Fall)}{CS4410/6410: Compilers}
 
 \subsection{Instructor on Record at \myhref{http://sfedu.ru/international/}{Southern Federal University} (SFedU, a top-20 Russian university)}
 \subsection{(in Russian, unless marked otherwise)}
 
-    \cvlistitem {Quantum Computations (lectures in English) --- 2016 (Fall).}
-    \cvlistitem {Galois Theory seminar (lectures) --- 2016 (Spring).}
+    \cvdoubleitem{2016 (Fall)}{Quantum Computations (lectures in English)}
+                 {2016 (Fall)}{Galois Theory seminar (lectures)}
 % \myhref{https://docs.google.com/document/d/1hCrg3VZDxYAHygG_DnrP_--k_qmGMrNFvtKxEOGR790/edit?usp=sharing}{link to syllabus})
-    \cvlistitem {Computer Architecture (lectures \& labs) --- 2013–2016 (Spring).}
-    \cvlistitem {Automata and Ciphers (lectures) --- 2013–2016 (Fall).}
-    \cvlistitem {Cross-Platform Software Development (lectures) --- 2012 (Spring).}
+    \cvdoubleitem{2013–2016 (Spring)}{Computer Architecture (lectures \& labs)}
+                 {2013–2016 (Fall)}{Automata and Ciphers (lectures)}
+    \cvitem{2012 (Spring)}{Cross-Platform Software Development (lectures)}
+
 \subsection{Other Teaching at Southern Federal University}
-    \cvlistitem {Programming Basics (labs) --- 2008, 2010–2012, 2014--2016.}
-    \cvlistitem {Programming Languages (labs) --- 2008, 2010, 2012--2015 (Fall).}
-    \cvlistitem {Functional Programming (labs) --- 2011 (Spring).}
-    \cvlistitem {Automata and Languages (labs) --- 2010 (Spring).}
-    \cvlistitem {Assembly Language Programming (labs) --- 2009 (Fall).}
-    \cvlistitem {Geometry and Algebra (labs) --- 2009 (Fall).}
+    \cvdoubleitem{2008, 2010–2012, 2014--2016}{Programming Basics (labs)}
+                 {2008, 2010, 2012--2015 (Fall)}{Programming Languages (labs)}
+    \cvdoubleitem{2011 (Spring)}{Functional Programming (labs)}
+                 {2010 (Spring)}{Automata and Languages (labs)}
+    \cvdoubleitem{2009 (Fall)}{Assembly Language Programming (labs)}
+                 {2009 (Fall)}{Geometry and Algebra (labs)}
 
 \section{Mentorship}
 
+%\subsection{Other Mentoring}
+
+    \cvitem{2023--2026}
+        {PhD students: Adhitha Dias, Durga Keerthi Mandarapu; Purdue}
+    \cvitem{2024--2026}
+        {Undegraduate students: Mikah Kainen; Purdue}
+    \cvitem{2021}
+        {Mentor through ACM SIGPLAN-M Mentorship program}
+    \cvitem{2021}
+        {PhD application feedback for members of historically underserved groups in computer science; Northeastern}
+
 \subsection{Supervising Students for Capstone Projects / Thesis Work at Southern Federal University}
 
-    \cvlistitem {\textit{Structuring Effectful Computations} --- G.~Lukyanov,~MSc,~2017}
-    \cvlistitem {\textit{Generic Programming and Zippers} --- A.~Bolotina,~BSc,~2017}
-    \cvlistitem {\textit{Generation of algebraic data types descriptions based on JSON data via Template Haskell} --- O.~Maroseev,~BSc,~2016}
-    \cvlistitem {\textit{Generation of type class instances based on instances of superclasses via GHC API} --- O.~Filippskaya,~BSc,~2016}
-    \cvlistitem {\textit{Functional parser for Markdown using monad combination and monoidal representation of input} --- G.~Lukianov,~BSc,~2015}
-    \cvlistitem {\textit{Deduction system for linear logic in Haskell} --- V. Pankov, BSc, 2015}
-
-\subsection{Other Mentoring}
-
-    \cvlistitem {PhD students: Adhitha Dias, Durga Keerthi Mandarapu @ Purdue 2023--2026}
-    \cvlistitem {Undegraduate students: Mikah Kainen @ Purdue 2024--2026}
-    \cvlistitem%
-        {Mentor through ACM SIGPLAN-M Mentorship program 2021}
-    \cvlistitem%
-        {PhD application feedback for members of historically underserved groups in CS: Northeastern~2021}
+    \cvitem{2017}{\textit{Structuring Effectful Computations} --- G.~Lukyanov,~MSc}
+    \cvitem{2017}{\textit{Generic Programming and Zippers} --- A.~Bolotina,~BSc}
+    \cvitem{2016}{\textit{Generation of algebraic data types descriptions based on JSON data via Template Haskell} --- O.~Maroseev,~BSc}
+    \cvitem{2016}{\textit{Generation of type class instances based on instances of superclasses via GHC API} --- O.~Filippskaya,~BSc}
+    \cvitem{2015}{\textit{Functional parser for Markdown using monad combination and monoidal representation of input} --- G.~Lukianov,~BSc}
+    \cvitem{2015}{\textit{Deduction system for linear logic in Haskell} --- V. Pankov, BSc}
 
 %\input{summer-schools.tex}
 
