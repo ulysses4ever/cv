@@ -148,18 +148,18 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 %           {<city >}{< grade >}{< description >}
 \cventry{2023--present}{Postdoc}{Purdue University}{West Lafayette, USA}{Advisor: Milind Kulkarni}{%
 }
-\cventry{2018--2023}{Graduate Research Assistant}{Northeastern University}{Boston, USA}{Advisor: Jan Vitek}{%
-}
 \cventry{Summer 2019}{Intern}{\myhref{https://www.tweag.io/}{Tweag I/O}, France (remotely; \myhref{https://www.tweag.io/posts/2019-09-25-bazel-ghc-persistent-worker-internship.html}{final report})}{}{}{%\newline{}
+}
+\cventry{2018--2023}{Graduate Research Assistant}{Northeastern University}{Boston, USA}{Advisor: Jan Vitek}{%
 }
 \cventry{Fall 2017}{Researcher}{\myhref{https://prl-prg.github.io}{Programming Research Lab}, Czech Technical University}{Prague, Czechia}{}{%\newline{}
 }
 \cventry{Spring 2017}{Visiting Research Assistant}{\myhref{http://prl.ccs.neu.edu/}{Programming Research Lab}, Northeastern U.}{Boston, USA}{}{%\newline{}
 }
-\cventry{2010--2017}{Teaching Assistant Professor}{Southern Federal University
+\cventry{2010--2016}{Lecturer}{Southern Federal University
 }{Rostov-na-Donu, Russia}{}{%\newline{}
 }
-\cventry{2012--2013}{Software Engineer}{Angstrem-SFEDU Labs (part-time)
+\cventry{2012--2013}{Software Engineer}{Angstrem-SFedU Labs (part-time)
 }{Rostov-na-Donu, Russia}{}{%\newline{}
 }
 
