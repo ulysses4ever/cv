@@ -306,10 +306,11 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
 
     \cvitem{2017}{\textit{Structuring Effectful Computations} --- G.~Lukyanov,~MSc}
     \cvitem{2017}{\textit{Generic Programming and Zippers} --- A.~Bolotina,~BSc}
-    \cvitem{2016}{\textit{Generation of algebraic data types descriptions based on JSON data via Template Haskell} --- O.~Maroseev,~BSc}
-    \cvitem{2016}{\textit{Generation of type class instances based on instances of superclasses via GHC API} --- O.~Filippskaya,~BSc}
-    \cvitem{2015}{\textit{Functional parser for Markdown using monad combination and monoidal representation of input} --- G.~Lukianov,~BSc}
-    \cvitem{2015}{\textit{Deduction system for linear logic in Haskell} --- V. Pankov, BSc}
+    \cvitem{2016}{\textit{Extending A Moodle CMS Plugin For Publishing Markdown Content} --- T.~B.~Ruben,~BSc}
+    \cvitem{2016}{\textit{Generation of Algebraic Data Types Descriptions Based on JSON Data Via Template Haskell} --- O.~Maroseev,~BSc}
+    \cvitem{2016}{\textit{Generation of Type Class Instances Based on Instances of Superclasses via GHC API} --- O.~Filippskaya,~BSc}
+    \cvitem{2015}{\textit{Functional Parser For Markdown Using Monad Combination And Monoidal Representation of Input} --- G.~Lukianov,~BSc}
+    \cvitem{2015}{\textit{Deduction System for Linear Logic in Haskell} --- V. Pankov, BSc}
 
 %\input{summer-schools.tex}
 
