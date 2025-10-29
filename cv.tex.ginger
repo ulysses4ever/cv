@@ -350,22 +350,27 @@ Programming Languages and Compilers, Functional Programming, Types in Programmin
   \cvitem{2020}%
     {\textbf{PL seminar and PL-junior seminar:} co-organizer, Northeastern}
   \cvitem{2010}%
-    {\textbf{Curriculum Building:} co-author of a new CS/SE-focused major at SFedU, 2010}
+    {\textbf{Curriculum Building:} co-author of a new CS/SE-focused major at SFedU}
+  \cvitem{2009--2016}%
+    {\textbf{Leading Digitalization of Instruction at SFedU:} first adopter and administrator of the Moodle CMS}
 
 \section{Outreach}
 
   \cvitem{2012--2016}
-    {\textbf{Computing Extracurricular Courses for High-School Students}, SFedU}
+    {\textbf{Extracurricular Computing Courses for High-School Students}, SFedU}
+
   \cvitem{2013}{%
     \textbf{Book Translation} (English to Russian):
-    \textit{Introduction to the Theory of Programming Languages} by Gilles Dowek, Jean-Jacques Levy / Springer. 2011. Russian translation together with V.~Bragilevsky. Published by DMK Press in 2013. \myhref{http://www.xn--d1amf.xn--p1ai/catalog/computer/programming/978-5-94074-913-4/}{Link to web page},
-    \myhref{http://books.google.ru/books?id=YR7RAAAAQBAJ&printsec=frontcover}{link to Google.Books preview.}    
+    \textit{Introduction to the Theory of Programming Languages} by Gilles Dowek, Jean-Jacques Levy / Springer. 2011. Russian translation together with V.~Bragilevsky. Published by DMK Press in 2013.
+    %\myhref{http://www.xn--d1amf.xn--p1ai/catalog/computer/programming/978-5-94074-913-4/}{Link to web page},
+    \myhref{http://books.google.ru/books?id=YR7RAAAAQBAJ&printsec=frontcover}{Link to Google.Books preview.}    
   }
 
   \cvitem{2013}{%
     \textbf{Book Translation} (English to Russian):
-    \textit{Pearls of Functional Algorithm Design} by Richard Bird / Cambridge University Press. 2010. Russian translation together with V.~Bragilevsky. Published by DMK Press in 2013. \myhref{http://www.xn--d1amf.xn--p1ai/catalog/computer/programming/978-5-94074-867-0/}{Link to web page},
-    \myhref{http://books.google.ru/books?id=JSjRAAAAQBAJ&printsec=frontcover}{link to Google.Books preview.}
+    \textit{Pearls of Functional Algorithm Design} by Richard Bird / Cambridge University Press. 2010. Russian translation together with V.~Bragilevsky. Published by DMK Press in 2013.
+    %\myhref{http://www.xn--d1amf.xn--p1ai/catalog/computer/programming/978-5-94074-867-0/}{Link to web page},
+    \myhref{http://books.google.ru/books?id=JSjRAAAAQBAJ&printsec=frontcover}{Link to Google.Books preview.}
   }
 
 \section{Open Source Software Contributions}
