@@ -113,9 +113,14 @@
 \pagestyle{empty}
 \maketitle
 
+\vspace{-5mm}
 \section{Research interests}
 
-Programming Languages and Compilers, Functional Programming, Types in Programming Languages
+% Programming Languages and Compilers, High-Performance Computing, Functional Programming
+My research combines formal methods from \textbf{programming languages} with algorithmic and hardware-focused techniques to make high-level programming both \textbf{efficient and reliable}.
+% Semantics and logical calculi give us precise definitions and proof obligations for the optimizations we want, while systems-level design delivers speedups on real workloads.
+Concretely, I have formalized and measured key optimizations in the Julia programming language, specialized data representations for tree-traversal code (Gibbon), and repurposed ray-tracing cores for generalized GPU compute beyond graphics.
+Across these directions, the through-line is principled compilation with developer-facing tools, yielding end-to-end gains without sacrificing correctness.
 
 \section{Education}
 \cventry%
