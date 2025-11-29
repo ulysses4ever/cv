@@ -393,6 +393,9 @@ exploring ways to leverage specialized hardware to implement general-purpose abs
 
 \section{Outreach}
 
+  \cvitem{2025-present}
+    {\textbf{\myhref{https://learnyouahaskell.github.io/}{learnyouahaskell.github.io}}: maintenaning a haskell.org-recommended community edition of a popular textbook}
+
   \cvitem{2012--2016}
     {\textbf{Extracurricular Computing Courses for High-School Students}, SFedU}
 
