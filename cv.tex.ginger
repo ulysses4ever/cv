@@ -177,6 +177,8 @@ exploring ways to leverage specialized hardware to implement general-purpose abs
 
 \section{List Of Publications}
 
+\subsection{Peer-reviewed Papers}
+
 << for pub in pubs >>
 \cvitem%
   {<<= pub.venueshort >>}
@@ -194,6 +196,31 @@ exploring ways to leverage specialized hardware to implement general-purpose abs
 }
 << endfor >>
 
+\subsection{Books and Dissertations}
+
+\cvitem
+    {2023}
+    {Type Stability in Julia: A Simple and Efficient Optimization Technique
+      \footnotesize// PhD Dissertation. Northeastern University. 91 pages.
+      (\myhref{https://a.pelenitsyn.top/Papers/2023-dissertation.pdf}{link})
+    }
+
+\cvitem
+    {2018}
+    {Finite Automata and Formal Languages
+      \footnotesize// textbook
+      (with E.V. Alymova and V.M Deundyak). Southern Federal University. 292 pages
+      (\myhref{https://github.com/ulysses4ever/formal-langs-textbook-ru/releases/download/v1.0/textbook.pdf}{link})
+    }
+
+\cvitem
+    {2014}
+    {Computer Architecture: Labs
+      \footnotesize// textbook
+      (with N.N. Yachmeyova). Southern Federal University. 48 pages.
+      (\myhref{https://hub.sfedu.ru/storage/1/910277/cb754d32-dc08-43a3-8c20-b407489dc815/}{link})
+    }
+
 % \subsection{Drafts}
 
 %   \cvlistitem{%
@@ -208,7 +235,6 @@ exploring ways to leverage specialized hardware to implement general-purpose abs
 
 %\input{ru-pubs.tex}
 
-\clearpage
 \pagestyle{mycvstyle}
 \section{Talks}
 
@@ -328,7 +354,6 @@ exploring ways to leverage specialized hardware to implement general-purpose abs
 
 %\input{moocs.tex}
 
-\clearpage
 \section{Service}
 
 \subsection{Conference Organization}
