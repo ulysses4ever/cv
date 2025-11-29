@@ -117,12 +117,9 @@
 \section{Research interests}
 
 % Programming Languages and Compilers, High-Performance Computing, Functional Programming
-My research aims to make high-level programming both \textbf{efficient and reliable}.
-I tackle this problem from various angles, for instance:
-employing type-level information to drive compiler optimizations; %, and create tools that make these optimizations robust and tractable.
-developing specialized memory representations that speedup traversal-heavy code;
-exploring ways to leverage specialized hardware to implement general-purpose abstractions.
-%Overall, I combine formal methods from \textbf{programming languages} with algorithmic and hardware-focused techniques to achieve principled compilation with developer-facing tools, yielding end-to-end gains without sacrificing correctness.
+My research aims to make high-level programming both \textbf{efficient and reliable} by employing type-level information to drive compiler optimizations, developing specialized memory representations that speed up traversal-heavy workloads, and leveraging specialized hardware to realize general-purpose abstractions.
+% , and create tools that make these optimizations robust and tractable.
+
 
 % Semantics and logical calculi give us precise definitions and proof obligations for the optimizations we want, while systems-level design delivers speedups on real workloads.
 % Concretely, I have formalized and measured key optimizations in the Julia programming language, specialized data representations for tree-traversal code (Gibbon), and repurposed ray-tracing cores for generalized GPU compute beyond graphics.
