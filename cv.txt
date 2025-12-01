@@ -1,0 +1,271 @@
+# Research interests
+
+Programming Languages and Compilers, Functional Programming, Types in
+Programming Languages
+
+# Education
+
+2023 Ph. D. in Computer Science Northeastern University USA Thesis:
+*Type Stability in Julia: A Simple and Efficient Optimization Technique*
+(advisor: Jan Vitek) 2009 M. Sc. in Applied Mathematics and Computer
+Science Southern Federal University Russia
+[[\[transcript\]](https://a-pelenitsyn.github.io/Files/Edu/Diploma/diploma-euro-supplement-msc.pdf)]{style="color: blue"}
+*BMS-algorithm and its application to decoding* (advisor: Vladimir
+Deundyak) 2007 B. Sc. in Applied Mathematics and Computer Science
+Southern Federal University Russia
+[[\[transcript\]](https://a-pelenitsyn.github.io/Files/Edu/Diploma/diploma-euro-supplement-bsc.pdf)]{style="color: blue"}
+
+# Experience
+
+Postdoc, Purdue University, West Lafayette, USA, Advisor: Milind Kulkarni
+Intern, Tweag I/O, France (remotely; final report)
+Graduate Research Assistant, Northeastern University, Boston, USA, Advisor: Jan Vitek
+Researcher, Programming Research Lab, Czech Technical University, Prague, Czechia
+Visiting Research Assistant, Programming Research Lab, Northeastern U., Boston, USA
+Assistant Teaching Professor, Southern Federal University , Rostov-na-Donu, Russia
+Software Engineer, Angstrem-SFedU Labs (part-time) , Rostov-na-Donu, Russia
+
+# List Of Publications
+
+## Peer-reviewed
+
+PPoPP '25
+
+RT-BarnesHut: Accelerating Barnes-Hut Using Ray-Tracing Hardware //
+(with Vani Nagarajan, Rohan Gangaraju, Kirshanthan Sundararajah, Milind
+Kulkarni) In: *ACM SIGPLAN Annual Symposium on Principles and Practice
+of Parallel Programming*. DOI:
+[[10.1145/3710848.3710885](https://doi.org/10.1145/3710848.3710885)]{style="color: blue"}
+/3710848.3710885
+
+OOPSLA '24
+
+SparseAuto: An Auto-scheduler for Sparse Tensor Computations using
+Recursive Loop Nest Restructuring // (with Adhitha Dias, Logan Anderson,
+Kirshanthan Sundararajah, Milind Kulkarni) In: *Proceedings of the ACM
+on Programming Languages*. DOI:
+[[10.1145/3689730](https://doi.org/10.1145/3689730)]{style="color: blue"}
+/3689730
+
+ECOOP '24
+
+Optimizing Layout of Recursive Datatypes with Marmoset: Or, Algorithms +
+Data Layouts = Efficient Programs // (with Vidush Singhal, Chaitanya
+Koparkar, Joseph Zullo, Michael Vollmer, Mike Rainey, Ryan Newton,
+Milind Kulkarni) In: *European Conference on Object-Oriented
+Programming*. DOI:
+[[10.4230/LIPIcs.ECOOP.2024.38](https://doi.org/10.4230/LIPIcs.ECOOP.2024.38)]{style="color: blue"}
+/LIPIcs.ECOOP.2024.38
+
+ICS '24
+
+Arkade: k-Nearest Neighbor Search With Non-Euclidean Distances using GPU
+Ray Tracing // **Best Paper Award** (with Durga Keerthi Mandarapu, Vani
+Nagarajan, Milind Kulkarni) In: *ACM International Conference on
+Supercomputing*. DOI:
+[[10.1145/3650200.3656601](https://doi.org/10.1145/3650200.3656601)]{style="color: blue"}
+/3650200.3656601
+
+ISMM '24
+
+Garbage Collection for Mostly Serialized Heaps // (with Chaitanya S.
+Koparkar, Vidush Singhal, Aditya Gupta, Mike Rainey, Michael Vollmer,
+Sam Tobin-Hochstadt, Milind Kulkarni, Ryan R. Newton) In: *ACM SIGPLAN
+International Symposium on Memory Management*. DOI:
+[[10.1145/3652024.3665512](https://doi.org/10.1145/3652024.3665512)]{style="color: blue"}
+/3652024.3665512
+
+VMIL '23
+
+Approximating Type Stability in the Julia JIT (Work in Progress) // In:
+*ACM SIGPLAN International Workshop on Virtual Machines and Intermediate
+Languages*. DOI:
+[[10.1145/3623507.3623556](https://doi.org/10.1145/3623507.3623556)]{style="color: blue"}
+/3623507.3623556
+
+OOPSLA '21
+
+Type stability in Julia: avoiding performance pathologies in JIT
+compilation // (with Julia Belyakova, Benjamin Chung, Ross Tate, Jan
+Vitek) In: *Proceedings of the ACM on Programming Languages*. DOI:
+[[10.1145/3485527](https://doi.org/10.1145/3485527)]{style="color: blue"}
+/3485527
+
+OOPSLA '18
+
+Julia subtyping: a rational reconstruction // (with Francesco Zappa
+Nardelli, Julia Belyakova, Benjamin Chung, Jeff Bezanson, Jan Vitek) In:
+*Proceedings of the ACM on Programming Languages*. DOI:
+[[10.1145/3276483](https://doi.org/10.1145/3276483)]{style="color: blue"}
+/3276483
+
+TMPA '17
+
+Functional Parser of Markdown Language Based on Monad Combining and
+Monoidal Source Stream Representation // (with Georgy Lukyanov) In:
+*International Conference on Tools and Methods for Program Analysis*.
+DOI:
+[[10.1007/978-3-319-71734-0_8](https://doi.org/10.1007/978-3-319-71734-0_8)]{style="color: blue"}
+/978-3-319-71734-0_8
+
+PCS '15
+
+Associated types and constraint propagation for generic programming in
+Scala // In: *Programming and Computer Software*. DOI:
+[[10.1134/S0361768815040064](https://doi.org/10.1134/S0361768815040064)]{style="color: blue"}
+/S0361768815040064
+
+## Books and Dissertations
+
+2023 Type Stability in Julia: A Simple and Efficient Optimization Technique // PhD Dissertation. Northeastern University. 91 pages. 
+
+2018 Finite Automata and Formal Languages // textbook (with E.V. Alymova and V.M Deundyak). Southern Federal University. 292 pages.
+
+2014 Computer Architecture: Labs // textbook (with N.N. Yachmeyova). Southern Federal University. 48 pages. (link)
+
+# Talks
+
+## Conferences
+
+*The Unreasonable Performance of The Julia Language* // LambdaConf:
+Multi-disciplinary Developer Conference, Estes Park, CO, USA
+[[(video)](https://youtu.be/hayhJV0lCSI?si=09vwK6Dm77zauaKD)]{style="color: blue"}
+(video)
+
+*Approximating Type Stability in the Julia JIT (Work in Progress)* //
+ACM SIGPLAN International Workshop on Virtual Machines and Intermediate
+Languages,
+[[(video)](https://youtu.be/eaJRsG5GtNc?si=6IgTjmCQztGEO6bd)]{style="color: blue"}
+(video)
+
+*Type Stability in Julia: Avoiding Performance Pathologies in JIT
+Compilation* // ACM SIGPLAN conference on Systems, Programming,
+Languages, and Applications: Software for Humanity, Chicago, USA
+
+*Julia Subtyping Lessons Scala Could Learn* // ACM SIGPLAN Symposium on
+Scala, St. Louis, USA
+
+*Can We Learn Some PL Theory? How To Make Use of a Corpus of Subtype
+Checks* // 2nd Workshop on Machine Learning Techniques for Programming
+Languages (co-located with ECOOP/ISSTA), Amsterdam, The Netherlands
+[[(abstract)](https://conf.researchr.org/event/ecoop-issta-2018/ml4pl-2018-papers-can-we-learn-some-pl-theory-how-to-make-use-of-a-corpus-of-subtype-checks)]{style="color: blue"}
+(abstract)
+
+## Seminars
+
+*Cultivating performance with types and without* // Portland State
+University, PLV seminar (virtually,
+[[slides](https://docs.google.com/presentation/d/1XQdapCJZJ4uEbiPRdUpfEDZT7Tcl9q9xOPX3ldP-4do/edit?usp=sharing)]{style="color: blue"}
+slides )
+
+*Type Stability In Julia: A Simple and Efficient Optimization Technique*
+// PurPL Seminar, Purdue (
+[[slides](https://docs.google.com/presentation/d/1iSve1WRMC5x-GAGohOQumYIu7eYJZ3IjgQ9g8xq51w4/edit?usp=sharing)]{style="color: blue"}
+slides )
+
+*Linear Haskell* // Boston Computation Club (virtually,
+[[video](https://youtu.be/ODjWURRRjxA)]{style="color: blue"} video )
+
+*A Spectrum of Type Soundness And Performance* //
+[[CS7480](https://www.ccs.neu.edu/home/amal/course/7480-s19/)]{style="color: blue"}
+CS7480 : Special Topics in PL, Northeastern University
+
+*Introduction to Dependent Types in Idris* // PL Seminar Jr.,
+Northeastern University (USA)
+
+# Teaching Experience
+
+## Teaching Assistantship at [[Northeastern University](http://sfedu.ru/international/)]{style="color: blue"} Northeastern University 
+
+2020 (Spring) CS4500: Software Development
+2019 (Fall) CS4410/6410: Compilers
+
+## Instructor on Record at [[Southern Federal University](http://sfedu.ru/international/)]{style="color: blue"} Southern Federal University (in Russian, unless marked otherwise)
+
+2016 (Fall) Quantum Computations (lectures in English)
+2013–2016 Computer Architecture (lectures & labs)
+2016 (Fall) Galois Theory seminar (lectures)
+2013--2016 (Fall) Automata and Ciphers (lectures)
+2012 (Spring) Cross-Platform Software Development (lectures)
+
+## Other Teaching at Southern Federal University
+2008,
+2010–2012,
+2014–2016 Programming Basics (labs)
+2011 (Spring) Functional Programming (labs)
+2009 (Fall) Assembly Language Programming (labs)
+2008, 2010, 2012--2015 (Fall) Programming Languages (labs) 
+2010 (Spring) Automata and Languages (labs)
+2009 (Fall) Geometry and Algebra (labs)
+
+# Mentorship
+
+PhD students at Purdue: Adhitha Dias, Durga Keerthi Mandarapu
+Undegraduate student at Purdue: Mikah Kainen Mentor through ACM
+SIGPLAN-M Mentorship program PhD application feedback for members of
+historically underserved groups in computer science; Northeastern
+
+## Supervising Students for Capstone Projects / Thesis Work at Southern Federal University
+
+2017 Structuring Effectful Computations — G. Lukyanov, MSc
+2017 Generic Programming and Zippers — A. Bolotina, BSc
+2016 Extending A Moodle CMS Plugin For Publishing Markdown Content — T. B. Ruben, BSc
+2016 Generation of Algebraic Data Types Descriptions Based on JSON Data Via Template Haskell — O. Maroseev, BSc
+2016 Generation of Type Class Instances Based on Instances of Superclasses via GHC API — O. Filippskaya, BSc
+2015 Functional Parser For Markdown Using Monad Combination And Monoidal Representation of Input —
+G. Lukianov, BSc
+2015 Deduction System for Linear Logic in Haskell — V. Pankov, BSc
+
+# Service
+
+## Conference Organization
+
+**Program Committees:** PLC '17, ML4PL '18, PLDI '25, SBLP '25
+
+**Organizing Committees:** [[ML4PL
+'18](https://conf.researchr.org/committee/ecoop-issta-2018/ml4pl-2018-papers-organizing-committee)]{style="color: blue"}
+ML4PL '18 , [[PLC
+'17](http://plc.sfedu.ru/organizers.html)]{style="color: blue"} PLC '17
+
+**Artifact Evaluation Committee:** [[ICFP
+'22](https://icfp22.sigplan.org/track/icfp-2022-artifact-evaluation)]{style="color: blue"}
+ICFP '22
+
+**Web Co-Chair:** [[ETAPS
+'19](https://conf.researchr.org/committee/etaps-2019/etaps-2019-organizing-committee)]{style="color: blue"}
+ETAPS '19
+
+**Student Volunteer:** ECOOP '18, SPLASH '18, ICFP '20, '21
+
+## Misc Service
+
+**PhD Admissions Committee:** Northeastern 2019, 2022
+
+# Leadership
+
+**Khoury Graduate Student Association:** organizer and president (2022); Northeastern 
+**PL seminar and PL-junior seminar:** co-organizer, Northeastern 
+**Curriculum Building:** co-author of a new CS/SE-focused
+major at SFedU 
+**Leading Digitalization of Instruction at SFedU:** first
+adopter and administrator of the Moodle CMS
+
+# Outreach
+
+2025-present learnyouahaskell.github.io: maintenaning a haskell.org-recommended community edition of a popular textbook
+
+2012–2016 **Extracurricular Computing Courses for High-School Students**, SFedU
+
+2013 Book Translation (English to Russian): Introduction to the Theory of Programming Languages by Gilles
+Dowek, Jean-Jacques Levy / Springer. 2011. Russian translation together with V. Bragilevsky. Published by
+DMK Press in 2013. Link to Google.Books preview.
+
+2013 Book Translation (English to Russian): Pearls of Functional Algorithm Design by Richard Bird / Cambridge
+University Press. 2010. Russian translation together with V. Bragilevsky. Published by DMK Press in 2013.
+
+# Open Source Software Contributions
+
+2021-present Release manager, maintainer, contributor to the Haskell build system Cabal (100+ commits)
+
+2018–2022 Contributor to the Glasgow Haskell Compiler, GHC (20+ commits)
+
