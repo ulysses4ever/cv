@@ -175,12 +175,12 @@ Northeastern University (USA)
 
 # Teaching Experience
 
-## Teaching Assistantship at [[Northeastern University](http://sfedu.ru/international/)]{style="color: blue"} Northeastern University 
+## Teaching Assistantship at Northeastern University
 
 2020 (Spring) CS4500: Software Development
 2019 (Fall) CS4410/6410: Compilers
 
-## Instructor on Record at [[Southern Federal University](http://sfedu.ru/international/)]{style="color: blue"} Southern Federal University (in Russian, unless marked otherwise)
+## Instructor on Record at Southern Federal University (in Russian, unless marked otherwise)
 
 2016 (Fall) Quantum Computations (lectures in English)
 2013–2016 Computer Architecture (lectures & labs)
