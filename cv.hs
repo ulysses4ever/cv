@@ -106,10 +106,13 @@ defaultPub = MkPublication
 pubsCv :: [Publication]
 pubsCv = pubs
   & map (\pub ->
-        pub { authors = filter (/= myConfig.name) pub.authors -- don't name self
-                          -- Hack for rendering lists: create a singleton list by joining with ", ".
-                          -- TODO: there should be another type for pubs, perhaps, where authors is a single string.
-                          & (\l -> if null l then l else Text.intercalate ", " l & pure)
+        pub { authors = pub.authors
+                          & map (\a -> if a == myConfig.name -- highlight self
+                                     then "\\textbf{" <> a <> "}" else a) 
+                          -- Hack below for rendering lists: create a singleton list by joining with ", ".
+                          -- TODO: there needs to be a separate type for pubs where authors is a single string, perhaps.
+                          & Text.intercalate ", "
+                          & pure
             -- escape underscores in DOIs because latex...
             , doi = Text.concatMap (\case
                                        '_' -> "\\_"
@@ -142,7 +145,7 @@ pubs =
   , defaultPub
       { title = "SparseAuto: An Auto-scheduler for Sparse Tensor Computations using Recursive Loop Nest Restructuring"
       , authors = ["Adhitha Dias", "Logan Anderson", "Kirshanthan Sundararajah", "Artem Pelenitsyn", "Milind Kulkarni"]
-      , venue = "Proceedings of the ACM on Programming Languages"
+      , venue = "Proceedings of the ACM on Programming Languages (OOPSLA)"
       , venueshort = "OOPSLA '24"
       , year = 2024
       , doi = Just "10.1145/3689730"
@@ -192,7 +195,7 @@ pubs =
   , defaultPub
       { title = "Type stability in Julia: avoiding performance pathologies in JIT compilation"
       , authors = ["Artem Pelenitsyn", "Julia Belyakova", "Benjamin Chung", "Ross Tate", "Jan Vitek"]
-      , venue = "Proceedings of the ACM on Programming Languages"
+      , venue = "Proceedings of the ACM on Programming Languages (OOPSLA)"
       , venueshort = "OOPSLA '21"
       , year = 2021
       , doi = Just "10.1145/3485527"
@@ -209,7 +212,7 @@ pubs =
   , defaultPub
       { title = "Julia subtyping: a rational reconstruction"
       , authors = ["Francesco Zappa Nardelli", "Julia Belyakova", "Artem Pelenitsyn", "Benjamin Chung", "Jeff Bezanson", "Jan Vitek"]
-      , venue = "Proceedings of the ACM on Programming Languages"
+      , venue = "Proceedings of the ACM on Programming Languages (OOPSLA)"
       , venueshort = "OOPSLA '18"
       , year = 2018
       , doi = Just "10.1145/3276483"

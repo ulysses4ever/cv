@@ -117,7 +117,7 @@
 \section{Research interests}
 
 % Programming Languages and Compilers, High-Performance Computing, Functional Programming
-My research aims to make high-level programming both \textbf{efficient and reliable} by employing type-level information to drive compiler optimizations, developing specialized memory representations that speed up traversal-heavy workloads, and leveraging specialized hardware to realize general-purpose abstractions.
+I aim to make high-level programming languages \textbf{efficient} by employing type-level information to drive compiler optimizations, developing specialized memory representations for runtime systems, and harnessing specialized hardware to realize general-purpose abstractions.
 % , and create tools that make these optimizations robust and tractable.
 
 
@@ -178,17 +178,17 @@ My research aims to make high-level programming both \textbf{efficient and relia
 
 << for pub in pubs >>
 \cvitem%
-  {<<= pub.venueshort >>}
-  {<<= pub.title >>
-{\footnotesize//}
+{<<= pub.venueshort >>%
 << if pub.award >>
-  \textbf{<<= pub.award >>}
+  \newline\scriptsize\textbf{<<= pub.award >>}
 << endif >>
-\footnotesize
+}
+  {<<= pub.title >>
+\footnotesize\newline
 << if pub.authors >>
-  (with <<= pub.authors >>)
+  <<= pub.authors >>\newline
 << endif >>
-  In: \emph{<<= pub.venue >>}.
+  In: \emph{<<= pub.venue >>}. <<= pub.year >>.
   \ttfamily DOI: \myhref{https://doi.org/<<= pub.doi >>}{<<= pub.doi >>}
 }
 << endfor >>
