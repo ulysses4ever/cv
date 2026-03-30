@@ -120,7 +120,7 @@
 \section{Research interests}
 
 % Programming Languages and Compilers, High-Performance Computing, Functional Programming
-I aim to make high-level programming languages \textbf{efficient} by employing type-level information to drive compiler optimizations, developing specialized memory representations for runtime systems, and harnessing specialized hardware to realize general-purpose abstractions.
+I aim to make high-level programming languages efficient by employing type-level information to drive compiler optimizations, developing specialized memory representations for runtime systems, and harnessing specialized hardware to realize general-purpose abstractions.
 % , and create tools that make these optimizations robust and tractable.
 
 
@@ -157,15 +157,15 @@ I aim to make high-level programming languages \textbf{efficient} by employing t
 
 % \ cventry {<year --year >}{< degree/job title >}{< institution /employer >}
 %           {<city >}{< grade >}{< description >}
-\cventry{2023--2026}{Postdoc}{Purdue University}{West Lafayette, USA}{Advisor: Milind Kulkarni}{%
+\cventry{2023--2026}{Postdoc}{Purdue University}{West Lafayette, USA}{advisor: Milind Kulkarni}{%
 }
 \cventry{Summer 2019}{Intern}{\myhref{https://www.tweag.io/}{Tweag I/O}, France (remotely; \myhref{https://www.tweag.io/posts/2019-09-25-bazel-ghc-persistent-worker-internship.html}{final report})}{}{}{%\newline{}
 }
-\cventry{2018--2023}{Graduate Research Assistant}{Northeastern University}{Boston, USA}{Advisor: Jan Vitek}{%
+\cventry{2018--2023}{Graduate Research / Teaching Assistant}{Northeastern University}{Boston, USA}{advisor: Jan Vitek}{%
 }
-\cventry{Fall 2017}{Researcher}{\myhref{https://prl-prg.github.io}{Programming Research Lab}, Czech Technical University}{Prague, Czechia}{}{%\newline{}
+\cventry{2017--2018}{Researcher}{\myhref{https://prl-prg.github.io}{Programming Research Lab}, Czech Technical University}{Prague, Czechia}{}{%\newline{}
 }
-\cventry{Spring 2017}{Visiting Research Assistant}{\myhref{http://prl.ccs.neu.edu/}{Programming Research Lab}, Northeastern U.}{Boston, USA}{}{%\newline{}
+\cventry{Spring 2017}{Visiting Research Assistant}{\myhref{http://prl.ccs.neu.edu/}{Programming Research Lab}, Northeastern University}{Boston, USA}{}{%\newline{}
 }
 \cventry{2010--2016}{Assistant Teaching Professor}{Southern Federal University
 }{Rostov-na-Donu, Russia}{}{%\newline{}
@@ -187,11 +187,11 @@ I aim to make high-level programming languages \textbf{efficient} by employing t
 << endif >>
 }
   {<<= pub.title >>
-\footnotesize\newline
+\small\newline
 << if pub.authors >>
   <<= pub.authors >>\newline
 << endif >>
-  In: \emph{<<= pub.venue >>}. <<= pub.year >>.
+  In: \emph{<<= pub.venue >>}. <<= pub.year >>.\newline
   \ttfamily DOI: \myhref{https://doi.org/<<= pub.doi >>}{<<= pub.doi >>}
 }
 << endfor >>
@@ -322,12 +322,12 @@ I aim to make high-level programming languages \textbf{efficient} by employing t
     \cvitem{2012 (Spring)}{Cross-Platform Software Development (lectures)}
 
 \subsection{Other Teaching at Southern Federal University}
-    \cvdoubleitem{2008, 2010–2012, 2014--2016}{Programming Basics (labs)}
+    \cvdoubleitem{2008, 2010–2012, 2014--2016}{Introduction to Programming (labs)}
                  {2008, 2010, 2012--2015 (Fall)}{Programming Languages (labs)}
-    \cvdoubleitem{2011 (Spring)}{Functional Programming (labs)}
-                 {2010 (Spring)}{Automata and Languages (labs)}
+    \cvdoubleitem{2011 (Spring)}{Functional Programming (recit.)}
+                 {2010 (Spring)}{Automata and Languages (recit.)}
     \cvdoubleitem{2009 (Fall)}{Assembly Language Programming (labs)}
-                 {2009 (Fall)}{Geometry and Algebra (labs)}
+                 {2009 (Fall)}{Geometry and Algebra (recit.)}
 
 \section{Mentorship}
 
@@ -340,8 +340,9 @@ I aim to make high-level programming languages \textbf{efficient} by employing t
     \cvitem{2021}
         {PhD application feedback for members of historically underserved groups in computer science; Northeastern}
 
-\subsection{Supervising Students for Capstone Projects / Thesis Work at Southern Federal University}
+\subsection{Supervising Students for Capstone Projects / Thesis Work}
 
+    \cvitem{}{At Southern Federal University.}
     \cvitem{2017}{\textit{Structuring Effectful Computations} --- G.~Lukyanov,~MSc}
     \cvitem{2017}{\textit{Generic Programming and Zippers} --- A.~Bolotina,~BSc}
     \cvitem{2016}{\textit{Extending A Moodle CMS Plugin For Publishing Markdown Content} --- T.~B.~Ruben,~BSc}
