@@ -359,27 +359,25 @@ I aim to make high-level programming languages efficient by employing type-level
 
 \subsection{Conference Organization}
 
-  \cvlistitem%
-    {\textbf{Program Committees:}
-    PLC '17, ML4PL '18, PLDI '25, SBLP '25}
+\cvdoubleitem%
+  {\small Program Committees}
+  {PLC '17, ML4PL '18, PLDI '25, SBLP '25}
+  {\small Student Volunteer}
+  {ECOOP '18, SPLASH '18, ICFP '20, '21}
 
-  \cvlistitem%
-    {\textbf{Organizing Committees:}
-    \myhref{https://conf.researchr.org/committee/ecoop-issta-2018/ml4pl-2018-papers-organizing-committee}{ML4PL '18}, \myhref{http://plc.sfedu.ru/organizers.html}{PLC '17}}
-
-  \cvlistitem%
-    {\textbf{Artifact Evaluation Committee:} \myhref{https://icfp22.sigplan.org/track/icfp-2022-artifact-evaluation}{ICFP '22}}
-
-  \cvlistitem%
-    {\textbf{Web Co-Chair:} \myhref{https://conf.researchr.org/committee/etaps-2019/etaps-2019-organizing-committee}{ETAPS '19}}
-
-  \cvlistitem%
-    {\textbf{Student Volunteer:} ECOOP '18, SPLASH '18, ICFP '20, '21}
+\cvtripleitem%
+  {\small Artifact Evaluation Committee}
+  {\myhref{https://icfp22.sigplan.org/track/icfp-2022-artifact-evaluation}{ICFP '22}}
+  {\small Web Co-Chair}
+  {\myhref{https://conf.researchr.org/committee/etaps-2019/etaps-2019-organizing-committee}{ETAPS '19}}
+  {\small Organizing Committees}
+  {\myhref{https://conf.researchr.org/committee/ecoop-issta-2018/ml4pl-2018-papers-organizing-committee}{ML4PL '18}, \myhref{http://plc.sfedu.ru/organizers.html}{PLC '17}}
 
 \subsection{Misc Service}
 
-  \cvlistitem%
-    {\textbf{PhD Admissions Committee:} Northeastern 2019, 2022}
+\cvitem%
+  {\small PhD Admissions Committee}
+  {Northeastern 2019, 2022}
 
 \section{Leadership}
 
@@ -392,6 +390,7 @@ I aim to make high-level programming languages efficient by employing type-level
   \cvitem{2009--2016}%
     {\textbf{Leading Digitalization of Instruction at SFedU:} first adopter and administrator of the Moodle CMS}
 
+\clearpage
 \section{Outreach}
 
   \cvitem{2025-present}
