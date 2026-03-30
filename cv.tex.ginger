@@ -9,9 +9,10 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[10pt,a4paper]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[10pt,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 %\usepackage[T2A]{fontenc}               % it's annoying to set up cyrillic support with nix-provided latex :-(
 \usepackage[utf8]{inputenc}              % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage{paratype}              % if you are not using xelatex ou lualatex, replace by the encoding you are using
 
 % --- Custom page style for running header ---
 \usepackage{fancyhdr}
@@ -57,18 +58,20 @@
 %% moderncv setup
 %%
 % moderncv themes\footnotesize
-\moderncvtheme[black]{classic}
-%\moderncvtheme{contemporary}
+%\moderncvtheme{black}
+\moderncvstyle[details]{classic}
 %\moderncvstyle{oldstyle}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 %\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+\renewcommand{\sectionfont}{\fontfamily{PTSansCaption-TLF}\fontsize{14}{18}\selectfont}
+\renewcommand{\subsectionfont}{\fontfamily{PTSansCaption-TLF}\fontsize{12}{16}\selectfont}
+% \renewcommand{\subsectionfont}{PTSansCaption}
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVS longer than one page
 
 
 %%
 %% Margins
 %%
-\usepackage[top=.8in, bottom=.4in, hmargin=0.5in]{geometry}
+\usepackage[top=1in, bottom=.5in, hmargin=0.8in]{geometry}
 %\usepackage[scale=0.8]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
 %\setlength{\maketitlenamewidth}{10cm}        % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
@@ -113,7 +116,7 @@
 \pagestyle{empty}
 \maketitle
 
-\vspace{-5mm}
+%\vspace{-5mm}
 \section{Research interests}
 
 % Programming Languages and Compilers, High-Performance Computing, Functional Programming
@@ -154,7 +157,7 @@ I aim to make high-level programming languages \textbf{efficient} by employing t
 
 % \ cventry {<year --year >}{< degree/job title >}{< institution /employer >}
 %           {<city >}{< grade >}{< description >}
-\cventry{2023--present}{Postdoc}{Purdue University}{West Lafayette, USA}{Advisor: Milind Kulkarni}{%
+\cventry{2023--2026}{Postdoc}{Purdue University}{West Lafayette, USA}{Advisor: Milind Kulkarni}{%
 }
 \cventry{Summer 2019}{Intern}{\myhref{https://www.tweag.io/}{Tweag I/O}, France (remotely; \myhref{https://www.tweag.io/posts/2019-09-25-bazel-ghc-persistent-worker-internship.html}{final report})}{}{}{%\newline{}
 }
