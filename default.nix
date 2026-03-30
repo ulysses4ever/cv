@@ -16,14 +16,19 @@ in pkgs.stdenv.mkDerivation {
   LC_ALL = "en_US.UTF-8";
   LOCALE_ARCHIVE = "${pkgs.glibcLocales}/lib/locale/locale-archive";
 
-  buildInputs = with pkgs.haskellPackages; [
-    (pkgs.haskellPackages.ghcWithPackages (ps: with ps; [
+  buildInputs = with pkgs; with haskellPackages; [
+    (ghcWithPackages (ps: with ps; [
       base
       aeson
       ginger
       text]))
 
-    texlive
+      (texliveSmall.withPackages (ps: with ps; [
+        latexmk
+        moderncv
+        paratype
+        lastpage
+      ]))
   ];
 
   # the actual build is in the Makefile to allow nix-less usage
