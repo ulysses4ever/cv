@@ -157,7 +157,8 @@ I aim to make high-level programming languages efficient by employing type-level
 
 % \ cventry {<year --year >}{< degree/job title >}{< institution /employer >}
 %           {<city >}{< grade >}{< description >}
-% \cventry{Sine 2026}{Assistant Professor}{Commonwealth University}{Bloomsburg, PA}{}{}
+\cventry{Since 2026}{Assistant Professor of Computer Science}{Commonwealth University of
+Pennsylvania}{}{}{}
 \cventry{2023--2026}{Postdoc}{Purdue University}{West Lafayette, USA}{advisor: Milind Kulkarni}{}
 \cventry{Summer 2019}{Intern}{\myhref{https://www.tweag.io/}{Tweag I/O}, France (remotely; \myhref{https://www.tweag.io/posts/2019-09-25-bazel-ghc-persistent-worker-internship.html}{final report})}{}{}{%\newline{}
 }
