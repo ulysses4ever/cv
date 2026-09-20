@@ -188,7 +188,7 @@ Pennsylvania}{}{}{}
 << endif >>
 }
   {<<= pub.title >>
-\small\newline
+\footnotesize\newline
 << if pub.authors >>
   <<= pub.authors >>\newline
 << endif >>
