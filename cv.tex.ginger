@@ -159,10 +159,10 @@ I aim to make high-level programming languages efficient by employing type-level
 %           {<city >}{< grade >}{< description >}
 \cventry{Since 2026}{Assistant Professor of Computer Science}{Commonwealth University of
 Pennsylvania}{}{}{}
-\cventry{2023--2026}{Postdoc}{Purdue University}{West Lafayette, USA}{advisor: Milind Kulkarni}{}
+\cventry{2023--2026}{Postdoc}{\myhref{https://purduepl.github.io/}{PurPL}, Purdue University}{West Lafayette, USA}{advisor: Milind Kulkarni}{}
 \cventry{Summer 2019}{Intern}{\myhref{https://www.tweag.io/}{Tweag I/O}, France (remotely; \myhref{https://www.tweag.io/posts/2019-09-25-bazel-ghc-persistent-worker-internship.html}{final report})}{}{}{%\newline{}
 }
-\cventry{2018--2023}{Graduate Research / Teaching Assistant}{Northeastern University}{Boston, USA}{advisor: Jan Vitek}{%
+\cventry{2018--2023}{Graduate Research / Teaching Assistant}{\myhref{http://prl.ccs.neu.edu/}{Programming Research Lab}, Northeastern University}{Boston, USA}{advisor: Jan Vitek}{%
 }
 \cventry{2017--2018}{Researcher}{\myhref{https://prl-prg.github.io}{Programming Research Lab}, Czech Technical University}{Prague, Czechia}{}{%\newline{}
 }
@@ -193,7 +193,12 @@ Pennsylvania}{}{}{}
   <<= pub.authors >>\newline
 << endif >>
   In: \emph{<<= pub.venue >>}. <<= pub.year >>.\newline
+<< if pub.doi >>
   \ttfamily DOI: \myhref{https://doi.org/<<= pub.doi >>}{<<= pub.doi >>}
+<< endif >>
+<< if pub.preprint >>
+  \ttfamily Preprint: \myhref{<<= pub.preprint >>}{<<= pub.preprint >>}
+<< endif >>
 }
 << endfor >>
 
@@ -307,12 +312,16 @@ Pennsylvania}{}{}{}
 
 \section{Teaching Experience}
 
-\subsection{Teaching Assistantship at \myhref{http://sfedu.ru/international/}{Northeastern University}}
+\subsection{Instructor on Record at Commonwealth University of Pennsylvania}
+
+    \cvitem{2026 (Fall)}{CMSC 120: Object-Oriented Programming in Java, CMSC 230: Advanced Java, CMSC 240: Parallel Processing in C}
+
+\subsection{Teaching Assistantship at Northeastern University}
 
     \cvitem{2020 (Spring)}{CS4500: Software Development}
     \cvitem{2019 (Fall)}{CS4410/6410: Compilers}
 
-\subsection{Instructor on Record at \myhref{http://sfedu.ru/international/}{Southern Federal University} }
+\subsection{Instructor on Record at Southern Federal University}
 
     \cvitem{}{All courses in this section were \textbf{developed from scratch}. In Russian, unless marked otherwise.}
     \cvdoubleitem{2016 (Fall)}{Quantum Computing (lectures, English)}
@@ -333,7 +342,7 @@ Pennsylvania}{}{}{}
 \section{Mentorship}
 
     \cvitem{2023--2026}
-        {PhD students at Purdue: Adhitha Dias, Durga Keerthi Mandarapu}
+        {PhD students at Purdue: Adhitha Dias, Durga Mandarapu}
     \cvitem{2024--2026}
         {Undegraduate student at Purdue: Mikah Kainen}
     \cvitem{2021}

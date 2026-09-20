@@ -85,6 +85,8 @@ data Publication = MkPublication
   , venueshort :: Text
   , year :: Int
   , doi :: Maybe Text
+  -- Full URL of a preprint, for papers accepted but not yet published.
+  , preprint :: Maybe Text
   , pdf :: Text
   , award :: Maybe Text
   }
@@ -99,9 +101,16 @@ defaultPub = MkPublication
   , venueshort = error "Unknown"
   , year = error "Unknown year"
   , doi = Nothing
+  , preprint = Nothing
   , pdf = "unknown.pdf"
   , award = Nothing
   }
+
+-- Underscores are legal in DOIs and URLs but are a subscript to latex.
+latexEscape :: Text -> Text
+latexEscape = Text.concatMap \case
+  '_' -> "\\_"
+  c -> Text.pack [c]
 
 pubsCv :: [Publication]
 pubsCv = pubs
@@ -113,11 +122,8 @@ pubsCv = pubs
                           -- TODO: there needs to be a separate type for pubs where authors is a single string, perhaps.
                           & Text.intercalate ", "
                           & pure
-            -- escape underscores in DOIs because latex...
-            , doi = Text.concatMap (\case
-                                       '_' -> "\\_"
-                                       c -> Text.pack [c]
-                                       ) <$> pub.doi
+            , doi = latexEscape <$> pub.doi
+            , preprint = latexEscape <$> pub.preprint
         })
   -- don't show arXiv pubs for now (TODO: more robust categorization...)
   & filter \pub ->
@@ -135,6 +141,22 @@ pubsCv = pubs
 pubs :: [Publication]
 pubs =
   [ defaultPub
+      { title = "Bring Your Own Formats and Kernels: Composable Abstractions for Sparse Matrix Computation"
+      , authors = ["Pratyush Das", "Amirhossein Basareh", "Artem Pelenitsyn", "Kirshanthan Sundararajah", "Milind Kulkarni", "Ben Delaware"]
+      , venue = "IEEE/ACM International Symposium on Code Generation and Optimization"
+      , venueshort = "CGO '27"
+      , year = 2027
+      , preprint = Just "https://arxiv.org/abs/2407.00829"
+      }
+  , defaultPub
+      { title = "Rethinking Collision Detection on GPU Ray Tracing Architecture"
+      , authors = ["Durga Mandarapu", "Isaac Fuksman", "Artem Pelenitsyn", "Gilbert Bernstein", "Milind Kulkarni"]
+      , venue = "ACM International Conference on Supercomputing"
+      , venueshort = "ICS '26"
+      , year = 2026
+      , doi = Just "10.1145/3797905.3807836"
+      }
+  , defaultPub
       { title = "RT-BarnesHut: Accelerating Barnes-Hut Using Ray-Tracing Hardware"
       , authors = ["Vani Nagarajan", "Rohan Gangaraju", "Kirshanthan Sundararajah", "Artem Pelenitsyn", "Milind Kulkarni"]
       , venue = "ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming"
@@ -160,7 +182,7 @@ pubs =
       }
   , defaultPub
       { title = "Arkade: k-Nearest Neighbor Search With Non-Euclidean Distances using GPU Ray Tracing"
-      , authors = ["Durga Keerthi Mandarapu", "Vani Nagarajan", "Artem Pelenitsyn", "Milind Kulkarni"]
+      , authors = ["Durga Mandarapu", "Vani Nagarajan", "Artem Pelenitsyn", "Milind Kulkarni"]
       , venue = "ACM International Conference on Supercomputing"
       , venueshort = "ICS '24"
       , year = 2024
@@ -174,14 +196,6 @@ pubs =
       , venueshort = "ISMM '24"
       , year = 2024
       , doi = Just "10.1145/3652024.3665512"
-      }
-  , defaultPub
-      { title = "SABLE: Staging Blocked Evaluation of Sparse Matrix Computations"
-      , authors = ["Pratyush Das", "Adhitha Dias", "Anxhelo Xhebraj", "Artem Pelenitsyn", "Kirshanthan Sundararajah", "Milind Kulkarni"]
-      , venue = "arXiv"
-      , venueshort = "arXiv"
-      , year = 2024
-      , doi = Just "10.48550/arXiv.2407.00829"
       }
   , defaultPub
       { title = "Approximating Type Stability in the Julia JIT (Work in Progress)"
