@@ -37,13 +37,13 @@ in pkgs.stdenv.mkDerivation {
     export LANG="en_US.UTF-8"
     export LC_ALL="en_US.UTF-8"
 
-    make pdf
+    make pdf teaching-first
   '';
 
   installPhase = ''
     # Copy the resulting PDF to $out
     mkdir -p $out
-    cp cv.tex cv.pdf $out/
+    cp cv.tex cv.pdf cv-teaching-first.pdf $out/
   '';
 
 }

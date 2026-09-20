@@ -65,6 +65,17 @@
 \renewcommand{\sectionfont}{\fontfamily{PTSansCaption-TLF}\fontsize{14}{18}\selectfont}
 \renewcommand{\subsectionfont}{\fontfamily{PTSansCaption-TLF}\fontsize{12}{16}\selectfont}
 % \renewcommand{\subsectionfont}{PTSansCaption}
+
+% Copy of moderncvbodyi.sty's \subsection, with the leading skip raised from 1ex
+% so subsections don't crowd the item above them.
+\makeatletter
+\RenewDocumentCommand{\subsection}{sm}{%
+  \par\addvspace{2ex}%
+  \phantomsection{}%
+  \addcontentsline{toc}{subsection}{#2}%
+  \cvitem[0ex]{}{\strut\subsectionstyle{#2}}%
+  \par\nobreak\addvspace{.5ex}\@afterheading}
+\makeatother
 %\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVS longer than one page
 
 
@@ -153,6 +164,43 @@ I aim to make high-level programming languages efficient by employing type-level
         {[transcript]}}  % arguments 3 to 6 can be left empty
     {}
 
+% Teaching lives in a macro so the two build variants can place it in different
+% slots without duplicating it. \TEACHINGEARLY (set on the pdflatex command line
+% by `make teaching-first') puts it right after Experience; otherwise it stays in
+% its usual place after Talks. Both call sites are below.
+\newcommand{\TeachingExperienceSection}{
+\section{Teaching Experience}
+
+\subsection{Instructor on Record at Commonwealth University of Pennsylvania}
+
+    \cvitem{2026 (Fall)}{CMSC 120: Object-Oriented Programming in Java\newline
+                         CMSC 230: Advanced Java\newline
+                         CMSC 240: Parallel Processing in C}
+
+\subsection{Teaching Assistantship at Northeastern University}
+
+    \cvdoubleitem{2020 (Spring)}{CS4500: Software Development}
+                 {2019 (Fall)}{CS4410/6410: Compilers}
+
+\subsection{Instructor on Record at Southern Federal University}
+
+    \cvitem{}{All courses in this section were \textbf{developed from scratch}. In Russian, unless marked otherwise.}
+    \cvdoubleitem{2016 (Fall)}{Quantum Computing (lectures, English)}
+                 {2016 (Fall)}{Galois Theory seminar (lectures)}
+% \myhref{https://docs.google.com/document/d/1hCrg3VZDxYAHygG_DnrP_--k_qmGMrNFvtKxEOGR790/edit?usp=sharing}{link to syllabus})
+    \cvdoubleitem{2013–2016 (Spring)}{Computer Architecture (lectures \& labs)}
+                 {2013–2016 (Fall)}{Automata and Ciphers (lectures)}
+    \cvitem{2012 (Spring)}{Cross-Platform Software Development (lectures)}
+
+\subsection{Other Teaching at Southern Federal University}
+    \cvdoubleitem{2008, 2010–2012, 2014--2016}{Introduction to Programming (labs)}
+                 {2008, 2010, 2012--2015 (Fall)}{Programming Languages (labs)}
+    \cvdoubleitem{2011 (Spring)}{Functional Programming (recit.)}
+                 {2010 (Spring)}{Automata and Languages (recit.)}
+    \cvdoubleitem{2009 (Fall)}{Assembly Language Programming (labs)}
+                 {2009 (Fall)}{Geometry and Algebra (recit.)}
+}
+
 \section{Experience}
 
 % \ cventry {<year --year >}{< degree/job title >}{< institution /employer >}
@@ -175,6 +223,7 @@ Pennsylvania}{}{}{}
 }{Rostov-na-Donu, Russia}{}{%\newline{}
 }
 
+\ifdefined\TEACHINGEARLY\TeachingExperienceSection\fi
 
 \section{List Of Publications}
 
@@ -310,36 +359,7 @@ Pennsylvania}{}{}{}
 
 %\input{ru-talks.tex}
 
-\section{Teaching Experience}
-
-\subsection{Instructor on Record at Commonwealth University of Pennsylvania}
-
-    \cvitem{2026 (Fall)}{CMSC 120: Object-Oriented Programming in Java\newline
-                         CMSC 230: Advanced Java\newline
-                         CMSC 240: Parallel Processing in C}
-
-\subsection{Teaching Assistantship at Northeastern University}
-
-    \cvdoubleitem{2020 (Spring)}{CS4500: Software Development}
-                 {2019 (Fall)}{CS4410/6410: Compilers}
-
-\subsection{Instructor on Record at Southern Federal University}
-
-    \cvitem{}{All courses in this section were \textbf{developed from scratch}. In Russian, unless marked otherwise.}
-    \cvdoubleitem{2016 (Fall)}{Quantum Computing (lectures, English)}
-                 {2016 (Fall)}{Galois Theory seminar (lectures)}
-% \myhref{https://docs.google.com/document/d/1hCrg3VZDxYAHygG_DnrP_--k_qmGMrNFvtKxEOGR790/edit?usp=sharing}{link to syllabus})
-    \cvdoubleitem{2013–2016 (Spring)}{Computer Architecture (lectures \& labs)}
-                 {2013–2016 (Fall)}{Automata and Ciphers (lectures)}
-    \cvitem{2012 (Spring)}{Cross-Platform Software Development (lectures)}
-
-\subsection{Other Teaching at Southern Federal University}
-    \cvdoubleitem{2008, 2010–2012, 2014--2016}{Introduction to Programming (labs)}
-                 {2008, 2010, 2012--2015 (Fall)}{Programming Languages (labs)}
-    \cvdoubleitem{2011 (Spring)}{Functional Programming (recit.)}
-                 {2010 (Spring)}{Automata and Languages (recit.)}
-    \cvdoubleitem{2009 (Fall)}{Assembly Language Programming (labs)}
-                 {2009 (Fall)}{Geometry and Algebra (recit.)}
+\ifdefined\TEACHINGEARLY\else\TeachingExperienceSection\fi
 
 \section{Mentorship}
 
