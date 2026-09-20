@@ -150,7 +150,7 @@ pubs =
       }
   , defaultPub
       { title = "Rethinking Collision Detection on GPU Ray Tracing Architecture"
-      , authors = ["Durga Mandarapu", "Isaac Fuksman", "Artem Pelenitsyn", "Gilbert Bernstein", "Milind Kulkarni"]
+      , authors = ["Durga Keerthi Mandarapu", "Isaac Fuksman", "Artem Pelenitsyn", "Gilbert Bernstein", "Milind Kulkarni"]
       , venue = "ACM International Conference on Supercomputing"
       , venueshort = "ICS '26"
       , year = 2026
@@ -182,7 +182,7 @@ pubs =
       }
   , defaultPub
       { title = "Arkade: k-Nearest Neighbor Search With Non-Euclidean Distances using GPU Ray Tracing"
-      , authors = ["Durga Mandarapu", "Vani Nagarajan", "Artem Pelenitsyn", "Milind Kulkarni"]
+      , authors = ["Durga Keerthi Mandarapu", "Vani Nagarajan", "Artem Pelenitsyn", "Milind Kulkarni"]
       , venue = "ACM International Conference on Supercomputing"
       , venueshort = "ICS '24"
       , year = 2024
