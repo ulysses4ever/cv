@@ -173,9 +173,12 @@ I aim to make high-level programming languages efficient by employing type-level
 
 \subsection{Instructor on Record at Commonwealth University of Pennsylvania}
 
-    \cvitem{2026 (Fall)}{CMSC 120: Object-Oriented Programming in Java\newline
-                         CMSC 230: Advanced Java\newline
-                         CMSC 240: Parallel Processing in C}
+    \cvdoubleitem{2026 (Fall)}{CMSC 120: OOP in Java\newline
+                               CMSC 230: Advanced Java\newline
+                               CMSC 240: Parallel Processing in C}
+                 {2027 (Spring)}{CMSC 120: OOP in Java\newline
+                                 CMSC 130: GUI Java\newline
+                                 DGFR 275: Intro to Computer Networks}
 
 \subsection{Teaching Assistantship at Northeastern University}
 
