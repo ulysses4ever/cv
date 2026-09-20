@@ -314,12 +314,14 @@ Pennsylvania}{}{}{}
 
 \subsection{Instructor on Record at Commonwealth University of Pennsylvania}
 
-    \cvitem{2026 (Fall)}{CMSC 120: Object-Oriented Programming in Java, CMSC 230: Advanced Java, CMSC 240: Parallel Processing in C}
+    \cvitem{2026 (Fall)}{CMSC 120: Object-Oriented Programming in Java\newline
+                         CMSC 230: Advanced Java\newline
+                         CMSC 240: Parallel Processing in C}
 
 \subsection{Teaching Assistantship at Northeastern University}
 
-    \cvitem{2020 (Spring)}{CS4500: Software Development}
-    \cvitem{2019 (Fall)}{CS4410/6410: Compilers}
+    \cvdoubleitem{2020 (Spring)}{CS4500: Software Development}
+                 {2019 (Fall)}{CS4410/6410: Compilers}
 
 \subsection{Instructor on Record at Southern Federal University}
 
@@ -371,7 +373,7 @@ Pennsylvania}{}{}{}
 
 \cvdoubleitem%
   {\small Program Committees}
-  {PLC '17, ML4PL '18, PLDI '25, SBLP '25}
+  {PLC '17, ML4PL '18, PLDI '25,\newline SBLP '25, '26}
   {\small Student Volunteer}
   {ECOOP '18, SPLASH '18, ICFP '20, '21}
 
