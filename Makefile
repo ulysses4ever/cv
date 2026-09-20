@@ -1,14 +1,17 @@
 ##
 # Artem's CV
 #
+# Every target assumes ghc and texlive are on PATH, i.e. that make is running
+# inside the nix shell:
+#
+#     nix-shell --run make
+#
+# `nix-build' is the other entry point; it runs `make' in the sandbox and leaves
+# the PDFs in ./result.
 
 .PHONY: all tex pdf teaching-first clean
 
-all:
-	nix-build
-	cp result/cv.pdf cv.pdf
-	cp result/cv-teaching-first.pdf cv-teaching-first.pdf
-	chmod u+w cv.pdf cv-teaching-first.pdf
+all: pdf teaching-first
 
 # Via a temporary so a failing runhaskell leaves the previous cv.tex intact
 # rather than an empty file that later targets happily compile.
