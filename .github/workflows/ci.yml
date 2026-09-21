@@ -27,8 +27,10 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: cv.pdf
-          path: result/cv.pdf
+          name: cv-pdfs
+          path: |
+            result/cv.pdf
+            result/cv-teaching-first.pdf
 
   prerelease:
     name: Create a GitHub prerelease 🚀
@@ -42,7 +44,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          pattern: cv.pdf
+          pattern: cv-pdfs
           merge-multiple: true
 
       - name: (Re)Create GitHub prerelease
@@ -53,4 +55,6 @@ jobs:
           tag_name: head
           name: cv-head
           prerelease: true
-          files: "cv.pdf"
+          files: |
+            cv.pdf
+            cv-teaching-first.pdf
