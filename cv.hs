@@ -6,7 +6,10 @@
 
 module Main where
 
-import Data.Aeson (toJSON, ToJSON)
+import Control.Monad (unless)
+import Data.Aeson (toJSON, ToJSON, FromJSON(..), withObject, (.:), (.:?), (.!=), eitherDecodeFileStrict)
+import qualified Data.Aeson.Key as Key
+import qualified Data.Aeson.KeyMap as KeyMap
 import Text.Ginger
 import Text.Ginger.GVal
 import Data.Function ((&))
@@ -18,13 +21,15 @@ import qualified Data.Text.IO as Text
 
 main :: IO ()
 main = do
+  pubs <- eitherDecodeFileStrict "pubs.json"
+    >>= either (fail . ("pubs.json: " <>)) pure
   etemplate <- parseGingerFile'
     ((mkParserOptions resolver) { poDelimiters = myDelimiters })
     "cv.tex.ginger"
   let template = either (error . show) id etemplate
   Text.putStrLn $
     runGinger
-      (makeContextText context)
+      (makeContextText (context pubs))
       template
 
 myDelimiters = Delimiters
@@ -39,9 +44,9 @@ myDelimiters = Delimiters
 resolver :: SourceName -> IO (Maybe Source)
 resolver i = readFile i >>= pure . Just
 
-context = \case
+context pubs = \case
   "cfg" ->  toGVal . toJSON $ myConfig
-  "pubs" -> toGVal . toJSON $ pubsCv
+  "pubs" -> toGVal . toJSON $ pubsCv pubs
 
 
 -- ##############################################
@@ -78,6 +83,10 @@ myConfig = MkConfig
 -- ##                 Publications             ##
 -- ##############################################
 
+-- The list itself is in pubs.json, newest first. It is data rather than code
+-- so that the homepage (a-pelenitsyn/a-pelenitsyn.github.io) can render the
+-- same list: its build fetches the file from this repo.
+
 data Publication = MkPublication
   { title :: Text
   , authors :: [Text]
@@ -92,19 +101,26 @@ data Publication = MkPublication
   }
   deriving (Generic, ToJSON)
 
--- Default publication, used to fill in missing fields.
--- Everything marked with `error` should be filled in by the user.
-defaultPub = MkPublication
-  { title = error "Untitled"
-  , authors = error "Unknown authors"
-  , venue = error "Unknown Venue"
-  , venueshort = error "Unknown"
-  , year = error "Unknown year"
-  , doi = Nothing
-  , preprint = Nothing
-  , pdf = "unknown.pdf"
-  , award = Nothing
-  }
+-- title, authors, venue, venueshort and year are required; the rest default
+-- to what the list in this file used to fill in. A key the parser does not
+-- know is an error rather than ignored: a misspelled "preprint" would
+-- otherwise drop out of the CV and the homepage without a word.
+instance FromJSON Publication where
+  parseJSON = withObject "Publication" \o -> do
+    let known = ["title", "authors", "venue", "venueshort", "year", "doi", "preprint", "pdf", "award"]
+        unknown = filter (`notElem` known) (map Key.toText (KeyMap.keys o))
+    unless (null unknown) $
+      fail ("unknown field(s) " <> Text.unpack (Text.intercalate ", " unknown))
+    MkPublication
+      <$> o .: "title"
+      <*> o .: "authors"
+      <*> o .: "venue"
+      <*> o .: "venueshort"
+      <*> o .: "year"
+      <*> o .:? "doi"
+      <*> o .:? "preprint"
+      <*> o .:? "pdf" .!= "unknown.pdf"
+      <*> o .:? "award"
 
 -- Underscores are legal in DOIs and URLs but are a subscript to latex.
 latexEscape :: Text -> Text
@@ -112,8 +128,8 @@ latexEscape = Text.concatMap \case
   '_' -> "\\_"
   c -> Text.pack [c]
 
-pubsCv :: [Publication]
-pubsCv = pubs
+pubsCv :: [Publication] -> [Publication]
+pubsCv pubs = pubs
   & map (\pub ->
         pub { authors = pub.authors
                           & map (\a -> if a == myConfig.name -- highlight self
@@ -129,7 +145,7 @@ pubsCv = pubs
   & filter \pub ->
         pub.venue /= "arXiv"
 
--- TODO: populate 'pdf' fields for pubs below:
+-- TODO: populate 'pdf' fields in pubs.json:
 -- https://a-pelenitsyn.github.io/Papers/2024-ICS_arkade-knn-rtcore.pdf
 -- https://a-pelenitsyn.github.io/Papers/2023-vmil-approximate-type-stability-short.pdf
 -- https://a-pelenitsyn.github.io/Papers/2021-julia-type-stability.pdf
@@ -138,122 +154,16 @@ pubsCv = pubs
 -- https://a-pelenitsyn.github.io/Papers/2015-PCS-Scala-generics.pdf
 -- and so on...
 
-pubs :: [Publication]
-pubs =
-  [ defaultPub
-      { title = "Bring Your Own Formats and Kernels: Composable Abstractions for Sparse Matrix Computation"
-      , authors = ["Pratyush Das", "Amirhossein Basareh", "Artem Pelenitsyn", "Kirshanthan Sundararajah", "Milind Kulkarni", "Ben Delaware"]
-      , venue = "IEEE/ACM International Symposium on Code Generation and Optimization"
-      , venueshort = "CGO '27"
-      , year = 2027
-      , preprint = Just "https://arxiv.org/abs/2407.00829"
-      }
-  , defaultPub
-      { title = "Rethinking Collision Detection on GPU Ray Tracing Architecture"
-      , authors = ["Durga Keerthi Mandarapu", "Isaac Fuksman", "Artem Pelenitsyn", "Gilbert Bernstein", "Milind Kulkarni"]
-      , venue = "ACM International Conference on Supercomputing"
-      , venueshort = "ICS '26"
-      , year = 2026
-      , doi = Just "10.1145/3797905.3807836"
-      }
-  , defaultPub
-      { title = "RT-BarnesHut: Accelerating Barnes-Hut Using Ray-Tracing Hardware"
-      , authors = ["Vani Nagarajan", "Rohan Gangaraju", "Kirshanthan Sundararajah", "Artem Pelenitsyn", "Milind Kulkarni"]
-      , venue = "ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming"
-      , venueshort = "PPoPP '25"
-      , year = 2025
-      , doi = Just "10.1145/3710848.3710885"
-      }
-  , defaultPub
-      { title = "SparseAuto: An Auto-scheduler for Sparse Tensor Computations using Recursive Loop Nest Restructuring"
-      , authors = ["Adhitha Dias", "Logan Anderson", "Kirshanthan Sundararajah", "Artem Pelenitsyn", "Milind Kulkarni"]
-      , venue = "Proceedings of the ACM on Programming Languages (OOPSLA)"
-      , venueshort = "OOPSLA '24"
-      , year = 2024
-      , doi = Just "10.1145/3689730"
-      }
-  , defaultPub
-      { title = "Optimizing Layout of Recursive Datatypes with Marmoset: Or, Algorithms + Data Layouts = Efficient Programs"
-      , authors = ["Vidush Singhal", "Chaitanya Koparkar", "Joseph Zullo", "Artem Pelenitsyn", "Michael Vollmer", "Mike Rainey", "Ryan Newton", "Milind Kulkarni"]
-      , venue = "European Conference on Object-Oriented Programming"
-      , venueshort = "ECOOP '24"
-      , year = 2024
-      , doi = Just "10.4230/LIPIcs.ECOOP.2024.38"
-      }
-  , defaultPub
-      { title = "Arkade: k-Nearest Neighbor Search With Non-Euclidean Distances using GPU Ray Tracing"
-      , authors = ["Durga Keerthi Mandarapu", "Vani Nagarajan", "Artem Pelenitsyn", "Milind Kulkarni"]
-      , venue = "ACM International Conference on Supercomputing"
-      , venueshort = "ICS '24"
-      , year = 2024
-      , doi = Just "10.1145/3650200.3656601"
-      , award = Just "Best Paper Award"
-      }
-  , defaultPub
-      { title = "Garbage Collection for Mostly Serialized Heaps"
-      , authors = ["Chaitanya S. Koparkar", "Vidush Singhal", "Aditya Gupta", "Mike Rainey", "Michael Vollmer", "Artem Pelenitsyn", "Sam Tobin-Hochstadt", "Milind Kulkarni", "Ryan R. Newton"]
-      , venue = "ACM SIGPLAN International Symposium on Memory Management"
-      , venueshort = "ISMM '24"
-      , year = 2024
-      , doi = Just "10.1145/3652024.3665512"
-      }
-  , defaultPub
-      { title = "Approximating Type Stability in the Julia JIT (Work in Progress)"
-      , authors = ["Artem Pelenitsyn"]
-      , venue = "ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages"
-      , venueshort = "VMIL '23"
-      , year = 2023
-      , doi = Just "10.1145/3623507.3623556"
-      , pdf = "2023-vmil-approximate-type-stability-short.pdf"
-      }
-  , defaultPub
-      { title = "Type stability in Julia: avoiding performance pathologies in JIT compilation"
-      , authors = ["Artem Pelenitsyn", "Julia Belyakova", "Benjamin Chung", "Ross Tate", "Jan Vitek"]
-      , venue = "Proceedings of the ACM on Programming Languages (OOPSLA)"
-      , venueshort = "OOPSLA '21"
-      , year = 2021
-      , doi = Just "10.1145/3485527"
-      }
-  -- TODO: arXiv should probably be a "type" of publication once I add support for it
-  -- , defaultPub
-  --     { title = "Type Stability in Julia: Avoiding Performance Pathologies in JIT Compilation (Extended Version)"
-  --     , authors = ["Artem Pelenitsyn", "Julia Belyakova", "Benjamin Chung", "Ross Tate", "Jan Vitek"]
-  --     , venue = "arXiv"
-  --     , venueshort = "arXiv"
-  --     , year = 2021
-  --     , doi = Just "10.48550/arXiv.2109.01950"
-      -- }
-  , defaultPub
-      { title = "Julia subtyping: a rational reconstruction"
-      , authors = ["Francesco Zappa Nardelli", "Julia Belyakova", "Artem Pelenitsyn", "Benjamin Chung", "Jeff Bezanson", "Jan Vitek"]
-      , venue = "Proceedings of the ACM on Programming Languages (OOPSLA)"
-      , venueshort = "OOPSLA '18"
-      , year = 2018
-      , doi = Just "10.1145/3276483"
-      }
-  -- TODO: ML4PL should be a talk once talks are supported
-  -- , defaultPub
-  --     { title = "Can we learn some PL theory?: how to make use of a corpus of subtype checks"
-  --     , authors = ["Artem Pelenitsyn"]
-  --     , venue = "International Workshop on Machine Learning techniques for Programming Languages"
-  --     , venueshort = "ML4PL '18"
-  --     , year = 2018
-  --     , doi = Just "10.1145/3236454.3236471"
-  --     }
-  , defaultPub
-      { title = "Functional Parser of Markdown Language Based on Monad Combining and Monoidal Source Stream Representation"
-      , authors = ["Georgy Lukyanov", "Artem Pelenitsyn"]
-      , venue = "International Conference on Tools and Methods for Program Analysis"
-      , venueshort = "TMPA '17"
-      , year = 2017
-      , doi = Just "10.1007/978-3-319-71734-0_8"
-      }
-  , defaultPub
-      { title = "Associated types and constraint propagation for generic programming in Scala"
-      , authors = ["Artem Pelenitsyn"]
-      , venue = "Programming and Computer Software"
-      , venueshort = "PCS '15"
-      , year = 2015
-      , doi = Just "10.1134/S0361768815040064"
-      }
-  ]
+-- Two entries stay out of pubs.json until it can tell a paper from a preprint
+-- or a talk. They were commented out of the list that used to be here:
+--
+-- TODO: arXiv should probably be a "type" of publication once I add support for it
+--   { "title": "Type Stability in Julia: Avoiding Performance Pathologies in JIT Compilation (Extended Version)",
+--     "authors": ["Artem Pelenitsyn", "Julia Belyakova", "Benjamin Chung", "Ross Tate", "Jan Vitek"],
+--     "venue": "arXiv", "venueshort": "arXiv", "year": 2021, "doi": "10.48550/arXiv.2109.01950" }
+--
+-- TODO: ML4PL should be a talk once talks are supported
+--   { "title": "Can we learn some PL theory?: how to make use of a corpus of subtype checks",
+--     "authors": ["Artem Pelenitsyn"],
+--     "venue": "International Workshop on Machine Learning techniques for Programming Languages",
+--     "venueshort": "ML4PL '18", "year": 2018, "doi": "10.1145/3236454.3236471" }

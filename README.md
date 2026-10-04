@@ -26,11 +26,14 @@ As a Haskell fan, naturally, I implemented a Haskell script ([`cv.hs`](./cv.hs))
 [wikipedia:template]: https://en.wikipedia.org/wiki/Template_processor
 [hackage:ginger]: https://hackage.haskell.org/package/ginger
 
-The data, for now, is stored in the Haskell script itself, and it's only the basic info about me and the list of publications with DOI's (things that get updated most of all these days).
+The basic info about me is stored in the Haskell script itself.
+The list of publications with DOI's (the thing that gets updated most of all these days) is in [`pubs.json`](./pubs.json), newest first.
+Each entry needs `title`, `authors`, `venue`, `venueshort` and `year`; `doi`, `preprint`, `pdf` and `award` are optional, and a key `cv.hs` does not know stops the build rather than vanishing quietly.
 
 I owe Ming-Ho Yee the [idea of radically separating data and representation][mingho:resume].
 Though, the technical details are different: he uses Ruby and its ERB system for templating and YAML to store the data.
 Ming-Ho also generates his homepage from the same source.
-One day I'll get there…
+For the publications, I'm there: [my homepage](https://a.pelenitsyn.top)'s build fetches `pubs.json` from this repo and renders the same list.
+The rest may follow one day…
 
 [mingho:resume]: https://github.com/mhyee/resume
