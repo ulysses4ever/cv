@@ -408,11 +408,13 @@ Pennsylvania}{}{}{}
   {\small Organizing Committees}
   {\myhref{https://conf.researchr.org/committee/ecoop-issta-2018/ml4pl-2018-papers-organizing-committee}{ML4PL '18}, \myhref{http://plc.sfedu.ru/organizers.html}{PLC '17}}
 
-\subsection{Misc Service}
+\subsection{University Service}
 
-\cvitem%
-  {\small PhD Admissions Committee}
-  {Northeastern 2019, 2022}
+\cvdoubleitem%
+  {\small PhD Admissions Committee (Northeastern)}
+  {2019, 2022}
+  {\small CS Curriculum Committee (Commonwealth)}
+  {since 2026}
 
 \section{Leadership}
 
