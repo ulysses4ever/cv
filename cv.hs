@@ -70,8 +70,8 @@ myConfig :: Config
 myConfig = MkConfig
   { name = "Artem Pelenitsyn"
   , email = "a@pelenitsyn.top"
-  , adr1  = "1308 South St, Apt 1"
-  , adr2  = "Lafayette, IN, USA, 47901"
+  , adr1  = "19 W 8th St"
+  , adr2  = "Bloomsburg, PA, USA, 17815"
   , tel = "+1-(857)-204-4460"
   , web = "https://a.pelenitsyn.top"
   , dblp = "https://dblp.org/pid/165/7962.html"
