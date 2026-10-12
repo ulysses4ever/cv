@@ -200,8 +200,8 @@ Northeastern University (USA)
 
 # Mentorship
 
-PhD students at Purdue: Adhitha Dias, Durga Keerthi Mandarapu
-Undegraduate student at Purdue: Mikah Kainen Mentor through ACM
+PhD students at Purdue: Adhitha Dias, Durga Keerthi Mandarapu, Pratyush Das, Vidush Singhal
+Undergraduate student at Purdue: Mikah Kainen Mentor through ACM
 SIGPLAN-M Mentorship program PhD application feedback for members of
 historically underserved groups in computer science; Northeastern
 
