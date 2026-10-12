@@ -267,7 +267,7 @@ Pennsylvania}{}{}{}
     {2018}
     {Finite Automata and Formal Languages
       \footnotesize// textbook
-      (with E.V. Alymova and V.M Deundyak). Southern Federal University. 292 pages
+      (with E.V. Alymova and V.M. Deundyak). Southern Federal University. 292 pages
       (\myhref{https://github.com/ulysses4ever/formal-langs-textbook-ru/releases/download/v1.0/textbook.pdf}{link})
     }
 
@@ -383,7 +383,7 @@ Pennsylvania}{}{}{}
     \cvitem{2016}{\textit{Extending A Moodle CMS Plugin For Publishing Markdown Content} --- T.~B.~Ruben,~BSc}
     \cvitem{2016}{\textit{Generation of Algebraic Data Types Descriptions Based on JSON Data Via Template Haskell} --- O.~Maroseev,~BSc}
     \cvitem{2016}{\textit{Generation of Type Class Instances Based on Instances of Superclasses via GHC API} --- O.~Filippskaya,~BSc}
-    \cvitem{2015}{\textit{Functional Parser For Markdown Using Monad Combination And Monoidal Representation of Input} --- G.~Lukianov,~BSc}
+    \cvitem{2015}{\textit{Functional Parser For Markdown Using Monad Combination And Monoidal Representation of Input} --- G.~Lukyanov,~BSc}
     \cvitem{2015}{\textit{Deduction System for Linear Logic in Haskell} --- V. Pankov, BSc}
 
 %\input{summer-schools.tex}
@@ -430,7 +430,7 @@ Pennsylvania}{}{}{}
 \section{Outreach}
 
   \cvitem{2025-present}
-    {\textbf{\myhref{https://learnyouahaskell.github.io/}{learnyouahaskell.github.io}}: maintenaning a haskell.org-recommended community edition of a popular textbook}
+    {\textbf{\myhref{https://learnyouahaskell.github.io/}{learnyouahaskell.github.io}}: maintaining a haskell.org-recommended community edition of a popular textbook}
 
   \cvitem{2012--2016}
     {\textbf{Extracurricular Computing Courses for High-School Students}, SFedU}

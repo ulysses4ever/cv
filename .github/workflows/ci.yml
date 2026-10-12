@@ -31,6 +31,7 @@ jobs:
           path: |
             result/cv.pdf
             result/cv-teaching-first.pdf
+            result/cv.txt
 
   prerelease:
     name: Create a GitHub prerelease 🚀
@@ -58,3 +59,4 @@ jobs:
           files: |
             cv.pdf
             cv-teaching-first.pdf
+            cv.txt
