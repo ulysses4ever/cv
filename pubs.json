@@ -1,5 +1,23 @@
 [
   {
+    "title": "SparseConflicts: Handling Conflicting Data Layouts in Sparse Tensor Contractions",
+    "authors": ["Adhitha Dias", "Kirshanthan Sundararajah", "Artem Pelenitsyn", "Milind Kulkarni"],
+    "venue": "arXiv",
+    "venueshort": "arXiv '26",
+    "year": 2026,
+    "preprint": "https://arxiv.org/abs/2609.06328",
+    "status": "submitted"
+  },
+  {
+    "title": "SoCal: A Language for Memory-Layout Factorization of Recursive Datatypes",
+    "authors": ["Vidush Singhal", "Mikah Kainen", "Artem Pelenitsyn", "Michael H. Borkowski", "Mike Vollmer", "Milind Kulkarni"],
+    "venue": "arXiv",
+    "venueshort": "arXiv '26",
+    "year": 2026,
+    "preprint": "https://arxiv.org/abs/2605.01140",
+    "status": "submitted"
+  },
+  {
     "title": "Bring Your Own Formats and Kernels: Composable Abstractions for Sparse Matrix Computation",
     "authors": ["Pratyush Das", "Amirhossein Basareh", "Artem Pelenitsyn", "Kirshanthan Sundararajah", "Milind Kulkarni", "Ben Delaware"],
     "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",

@@ -14,6 +14,7 @@ import Text.Ginger
 import Text.Ginger.GVal
 import Data.Function ((&))
 import Data.Either (fromRight)
+import Data.Maybe (isNothing)
 import GHC.Generics (Generic)
 import Data.Text (Text)
 import qualified Data.Text as Text
@@ -98,6 +99,9 @@ data Publication = MkPublication
   , preprint :: Maybe Text
   , pdf :: Text
   , award :: Maybe Text
+  -- "submitted" for a paper under review (its preprint is the link); absent
+  -- for a published or accepted one.
+  , status :: Maybe Text
   }
   deriving (Generic, ToJSON)
 
@@ -107,7 +111,7 @@ data Publication = MkPublication
 -- otherwise drop out of the CV and the homepage without a word.
 instance FromJSON Publication where
   parseJSON = withObject "Publication" \o -> do
-    let known = ["title", "authors", "venue", "venueshort", "year", "doi", "preprint", "pdf", "award"]
+    let known = ["title", "authors", "venue", "venueshort", "year", "doi", "preprint", "pdf", "award", "status"]
         unknown = filter (`notElem` known) (map Key.toText (KeyMap.keys o))
     unless (null unknown) $
       fail ("unknown field(s) " <> Text.unpack (Text.intercalate ", " unknown))
@@ -121,6 +125,7 @@ instance FromJSON Publication where
       <*> o .:? "preprint"
       <*> o .:? "pdf" .!= "unknown.pdf"
       <*> o .:? "award"
+      <*> o .:? "status"
 
 -- Underscores are legal in DOIs and URLs but are a subscript to latex.
 latexEscape :: Text -> Text
@@ -141,9 +146,10 @@ pubsCv pubs = pubs
             , doi = latexEscape <$> pub.doi
             , preprint = latexEscape <$> pub.preprint
         })
-  -- don't show arXiv pubs for now (TODO: more robust categorization...)
+  -- don't show arXiv pubs for now (TODO: more robust categorization...),
+  -- nor papers in submission: the CV lists peer-reviewed ones only
   & filter \pub ->
-        pub.venue /= "arXiv"
+        pub.venue /= "arXiv" && isNothing pub.status
 
 -- TODO: populate 'pdf' fields in pubs.json:
 -- https://a-pelenitsyn.github.io/Papers/2024-ICS_arkade-knn-rtcore.pdf

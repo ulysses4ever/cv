@@ -28,7 +28,7 @@ As a Haskell fan, naturally, I implemented a Haskell script ([`cv.hs`](./cv.hs))
 
 The basic info about me is stored in the Haskell script itself.
 The list of publications with DOI's (the thing that gets updated most of all these days) is in [`pubs.json`](./pubs.json), newest first.
-Each entry needs `title`, `authors`, `venue`, `venueshort` and `year`; `doi`, `preprint`, `pdf` and `award` are optional, and a key `cv.hs` does not know stops the build rather than vanishing quietly.
+Each entry needs `title`, `authors`, `venue`, `venueshort` and `year`; `doi`, `preprint`, `pdf`, `award` and `status` are optional (`"status": "submitted"` marks a paper under review: the homepage lists it under "In submission", the CV leaves it out), and a key `cv.hs` does not know stops the build rather than vanishing quietly.
 
 I owe Ming-Ho Yee the [idea of radically separating data and representation][mingho:resume].
 Though, the technical details are different: he uses Ruby and its ERB system for templating and YAML to store the data.
