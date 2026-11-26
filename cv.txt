@@ -121,11 +121,13 @@ PCS '15               Associated types and constraint propagation for generic pr
 
 # Teaching Experience
 
+Enrollment numbers in parenthesis.
+
 ## Instructor on Record at Commonwealth University of Pennsylvania
 
-2026 (Fall)    CMSC 120: OOP in Java
-               CMSC 230: Advanced Java
-               CMSC 240: Parallel Processing in C
+2026 (Fall)    CMSC 120: OOP in Java (22)
+               CMSC 230: Advanced Java (9)
+               CMSC 240: Parallel Processing in C (10)
 
 2027 (Spring)  CMSC 120: OOP in Java
                CMSC 130: GUI Java
@@ -133,26 +135,26 @@ PCS '15               Associated types and constraint propagation for generic pr
 
 ## Teaching Assistantship at Northeastern University
 
-2020 (Spring)  CS4500: Software Development
-2019 (Fall)    CS4410/6410: Compilers
+2020 (Spring)  CS4500: Software Development (180)
+2019 (Fall)    CS4410/6410: Compilers (25)
 
 ## Instructor on Record at Southern Federal University
 
                     All courses in this section were **developed from scratch**. In Russian, unless marked otherwise.
-2016 (Fall)         Quantum Computing (lectures, English)
-2016 (Fall)         Galois Theory seminar (lectures)
-2013–2016 (Spring)  Computer Architecture (lectures & labs)
-2013–2016 (Fall)    Automata and Ciphers (lectures)
-2012 (Spring)       Cross-Platform Software Development (lectures)
+2016 (Fall)         Quantum Computing (English) (12)
+2016 (Fall)         Galois Theory seminar (6)
+2013–2016 (Spring)  Computer Architecture (130)
+2013–2016 (Fall)    Automata and Ciphers (lectures) (10)
+2012 (Spring)       Cross-Platform Software Development (lectures) (6)
 
 ## Other Teaching at Southern Federal University
 
-2008, 2010–2012, 2014–2016    Introduction to Programming (labs)
-2008, 2010, 2012–2015 (Fall)  Programming Languages (labs)
-2011 (Spring)                 Functional Programming (recit.)
-2010 (Spring)                 Automata and Languages (recit.)
-2009 (Fall)                   Assembly Language Programming (labs)
-2009 (Fall)                   Geometry and Algebra (recit.)
+2008, 2010–2012, 2014–2016    Introduction to Programming (labs) (50)
+2008, 2010, 2012–2015 (Fall)  Programming Languages (labs) (40)
+2011 (Spring)                 Functional Programming (recit.) (25)
+2010 (Spring)                 Automata and Languages (recit.) (25)
+2009 (Fall)                   Assembly Language (labs) (10)
+2009 (Fall)                   Geometry and Algebra (recit.) (12)
 
 # Mentorship
 

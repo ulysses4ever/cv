@@ -171,37 +171,39 @@ I aim to make high-level programming languages efficient by employing type-level
 \newcommand{\TeachingExperienceSection}{
 \section{Teaching Experience}
 
+Enrollment numbers in parenthesis.
+
 \subsection{Instructor on Record at Commonwealth University of Pennsylvania}
 
-    \cvdoubleitem{2026 (Fall)}{CMSC 120: OOP in Java\newline
-                               CMSC 230: Advanced Java\newline
-                               CMSC 240: Parallel Processing in C}
+    \cvdoubleitem{2026 (Fall)}{CMSC 120: OOP in Java (22)\newline
+                               CMSC 230: Advanced Java (9)\newline
+                               CMSC 240: Parallel Processing in C (10)}
                  {2027 (Spring)}{CMSC 120: OOP in Java\newline
                                  CMSC 130: GUI Java\newline
                                  DGFR 275: Intro to Computer Networks}
 
 \subsection{Teaching Assistantship at Northeastern University}
 
-    \cvdoubleitem{2020 (Spring)}{CS4500: Software Development}
-                 {2019 (Fall)}{CS4410/6410: Compilers}
+    \cvdoubleitem{2020 (Spring)}{CS4500: Software Development (180)}
+                 {2019 (Fall)}{CS4410/6410: Compilers (25)}
 
 \subsection{Instructor on Record at Southern Federal University}
 
     \cvitem{}{All courses in this section were \textbf{developed from scratch}. In Russian, unless marked otherwise.}
-    \cvdoubleitem{2016 (Fall)}{Quantum Computing (lectures, English)}
-                 {2016 (Fall)}{Galois Theory seminar (lectures)}
+    \cvdoubleitem{2016 (Fall)}{Quantum Computing (English) (12)}
+                 {2016 (Fall)}{Galois Theory seminar (6)}
 % \myhref{https://docs.google.com/document/d/1hCrg3VZDxYAHygG_DnrP_--k_qmGMrNFvtKxEOGR790/edit?usp=sharing}{link to syllabus})
-    \cvdoubleitem{2013–2016 (Spring)}{Computer Architecture (lectures \& labs)}
-                 {2013–2016 (Fall)}{Automata and Ciphers (lectures)}
-    \cvitem{2012 (Spring)}{Cross-Platform Software Development (lectures)}
+    \cvdoubleitem{2013–2016 (Spring)}{Computer Architecture (130)}
+                 {2013–2016 (Fall)}{Automata and Ciphers (lectures) (10)}
+    \cvitem{2012 (Spring)}{Cross-Platform Software Development (lectures) (6)}
 
 \subsection{Other Teaching at Southern Federal University}
-    \cvdoubleitem{2008, 2010–2012, 2014--2016}{Introduction to Programming (labs)}
-                 {2008, 2010, 2012--2015 (Fall)}{Programming Languages (labs)}
-    \cvdoubleitem{2011 (Spring)}{Functional Programming (recit.)}
-                 {2010 (Spring)}{Automata and Languages (recit.)}
-    \cvdoubleitem{2009 (Fall)}{Assembly Language Programming (labs)}
-                 {2009 (Fall)}{Geometry and Algebra (recit.)}
+    \cvdoubleitem{2008, 2010–2012, 2014--2016}{Introduction to Programming (labs) (50)}
+                 {2008, 2010, 2012--2015 (Fall)}{Programming Languages (labs) (40)}
+    \cvdoubleitem{2011 (Spring)}{Functional Programming (recit.) (25)}
+                 {2010 (Spring)}{Automata and Languages (recit.) (25)}
+    \cvdoubleitem{2009 (Fall)}{Assembly Language (labs) (10)}
+                 {2009 (Fall)}{Geometry and Algebra (recit.) (12)}
 }
 
 \section{Experience}
